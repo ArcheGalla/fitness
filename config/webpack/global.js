@@ -1,19 +1,18 @@
-'use strict';
-
 // Depends
-var path              = require('path');
-var webpack           = require('webpack');
-var autoprefixer      = require('autoprefixer-core');
-var Manifest          = require('manifest-revision-webpack-plugin');
+var path = require('path');
+var webpack = require('webpack');
+var autoprefixer = require('autoprefixer-core');
+var Manifest = require('manifest-revision-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var HtmlWebpackPlugin = require("html-webpack-plugin");
 
+var LessPluginCleanCSS = require('less-plugin-clean-css');
+
 var NODE_ENV = process.env.NODE_ENV || "production";
-var DEVELOPMENT  = NODE_ENV === "production" ? false : true;
+var DEVELOPMENT = NODE_ENV === "production" ? false : true;
 var stylesLoader = 'css-loader?sourceMap!postcss-loader!sass-loader?outputStyle=expanded&sourceMap=true&sourceMapContents=true';
 
-
-module.exports = function(_path) {
+module.exports = function (_path) {
   var rootAssetPath = _path + 'src';
 
   var webpackConfig = {
@@ -35,10 +34,10 @@ module.exports = function(_path) {
       extensions: ['', '.js'],
       modulesDirectories: ['node_modules'],
       alias: {
-        _appRoot:     path.join(_path, 'src', 'app'),
-        _images:      path.join(_path, 'src', 'app', 'assets', 'images'),
+        _appRoot: path.join(_path, 'src', 'app'),
+        _images: path.join(_path, 'src', 'app', 'assets', 'images'),
         _stylesheets: path.join(_path, 'src', 'app', 'assets', 'styles'),
-        _scripts:     path.join(_path, 'src', 'app', 'assets', 'js')
+        _scripts: path.join(_path, 'src', 'app', 'assets', 'js')
       }
     },
 
@@ -48,7 +47,7 @@ module.exports = function(_path) {
       loaders: [{
         test: /\.html$/,
         loaders: [
-          'ngtemplate-loader?relativeTo='+ _path,
+          'ngtemplate-loader?relativeTo=' + _path,
           'html-loader?attrs[]=img:src&attrs[]=img:data-src'
         ]
       }, {
@@ -68,39 +67,54 @@ module.exports = function(_path) {
       }, {
         test: /\.(scss|sass)$/,
         loader: DEVELOPMENT ? ('style-loader!' + stylesLoader) : ExtractTextPlugin.extract('style-loader', stylesLoader)
-      }, {
-        test: /\.(woff2|woff|ttf|eot|svg)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loaders: [
-          "url-loader?name=assets/fonts/[name]_[hash].[ext]"
-        ]
-      }, {
-        test: /\.(jpe?g|png|gif)$/i,
-        loaders: [
-          'url-loader?name=assets/images/[name]_[hash].[ext]&limit=10000'
-        ]
-      }, {
-        test: require.resolve("angular"),
-        loaders: [
-          "expose?angular"
-        ]
       },
-      
-      {
-        test: require.resolve("jquery"),
-        loaders: [
-          "expose?$",
-          "expose?jQuery"
-        ]
-      }
-      
+
+        {
+          test: /\.less$/,
+          loader: "style!css!less"
+        },
+
+        {
+          test: /\.(woff2|woff|ttf|eot|svg)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+          loaders: [
+            "url-loader?name=assets/fonts/[name]_[hash].[ext]"
+          ]
+        }, {
+          test: /\.(jpe?g|png|gif)$/i,
+          loaders: [
+            'url-loader?name=assets/images/[name]_[hash].[ext]&limit=10000'
+          ]
+        },
+        //{
+        //  test: require.resolve("angular"),
+        //  loaders: [
+        //    "expose?angular"
+        //  ]
+        //},
+        {
+          test: require.resolve("jquery"),
+          loaders: [
+            "expose?$",
+            "expose?jQuery"
+          ]
+        }
+
       ]
     },
 
+    //lessLoader: {
+    //  lessPlugins: [
+    //    new LessPluginCleanCSS({advanced: true})
+    //  ]
+    //}
+
+
     // post css
-    postcss: [autoprefixer({ browsers: ['last 5 versions'] })],
+    postcss: [autoprefixer({browsers: ['last 5 versions']})],
 
     // load plugins
     plugins: [
+      //new LessPluginCleanCSS({advanced: true}),
       //new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en|hu/),
       new webpack.ProvidePlugin({
         $: 'jquery',
@@ -125,7 +139,7 @@ module.exports = function(_path) {
         rootAssetPath: rootAssetPath,
         ignorePaths: ['.DS_Store']
       }),
-      new ExtractTextPlugin('assets/styles/css/[name]' + (NODE_ENV === 'development' ? '' : '.[chunkhash]') + '.css', { allChunks: true }),
+      new ExtractTextPlugin('assets/styles/css/[name]' + (NODE_ENV === 'development' ? '' : '.[chunkhash]') + '.css', {allChunks: true}),
       new HtmlWebpackPlugin({
         filename: 'index.html',
         template: path.join(_path, 'src', 'tpl-index.html')
