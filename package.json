@@ -11,7 +11,7 @@
     "angular": "^1.5.5",
     "bootstrap": "^3.3.2",
     "font-awesome": "4.1.0",
-    "jquery": "^1.11.1",
+    "jquery": "^1.9",
     "slick-carousel": "^1.5.9"
   },
   "devDependencies": {

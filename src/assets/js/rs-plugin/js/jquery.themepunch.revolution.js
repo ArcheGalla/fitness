@@ -99,7 +99,7 @@
 
 
 
-					return this.each(function() {
+					return $.each(function() {
 
 						var opt=options;
 
@@ -171,7 +171,7 @@
 										versionIncrement = parseFloat(version[2] || '0');
 
 									if (versionTop==1 && versionMinor < 7) {
-										container.html('<div style="text-align:center; padding:40px 0px; font-size:20px; color:#992222;"> The Current Version of jQuery:'+version+' <br>Please update your jQuery Version to min. 1.7 in Case you wish to use the Revolution Slider Plugin</div>');
+										container.html('<div style="text-align:center; padding:40px 0; font-size:20px; color:#992222;"> The Current Version of jQuery:'+version+' <br>Please update your jQuery Version to min. 1.7 in Case you wish to use the Revolution Slider Plugin</div>');
 									}
 
 									if (versionTop>1) opt.ie=false;

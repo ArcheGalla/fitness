@@ -171,3 +171,5 @@ $(document).ready(function() {
 
     appMaster.preLoader();
 });
+
+export default appMaster;
