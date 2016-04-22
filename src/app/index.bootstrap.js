@@ -1,6 +1,7 @@
 // index.html page to dist folder
 import '!!file-loader?name=[name].[ext]!../favicon.ico';
-require('./images');
+import './images';
+
 
 //import '../assets/js/modernizr.custom.32033';
 import '../assets/js/slick.min.js';

@@ -17,11 +17,7 @@ import '!!file-loader?name=[name].[ext]!../assets/img/freeze/screens/calendar.jp
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/screens/options.jpg';
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/screens/sales.jpg';
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/freeze-angled2.png';
-
-//import '!!file-loader?name=[name].[ext]!../assets/img/freeze/';
-//import '!!file-loader?name=[name].[ext]!../assets/img/freeze/';
-//import '!!file-loader?name=[name].[ext]!../assets/img/freeze/';
-//import '!!file-loader?name=[name].[ext]!../assets/img/freeze/';
+ 
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/Slides/hand-freeze.png';
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/Slides/hand-freeze.png';
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/Slides/hand-freeze.png';
