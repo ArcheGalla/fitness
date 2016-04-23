@@ -189,9 +189,12 @@ header .navbar-default.scrolled ul.navbar-nav {
 .section-heading.inverse .divider:after {
   background: #ffffff;
 }
+
+/*-----------------------------------------------------  organizers -------------------------------------------------*/
 #organizers {
   position: relative;
 }
+
 #organizers .about-item {
   text-align: center;
   font-size: 17px;
@@ -212,6 +215,25 @@ header .navbar-default.scrolled ul.navbar-nav {
   transition: all 0.25s ease-in-out;
   width: 104px;
 }
+
+#organizers .about-item i.fa {
+    border: 2px solid #66cc99;
+    color: #66cc99;
+}
+
+#organizers .about-item:hover i.fa {
+    color: #ffffff;
+    background: #66cc99;
+}
+
+#organizers .about-item:hover h3 {
+    color: #66cc99;
+}
+
+/*-----------------------------------------------------  organizers -------------------------------------------------*/
+
+
+
 section#features .media i.fa {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -832,17 +854,6 @@ header .navbar-default.scrolled .navbar-brand {
 }
 section .section-heading .divider:after {
   background: #66cc99;
-}
-#organizers .about-item i.fa {
-  border: 2px solid #66cc99;
-  color: #66cc99;
-}
-#organizers .about-item:hover i.fa {
-  color: #ffffff;
-  background: #66cc99;
-}
-#organizers .about-item:hover h3 {
-  color: #66cc99;
 }
 section#features {
   background: #f6f6f6;
