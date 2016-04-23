@@ -1,15 +1,26 @@
-
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+
 @import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
 @import '../../css/animate.css';
 @import '../../css/font-awesome.min.css';
 @import '../../css/slick.css';
 //@import '../../js/rs-plugin/css/settings.scss';
+
 @import '../../css/styles.css';
 
 html { height: 100%; }
+
 body {
   min-height: 100%;
   position: relative;
   padding-bottom: 60px;
+
+
+  .tp-banner-container{
+    height: 80vh;
+  }
 }
+
+
+/*-------------------------------------- ARCHE GALLA STLES ------------------------------------------------------*/

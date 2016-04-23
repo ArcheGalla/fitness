@@ -1,3 +1,3 @@
-//import 'angular';
+import 'angular';
 import 'jquery';
 import 'bootstrap';
