@@ -5,7 +5,7 @@ import '!!file-loader?name=[name].[ext]!../assets/img/transparent.png';
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/screens/menu.jpg';
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/screens/weather.jpg';
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/screens/signup.jpg';
-import '!!file-loader?name=[name].[ext]!../assets/img/freeze/iphone-freeze.png';
+//import '!!file-loader?name=[name].[ext]!../assets/img/freeze/iphone-freeze.png';
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/Slides/family-freeze.png';
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/Slides/freeze-slide2.png';
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/Slides/hand-freeze.png';
@@ -25,3 +25,7 @@ import '!!file-loader?name=[name].[ext]!../assets/img/freeze/Slides/hand-freeze.
 import '!!file-loader?name=[name].[ext]!../assets/images/organizers/anna_lashchuk.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/organizers/sergey_konyushok.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/organizers/sergey_putsov.png';
+
+//presenter
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/alexander_kravchenko.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/preseter_test.jpg';
