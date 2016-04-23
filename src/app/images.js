@@ -1,5 +1,7 @@
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/Slides/hand-freeze.png';
-import '!!file-loader?name=[name].[ext]!../assets/img/freeze/logo.png';
+
+import '!!file-loader?name=[name].[ext]!../assets/images/logo.png';
+
 import '!!file-loader?name=[name].[ext]!../assets/img/transparent.png';
 
 
