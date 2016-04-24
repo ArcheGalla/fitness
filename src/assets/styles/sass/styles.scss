@@ -471,39 +471,71 @@ section#getApp .platforms .btn {
   margin-bottom: 20px;
 }
 
-/* support section */
-section#support {
-  padding: 0 0 150px 0;
+/*-----------------------------------------------------  location -------------------------------------------------*/
+#location {
+  padding: 0 0 10px 0;
+  display: block;
+  width: 100%;
+
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .media {
+    margin-bottom: 10px;
+  }
+
+  .media i.fa {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    padding: 10px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    width: 1.9em;
+    text-align: center;
+  }
+
+  .media .media-heading {
+    padding-top: 15px;
+    font-weight: 300;
+  }
+
+  .media .media-heading a {
+    font-weight: 400;
+  }
+
+  header h1:after {
+    background: #66cc99;
+  }
+
+  .media i.fa {
+    border: 2px solid #66cc99;
+    color: #66cc99;
+  }
+
+  .media a {
+    color: #66cc99;
+  }
+
+  .media:hover i.fa {
+    color: #ffffff;
+    background: #66cc99;
+  }
+
+  .media:hover h3 {
+    color: #66cc99;
+  }
+
 }
 
-section#support .media {
-  margin-bottom: 10px;
-}
-
-section#support .media i.fa {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  padding: 10px;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -ms-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-  width: 1.9em;
-  text-align: center;
-}
-
-section#support .media .media-heading {
-  padding-top: 15px;
-  font-weight: 300;
-}
-
-section#support .media .media-heading a {
-  font-weight: 400;
-}
+/*-----------------------------------------------------  location -------------------------------------------------*/
 
 /* footer section */
 footer {
@@ -1060,28 +1092,29 @@ section#getApp .platforms .media:hover a div.media-body {
   color: #66cc99;
 }
 
-/* support section */
-section#support header h1:after {
-  background: #66cc99;
-}
-
-section#support .media i.fa {
-  border: 2px solid #66cc99;
-  color: #66cc99;
-}
-
-section#support .media a {
-  color: #66cc99;
-}
-
-section#support .media:hover i.fa {
-  color: #ffffff;
-  background: #66cc99;
-}
-
-section#support .media:hover h3 {
-  color: #66cc99;
-}
+//
+///* support section */
+//section#support header h1:after {
+//  background: #66cc99;
+//}
+//
+//section#support .media i.fa {
+//  border: 2px solid #66cc99;
+//  color: #66cc99;
+//}
+//
+//section#support .media a {
+//  color: #66cc99;
+//}
+//
+//section#support .media:hover i.fa {
+//  color: #ffffff;
+//  background: #66cc99;
+//}
+//
+//section#support .media:hover h3 {
+//  color: #66cc99;
+//}
 
 /* footer section */
 footer {
