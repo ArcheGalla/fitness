@@ -12,10 +12,8 @@ import '../assets/js/scripts.js';
 import '../assets/styles/sass/index.scss';
 
 const presenter = require('./components/presenter/presenter');
-
 const presenters = require('./components/presenter/presenters.json');
 
-console.log('presenters',presenters);
 angular.module('fitness', []);
 
 presenter(angular.module('fitness'));

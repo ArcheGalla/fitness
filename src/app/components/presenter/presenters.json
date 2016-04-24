@@ -4,24 +4,156 @@
     "lastName": "Želvys",
     "avatar": "virgilijus_zelvys.png",
     "employment": "STEP DANCE, AEROBIC DANCE",
-    "description":"Міжнародний презентер. Інструктор групових програм за напрямками Aerobics, Step Professional, Strength, functional training. Бакалавр спорту. Провідний викладач навчального центру Fitness Factory (Литва). Організатор фітнес-конвенцій та навчальних семінарів",
+    "description": "Міжнародний презентер. Інструктор групових програм за напрямками Aerobics, Step Professional, Strength, functional training. Бакалавр спорту. Провідний викладач навчального центру Fitness Factory (Литва). Організатор фітнес-конвенцій та навчальних семінарів",
     "socialLinks": [
-      "",
-      "",
-      ""
+      "https://twitter.com",
+      "https://twitter.com",
+      "https://twitter.com"
     ]
   },
-
   {
-    "firstName": "Virgilijus",
-    "lastName": "Želvys",
-    "avatar": "virgilijus_zelvys.png",
-    "employment": "STEP DANCE, AEROBIC DANCE",
-    "description":"",
+    "firstName": "Смирнова",
+    "lastName": "Катерина",
+    "avatar": "smyrnova_ekateryna.png",
+    "employment": "PILATES 'ДО СОТНІ', MATWORK",
+    "description": "Засновник International Pilates University Fitness4you, координатор навчальної програми, методист, автор спеціальних програм роботи в пілатесі, статей і навчальних посібників, презентер міжнародних та національних форумів і конвенцій",
     "socialLinks": [
-      "",
-      "",
-      ""
+      "https://twitter.com",
+      "https://twitter.com",
+      "https://twitter.com"
+    ]
+  },
+  {
+    "firstName": "Ярослав",
+    "lastName": "Сойніков",
+    "avatar": "soynikov_yaroslav.png",
+    "employment": "TRX",
+    "description": "Міжнародний презентер. Майстер тренер Life fitness academy. Майстер тренер TRX©, Trigger point©",
+    "socialLinks": [
+      "https://twitter.com",
+      "https://twitter.com",
+      "https://twitter.com"
+    ]
+  },
+  {
+    "firstName": "Oxana",
+    "lastName": "Moshescu",
+    "avatar": "moshescu_oxana.png",
+    "employment": "KANGOO JUMPS (Romania)",
+    "description": "Офіційний тренер Kangoo Jumps Fitness Programs і засновник клубу Kangoo Club Ukraine. Міжнародний презентер Swvinn Cycling, C-moves",
+    "socialLinks": [
+      "https://twitter.com",
+      "https://twitter.com",
+      "https://twitter.com"
+    ]
+  },
+  {
+    "firstName": "Сергій",
+    "lastName": "Пуцов",
+    "avatar": "pucov_sergiy.png",
+    "employment": "OXYGEN WORKOUT",
+    "description": "Кандидат наук з фізичного виховання і спорту, майстер спорту з важкої атлетики, головний тренер клубу SkyFitness, провідний викладач школи фітнес-інструкторів Fitnesservice",
+    "socialLinks": [
+      "https://twitter.com",
+      "https://twitter.com",
+      "https://twitter.com"
+    ]
+  },
+  {
+    "firstName": "Олександр",
+    "lastName": "Довгич",
+    "avatar": "dovgych_oleksandr.png",
+    "employment": "OXYGEN WORKOUT, KETTLEBELL WORKOUT",
+    "description": "Кандидат наук з фізичного виховання та спорту, доцент кафедри здоров'я, фітнесу та рекреації Національного університету фізичного виховання і спорту України, персональний тренер клубу SkyFitness, експерт з навчальних програм у сфері фітнесу",
+    "socialLinks": [
+      "https://twitter.com",
+      "https://twitter.com",
+      "https://twitter.com"
+    ]
+  },
+  {
+    "firstName": "Ольга",
+    "lastName": "Смелкова",
+    "avatar": "smelkova_olga.png",
+    "employment": "AEROJUMP, ZUMBA",
+    "description": "Методист тренінгового центру «Академія Фітнеса - Україна» (Київ). Спеціалізується на підготовці інструкторів групових програм. Презентер міжнародних фітнес-конвенцій. Сертифікований спеціаліст ZUMBA. Хореограф- постановник латиноамериканських танцювальних стилів",
+    "socialLinks": [
+      "https://twitter.com",
+      "https://twitter.com",
+      "https://twitter.com"
+    ]
+  },
+  {
+    "firstName": "Олеся",
+    "lastName": "Губеня",
+    "avatar": "gubenya_olesya.png",
+    "employment": "CROSSFIT",
+    "description": "Персональний тренер і інструктор групових програм в клубі Crossfit Banda. Персональний тренер клубу активного відпочинку «Подольский». Сертифікований інструктор з функціонального тренінгу TRX. Фіналіст і призерка всеукраїнськіх змагань з CrossFit",
+    "socialLinks": [
+      "https://twitter.com",
+      "https://twitter.com",
+      "https://twitter.com"
+    ]
+  },
+  {
+    "firstName": "Катерина",
+    "lastName": "Цьовх",
+    "avatar": "cyoh_ekaterina.png",
+    "employment": "SKY JUMPING",
+    "description": "Координатор розвитку фітнес-програми Sky Jumping® в країнах СНД, презентер міжнародної конвенції NIKE 2014, директор мережі жіночих фітнес-клубів «Ківі Фітнес», керівник і викладач школи фітнес-інструкторів KFS",
+    "socialLinks": [
+      "https://twitter.com",
+      "https://twitter.com",
+      "https://twitter.com"
+    ]
+  },
+  {
+    "firstName": "Олександр",
+    "lastName": "Кравченко",
+    "avatar": "",
+    "employment": "CROSSFIT",
+    "description": "Засновник афілійованого клубу Crossfit Banda. Персональний тренер. Фіналіст «Великого кубку на звання самої фізично підготовленої людини» 2013-2014 років. Призер всеукраїнських змагань",
+    "socialLinks": [
+      "https://twitter.com",
+      "https://twitter.com",
+      "https://twitter.com"
+    ]
+  },
+  {
+    "firstName": "Євгенія",
+    "lastName": "Щігрова",
+    "avatar": "shygrova_evgeniya.png",
+    "employment": "OWER STRETCH",
+    "description": "Дипломований фахівець у галузі фізичної реабілітації. Сертифікований фахівець з функціонального тренінгу, TRX, Power stretching. учасник міжнародних семінарів і фітнес-конвенцій. Фітнес-менеджер групових програм клубу «Фітнес-клас»",
+    "socialLinks": [
+      "https://twitter.com",
+      "https://twitter.com",
+      "https://twitter.com"
+    ]
+  },
+  {
+    "firstName": "Ганна",
+    "lastName": "Лащук",
+    "avatar": "lashuk_anna.png",
+    "employment": "UKRAINIAN STEP",
+    "description": "Директор спортивного комплексу «Грація». Власниця фітнес-центру Vita Sana, чемпіонка International dance competition Leader. Дипломований та сертифікований фітнес-тренер. Групових та персональних тренувань. Автор напрямку Ukrainian step",
+    "socialLinks": [
+      "https://twitter.com",
+      "https://twitter.com",
+      "https://twitter.com"
+    ]
+  },
+  {
+    "firstName": "Інна",
+    "lastName": "Шипкова",
+    "avatar": "shypkova_inna.png",
+    "employment": "FIGHT FUNCTIONAL, FIGHT FIT",
+    "description": "Менеджер групових програм TETRA FITNESS CLUB. сертифікований фахівець з TRX і TRX Sports Medicine, КМС України з тайського боксу, Фіналіст Кубку України з бодібілдингу та фітнесу. Презентер українських фітнес конвенцій",
+    "socialLinks": [
+      "https://twitter.com",
+      "https://twitter.com",
+      "https://twitter.com"
     ]
   }
 ]
+
