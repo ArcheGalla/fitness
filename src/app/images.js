@@ -52,6 +52,7 @@ import '!!file-loader?name=[name].[ext]!../assets/images/partners/olimp.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/partners/olimpic.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/partners/try_styhiy.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/partners/vs_fitness_centre.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/partners/expo.png';
 
 //main
 import '!!file-loader?name=[name].[ext]!../assets/images/main/main-logo.png';
