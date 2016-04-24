@@ -344,86 +344,10 @@ header .navbar-default.scrolled ul.navbar-nav {
 
 /*-----------------------------------------------------  convention -------------------------------------------------*/
 /*-----------------------------------------------------  partners -------------------------------------------------*/
-#reviews {
+#partners {
   background-size: cover;
   background-image: url("../../images/bk-eco.jpg");
 
-  .review-filtering {
-    margin: 20px 0 100px 0;
-  }
-
-  .review-filtering .review .review-person {
-    width: 100%;
-  }
-
-  .review-filtering .review .review-person img {
-    width: 110px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-    margin: 10px auto;
-  }
-
-  .review-filtering .review .review-comment {
-    width: 100%;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    border-radius: 10px;
-    padding: 5px 40px 20px;
-    position: relative;
-  }
-
-  .review-filtering .review .review-comment h3 {
-    margin-bottom: 15px;
-  }
-
-  .review-filtering .review .review-comment p {
-    font-size: 16px;
-    color: #999999;
-  }
-
-  .review-filtering .review .review-comment p span {
-    margin-left: 10px;
-  }
-
-  .review-filtering .review .review-comment:after {
-    right: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(255, 255, 255, 0);
-    border-width: 15px;
-    margin-top: -10px;
-  }
-
-  .review-filtering .review .review-person,
-  .review-filtering .review .review-comment {
-    float: left;
-  }
-
-  .review-filtering .slick-dots {
-    bottom: -80px;
-  }
-
-  .review-filtering .slick-dots li button {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-  }
-
-  .review-filtering .slick-dots li button:before {
-    display: none;
-  }
 }
 
 /*-----------------------------------------------------  partners -------------------------------------------------*/
