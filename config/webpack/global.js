@@ -46,61 +46,47 @@ module.exports = function (_path) {
     // modules resolvers
     module: {
       noParse: [],
-      loaders: [{
-        test: /\.html$/,
-        loaders: [
-          'ngtemplate-loader?relativeTo=' + _path,
-          'html-loader?attrs[]=img:src&attrs[]=img:data-src'
-        ]
-      }, {
-        test: /\.js$/,
-        loaders: [
-          'baggage-loader?[file].html&[file].css',
-          'ng-annotate-loader',
-          'babel-loader'
-        ]
-      }, {
-        test: /\.css$/,
-        loaders: [
-          'style-loader',
-          'css-loader?sourceMap',
-          'postcss-loader'
-        ]
-      }, {
-        test: /\.(scss|sass)$/,
-        loader: DEVELOPMENT ? ('style-loader!' + stylesLoader) : ExtractTextPlugin.extract('style-loader', stylesLoader)
-      },
-
+      loaders: [
+        {
+          test: /\.html$/,
+          loaders: ['ngtemplate-loader?relativeTo=' + _path, 'html-loader?attrs[]=img:src&attrs[]=img:data-src']
+        },
+        {
+          test: /\.js$/,
+          loaders: ['baggage-loader?[file].html&[file].css', 'ng-annotate-loader', 'babel-loader']
+        },
+        {
+          test: /\.css$/,
+          loaders: ['style-loader', 'css-loader?sourceMap', 'postcss-loader']
+        },
+        {
+          test: /\.(scss|sass)$/,
+          loader: DEVELOPMENT ? ('style-loader!' + stylesLoader) : ExtractTextPlugin.extract('style-loader', stylesLoader)
+        },
+        {
+          test: /\.json$/,
+          loader: 'json'
+        },
         {
           test: /\.less$/,
           loader: "style!css!less"
         },
-
         {
           test: /\.(woff2|woff|ttf|eot|svg)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-          loaders: [
-            "url-loader?name=assets/fonts/[name]_[hash].[ext]"
-          ]
-        }, {
-          test: /\.(jpe?g|png|gif)$/i,
-          loaders: [
-            'url-loader?name=assets/images/[name]_[hash].[ext]&limit=10000'
-          ]
+          loaders: ["url-loader?name=assets/fonts/[name]_[hash].[ext]"]
         },
-        //{
-        //  test: require.resolve("angular"),
-        //  loaders: [
-        //    "expose?angular"
-        //  ]
-        //},
+        {
+          test: /\.(jpe?g|png|gif)$/i,
+          loaders: ['url-loader?name=assets/images/[name]_[hash].[ext]&limit=10000']
+        },
+        {
+          test: require.resolve("angular"),
+          loaders: ["expose?angular"]
+        },
         {
           test: require.resolve("jquery"),
-          loaders: [
-            "expose?$",
-            "expose?jQuery"
-          ]
+          loaders: ["expose?$", "expose?jQuery"]
         }
-
       ]
     },
 
