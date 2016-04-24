@@ -182,67 +182,22 @@
         <div class="divider"></div>
       </div>
       <div class="row">
-        <!--ng-class="{ 'left-order' :  $index % 2 === 0 }"-->
-        <pre style="color: red;">{{ vm  | json }}</pre>
-        <div class="col-md-3 col-sm-3 scrollpoint sp-effect1" ng-repeat="p in vm.presenters track by $index">
-
-
-
-          <!-- right-order -->
-          <!-- <div class="media" ng-class="{ 'left-order' :  $index % 2 === 0 }">
-            <img src="" alt="Кравченко Олександр">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 scrollpoint"
+             ng-class="{ 'sp-effect1': $index % 2 === 0, 'sp-effect2': $index % 2 === 1}"
+             ng-repeat="p in vm.presenters track by $index">
+          <div class="media" ng-class="{ 'left-order': $index % 2 === 0, 'right-order': $index % 2 === 1}">
+            <img ng-src="{{ p.avatar }}" alt="{{ ::p.firstName + ' ' + p.lastName }}">
             <div class="media-body">
-              <h3 class="media-heading">Кравченко Олександр</h3>
-              <p>CROSSFIT</p>
+              <h3 class="media-heading">{{ ::p.lastName + ' ' + p.firstName }}</h3>
+              <p>{{ ::p.employment }}</p>
               <div class="social">
                 <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
                 <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
                 <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
-
-
-        <!--<div class="col-md-3 col-sm-3 scrollpoint sp-effect2">-->
-
-        <!--&lt;!&ndash;<div class="media right-order">&ndash;&gt;-->
-
-        <!--&lt;!&ndash;<img src="preseter_test.jpg" alt="Кравченко Олександр">&ndash;&gt;-->
-        <!--&lt;!&ndash;<div class="media-body">&ndash;&gt;-->
-
-        <!--&lt;!&ndash;<h3 class="media-heading">Кравченко Олександр</h3>&ndash;&gt;-->
-        <!--&lt;!&ndash;<p>CROSSFIT</p>&ndash;&gt;-->
-
-        <!--&lt;!&ndash;<div class="social">&ndash;&gt;-->
-        <!--&lt;!&ndash;<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>&ndash;&gt;-->
-        <!--&lt;!&ndash;<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>&ndash;&gt;-->
-        <!--&lt;!&ndash;<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>&ndash;&gt;-->
-        <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-        <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-        <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-        <!--&lt;!&ndash;<div class="media right-order">&ndash;&gt;-->
-
-        <!--&lt;!&ndash;<img src="preseter_test.jpg" alt="Кравченко Олександр">&ndash;&gt;-->
-        <!--&lt;!&ndash;<div class="media-body">&ndash;&gt;-->
-
-        <!--&lt;!&ndash;<h3 class="media-heading">Кравченко Олександр</h3>&ndash;&gt;-->
-        <!--&lt;!&ndash;<p>CROSSFIT</p>&ndash;&gt;-->
-
-        <!--&lt;!&ndash;<div class="social">&ndash;&gt;-->
-        <!--&lt;!&ndash;<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>&ndash;&gt;-->
-        <!--&lt;!&ndash;<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>&ndash;&gt;-->
-        <!--&lt;!&ndash;<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>&ndash;&gt;-->
-        <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-        <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-        <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-        <!--</div>-->
       </div>
     </div>
   </section>
@@ -266,53 +221,53 @@
     </div>
   </section>
 
-  <section id="screens">
-    <div class="container">
+  <!--<section id="screens">-->
+    <!--<div class="container">-->
 
-      <div class="section-heading scrollpoint sp-effect3">
-        <h1>Screens</h1>
-        <div class="divider"></div>
-        <p>See what’s included in the App</p>
-      </div>
+      <!--<div class="section-heading scrollpoint sp-effect3">-->
+        <!--<h1>Screens</h1>-->
+        <!--<div class="divider"></div>-->
+        <!--<p>See what’s included in the App</p>-->
+      <!--</div>-->
 
-      <div class="filter scrollpoint sp-effect3">
-        <a href="javascript:void(0)" class="button js-filter-all active">All Screens</a>
-        <a href="javascript:void(0)" class="button js-filter-one">User Access</a>
-        <a href="javascript:void(0)" class="button js-filter-two">Social Network</a>
-        <a href="javascript:void(0)" class="button js-filter-three">Media Players</a>
-      </div>
-      <div class="slider filtering scrollpoint sp-effect5">
-        <div class="one">
-          <img src="profile.jpg" alt="">
-          <h4>Profile Page</h4>
-        </div>
-        <div class="two">
-          <img src="menu.jpg" alt="">
-          <h4>Toggel Menu</h4>
-        </div>
-        <div class="three">
-          <img src="weather.jpg" alt="">
-          <h4>Weather Forcast</h4>
-        </div>
-        <div class="one">
-          <img src="signup.jpg" alt="">
-          <h4>Sign Up</h4>
-        </div>
-        <div class="one">
-          <img src="calendar.jpg" alt="">
-          <h4>Event Calendar</h4>
-        </div>
-        <div class="two">
-          <img src="options.jpg" alt="">
-          <h4>Some Options</h4>
-        </div>
-        <div class="three">
-          <img src="sales.jpg" alt="">
-          <h4>Sales Analysis</h4>
-        </div>
-      </div>
-    </div>
-  </section>
+      <!--<div class="filter scrollpoint sp-effect3">-->
+        <!--<a href="javascript:void(0)" class="button js-filter-all active">All Screens</a>-->
+        <!--<a href="javascript:void(0)" class="button js-filter-one">User Access</a>-->
+        <!--<a href="javascript:void(0)" class="button js-filter-two">Social Network</a>-->
+        <!--<a href="javascript:void(0)" class="button js-filter-three">Media Players</a>-->
+      <!--</div>-->
+      <!--<div class="slider filtering scrollpoint sp-effect5">-->
+        <!--<div class="one">-->
+          <!--<img src="profile.jpg" alt="">-->
+          <!--<h4>Profile Page</h4>-->
+        <!--</div>-->
+        <!--<div class="two">-->
+          <!--<img src="menu.jpg" alt="">-->
+          <!--<h4>Toggel Menu</h4>-->
+        <!--</div>-->
+        <!--<div class="three">-->
+          <!--<img src="weather.jpg" alt="">-->
+          <!--<h4>Weather Forcast</h4>-->
+        <!--</div>-->
+        <!--<div class="one">-->
+          <!--<img src="signup.jpg" alt="">-->
+          <!--<h4>Sign Up</h4>-->
+        <!--</div>-->
+        <!--<div class="one">-->
+          <!--<img src="calendar.jpg" alt="">-->
+          <!--<h4>Event Calendar</h4>-->
+        <!--</div>-->
+        <!--<div class="two">-->
+          <!--<img src="options.jpg" alt="">-->
+          <!--<h4>Some Options</h4>-->
+        <!--</div>-->
+        <!--<div class="three">-->
+          <!--<img src="sales.jpg" alt="">-->
+          <!--<h4>Sales Analysis</h4>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</section>-->
 
   <!--<section id="demo">-->
   <!--<div class="container">-->
@@ -455,8 +410,8 @@
         <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
       </div>
       <div class="rights">
-        <p>Copyright &copy; 2014</p>
-        <p>Redesign by Arche Galla and his awesome Cat</p>
+        <p>Copyright &copy; 2016</p>
+        <p>Lviv Fitness Weekend</p>
       </div>
     </div>
   </footer>

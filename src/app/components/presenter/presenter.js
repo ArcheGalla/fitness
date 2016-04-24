@@ -4,7 +4,7 @@ export default function (module) {
   module
     .component('presenter', {
       templateUrl: tempalate,
-      bindToController: {
+      bindings: {
         avatar: '=',
         firstName: '=',
         lastName: '=',
@@ -13,7 +13,7 @@ export default function (module) {
         description: '='
       },
       controller: function () {
-
+        console.log(this);
       },
       controllerAs: 'vm'
     });

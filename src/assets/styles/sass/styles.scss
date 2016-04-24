@@ -292,12 +292,12 @@ div.content {
     }
 
     h3 {
-      font-size: 24px;
+      font-size: 15px;
     }
 
     p {
       padding: 0;
-      font-size: 16px;
+      font-size: 12px;
     }
     .social {
       text-align: center;
@@ -343,6 +343,7 @@ div.content {
   background-size: cover;
   background-image: url("../../images/bk-eco.jpg");
   .partners-logos {
+    padding-bottom: 25px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -479,7 +480,7 @@ section#getApp .platforms .btn {
 
 /*-----------------------------------------------------  location -------------------------------------------------*/
 #location {
-  padding: 0 0 10px 0;
+  padding: 25px 0 25px 0;
   display: block;
   width: 100%;
 
@@ -601,7 +602,8 @@ footer .rights a:hover {
 
 section {
   position: relative;
-  padding-bottom: 90px;padding-bottom: 10px;
+  padding-bottom: 90px;
+  padding-bottom: 10px;
 }
 
 /* Common style for pseudo-elements */
