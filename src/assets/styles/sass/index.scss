@@ -15,7 +15,9 @@ html { height: 100%; }
 body {
   min-height: 100%;
   position: relative;
-  padding-bottom: 60px;
+  max-width: 100%;
+  overflow-x: hidden;
+  //padding-bottom: 60px;
 
   .tp-banner-container{
     height: 80vh;

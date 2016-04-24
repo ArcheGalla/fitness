@@ -290,6 +290,7 @@ header .navbar-default.scrolled ul.navbar-nav {
     text-align: center;
 
     &:hover {
+      border-radius: 144px;
       box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
     }
 
@@ -343,6 +344,7 @@ header .navbar-default.scrolled ul.navbar-nav {
 }
 
 /*-----------------------------------------------------  convention -------------------------------------------------*/
+
 /*-----------------------------------------------------  partners -------------------------------------------------*/
 #partners {
   background-size: cover;
@@ -481,34 +483,37 @@ section#getApp .platforms .btn {
     padding-left: 0;
     padding-right: 0;
   }
+  .media {
+    img {
+      border-radius: 50%;
+      border: 3px solid #66cc99;
+    }
+    .contact-name {
+      color: #66cc99;
+    }
+  }
 
   .media {
     margin-bottom: 10px;
   }
 
-  .media i.fa {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-    padding: 10px;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -ms-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
-    width: 1.9em;
-    text-align: center;
-  }
+  .media {
+    i.fa {
+      border-radius: 50%;
+      padding: 10px;
+      transition: all 0.25s ease-in-out;
+      width: 1.9em;
+      text-align: center;
+    }
 
-  .media .media-heading {
-    padding-top: 15px;
-    font-weight: 300;
-  }
+    .media-heading {
+      padding-top: 15px;
+      font-weight: 300;
+    }
 
-  .media .media-heading a {
-    font-weight: 400;
+    .media-heading a {
+      font-weight: 400;
+    }
   }
 
   header h1:after {
@@ -690,7 +695,7 @@ section::after {
 }
 
 .btn.btn-lg {
-  padding: 10px 25px;
+  padding: 10px 45px;
 }
 
 .btn:hover {

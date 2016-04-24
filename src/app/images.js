@@ -29,3 +29,6 @@ import '!!file-loader?name=[name].[ext]!../assets/images/organizers/sergey_putso
 //presenter
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/alexander_kravchenko.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/preseter_test.jpg';
+
+//contact
+import '!!file-loader?name=[name].[ext]!../assets/images/contacts/christina.png';
