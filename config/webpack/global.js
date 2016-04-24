@@ -26,7 +26,9 @@ module.exports = function (_path) {
     output: {
       path: 'dist',
       filename: '[name].js',
-      publicPath: '/'
+      //publicPath: '/'
+      publicPath: 'http://0.0.0.0:8080/'
+      //https://github.com/webpack/style-loader/issues/55
     },
 
     // resolves modules
@@ -151,7 +153,7 @@ module.exports = function (_path) {
     webpackConfig.plugins = webpackConfig.plugins.concat([
       new webpack.optimize.UglifyJsPlugin({
         minimize: true,
-        warnings: false,
+        warnings: true,
         sourceMap: true
       })
     ]);
