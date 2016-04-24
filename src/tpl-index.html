@@ -14,7 +14,7 @@
   <script src="{%=o.htmlWebpackPlugin.files.chunks[chunk].entry %}"></script>
   {% } %}
 </head>
-<body id="top">
+<body id="top" ng-controller="MainCtrl as vm">
 
 <!--<div class="pre-loader">-->
 <!--<div class="load-con">-->
@@ -182,158 +182,67 @@
         <div class="divider"></div>
       </div>
       <div class="row">
-        <div class="col-md-3 col-sm-3 scrollpoint sp-effect1">
+        <!--ng-class="{ 'left-order' :  $index % 2 === 0 }"-->
+        <pre style="color: red;">{{ vm  | json }}</pre>
+        <div class="col-md-3 col-sm-3 scrollpoint sp-effect1" ng-repeat="p in vm.presenters track by $index">
 
-          <div class="media left-order">
 
-            <img src="preseter_test.jpg" alt="Кравченко Олександр">
+
+          <!-- right-order -->
+          <!-- <div class="media" ng-class="{ 'left-order' :  $index % 2 === 0 }">
+            <img src="" alt="Кравченко Олександр">
             <div class="media-body">
-
               <h3 class="media-heading">Кравченко Олександр</h3>
               <p>CROSSFIT</p>
-
               <div class="social">
                 <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
                 <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
                 <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
               </div>
-
             </div>
-          </div>
-
-          <div class="media left-order">
-
-            <img src="preseter_test.jpg" alt="Кравченко Олександр">
-            <div class="media-body">
-
-              <h3 class="media-heading">Кравченко Олександр</h3>
-              <p>CROSSFIT</p>
-
-              <div class="social">
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
-              </div>
-
-            </div>
-          </div>
-
+          </div> -->
         </div>
-        <div class="col-md-3 col-sm-3 scrollpoint sp-effect2">
 
-          <div class="media right-order">
 
-            <img src="preseter_test.jpg" alt="Кравченко Олександр">
-            <div class="media-body">
+        <!--<div class="col-md-3 col-sm-3 scrollpoint sp-effect2">-->
 
-              <h3 class="media-heading">Кравченко Олександр</h3>
-              <p>CROSSFIT</p>
+        <!--&lt;!&ndash;<div class="media right-order">&ndash;&gt;-->
 
-              <div class="social">
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
-              </div>
+        <!--&lt;!&ndash;<img src="preseter_test.jpg" alt="Кравченко Олександр">&ndash;&gt;-->
+        <!--&lt;!&ndash;<div class="media-body">&ndash;&gt;-->
 
-            </div>
+        <!--&lt;!&ndash;<h3 class="media-heading">Кравченко Олександр</h3>&ndash;&gt;-->
+        <!--&lt;!&ndash;<p>CROSSFIT</p>&ndash;&gt;-->
 
-          </div>
+        <!--&lt;!&ndash;<div class="social">&ndash;&gt;-->
+        <!--&lt;!&ndash;<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>&ndash;&gt;-->
+        <!--&lt;!&ndash;<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>&ndash;&gt;-->
+        <!--&lt;!&ndash;<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-          <div class="media right-order">
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-            <img src="preseter_test.jpg" alt="Кравченко Олександр">
-            <div class="media-body">
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-              <h3 class="media-heading">Кравченко Олександр</h3>
-              <p>CROSSFIT</p>
+        <!--&lt;!&ndash;<div class="media right-order">&ndash;&gt;-->
 
-              <div class="social">
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
-              </div>
+        <!--&lt;!&ndash;<img src="preseter_test.jpg" alt="Кравченко Олександр">&ndash;&gt;-->
+        <!--&lt;!&ndash;<div class="media-body">&ndash;&gt;-->
 
-            </div>
+        <!--&lt;!&ndash;<h3 class="media-heading">Кравченко Олександр</h3>&ndash;&gt;-->
+        <!--&lt;!&ndash;<p>CROSSFIT</p>&ndash;&gt;-->
 
-          </div>
+        <!--&lt;!&ndash;<div class="social">&ndash;&gt;-->
+        <!--&lt;!&ndash;<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>&ndash;&gt;-->
+        <!--&lt;!&ndash;<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>&ndash;&gt;-->
+        <!--&lt;!&ndash;<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-        </div>
-        <div class="col-md-3 col-sm-3 scrollpoint sp-effect1">
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-          <div class="media left-order">
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
 
-            <img src="preseter_test.jpg" alt="Кравченко Олександр">
-            <div class="media-body">
-
-              <h3 class="media-heading">Кравченко Олександр</h3>
-              <p>CROSSFIT</p>
-
-              <div class="social">
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="media left-order">
-
-            <img src="preseter_test.jpg" alt="Кравченко Олександр">
-            <div class="media-body">
-
-              <h3 class="media-heading">Кравченко Олександр</h3>
-              <p>CROSSFIT</p>
-
-              <div class="social">
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-        <div class="col-md-3 col-sm-3 scrollpoint sp-effect2">
-
-          <div class="media right-order">
-
-            <img src="preseter_test.jpg" alt="Кравченко Олександр">
-            <div class="media-body">
-
-              <h3 class="media-heading">Кравченко Олександр</h3>
-              <p>CROSSFIT</p>
-
-              <div class="social">
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="media right-order">
-
-            <img src="preseter_test.jpg" alt="Кравченко Олександр">
-            <div class="media-body">
-
-              <h3 class="media-heading">Кравченко Олександр</h3>
-              <p>CROSSFIT</p>
-
-              <div class="social">
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
-                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
+        <!--</div>-->
       </div>
     </div>
   </section>

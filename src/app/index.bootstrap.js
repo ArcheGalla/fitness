@@ -11,51 +11,26 @@ import '../assets/js/scripts.js';
 
 import '../assets/styles/sass/index.scss';
 
+const presenter = require('./components/presenter/presenter');
 
-window.addEventListener('load', function () {
-  console.log('all content is loaded');
-});
+const presenters = require('./components/presenter/presenters.json');
 
-window.addEventListener('load', function () {
-  var docHeight = $(window).height();
+console.log('presenters',presenters);
+angular.module('fitness', []);
 
-  const eljQuery = $('.tp-banner');
+presenter(angular.module('fitness'));
 
-  eljQuery.revolution({
-    delay: 9000,
-    startwidth: 1170,
-    startheight: docHeight,
-    hideThumbs: 10,
-    touchenabled: false,
-    fullWidth: "on",
-    hideTimerBar: "on",
-    fullScreen: "on",
-    onHoverStop: "off",
-    fullScreenOffsetContainer: ""
-  });
-});
-
-var revSlider = function () {
-
-
-  var mainSlider = $('.tp-banner').revolution({
-    delay: 9000,
-    startwidth: 1170,
-    startheight: docHeight,
-    hideThumbs: 10,
-    touchenabled: false,
-    fullWidth: "on",
-    hideTimerBar: "on",
-    fullScreen: "on",
-    onHoverStop: "off",
-    fullScreenOffsetContainer: ""
+angular
+  .module('fitness')
+  .controller('MainCtrl', function () {
+    this.presenters = presenters;
   });
 
-}
-
-//angular.element(document).ready(function () {
-//  angular.bootstrap(document, ['fitness'], {
-//    strictDi: true
-//  });
-//  appMaster.preLoader();
-//});
+angular
+  .element(document)
+  .ready(function () {
+    angular
+      .bootstrap(document, ['fitness'], {
+        strictDi: true
+      });
+  });
