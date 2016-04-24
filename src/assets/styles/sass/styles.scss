@@ -24,12 +24,16 @@ div.content {
 
 .main-header {
   min-height: 100vh;
-  padding-top: 180px;
+  padding-top: 130px;
+  padding-bottom: 10px;
 
+  h2, p {
+    color: #f6f6f6;
+  }
   .navbar-default {
     background: none;
     border: none;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
     transition: all 0.25s ease-in-out;
   }
@@ -136,6 +140,19 @@ div.content {
     padding-top: 15px;
   }
 
+  .main-actions {
+    a {
+      margin: 20px 10px;
+      color: #f6f6f6;
+      border-color: #f6f6f6;
+    }
+  }
+  .main-left {
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+  }
 }
 
 .scrollpoint {
@@ -584,7 +601,7 @@ footer .rights a:hover {
 
 section {
   position: relative;
-  padding-bottom: 90px;
+  padding-bottom: 90px;padding-bottom: 10px;
 }
 
 /* Common style for pseudo-elements */
