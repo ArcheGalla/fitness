@@ -10,17 +10,42 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 //@import '../../css/styles.scss';
 @import '../../styles/sass/styles';
 
-html { height: 100%; }
+html {
+  height: 100%;
+}
 
 body {
   min-height: 100%;
   position: relative;
   max-width: 100%;
   overflow-x: hidden;
+  font-family: 'Lato', Arial, serif;
+  color: #666666;
+  -webkit-font-smoothing: antialiased;
   //padding-bottom: 60px;
 
-  .tp-banner-container{
-    height: 80vh;
+  .tp-banner-container {
+    height: 100vh;
+  }
+
+  a {
+    font-family: 'Lato', Arial, serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    color: #666666;
   }
 }
 
