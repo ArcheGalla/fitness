@@ -14,9 +14,22 @@ const presenters = require('./components/presenter/presenters.json');
 
 
 angular
-  .module('fitness', [])
-  .controller('MainCtrl', function ($http) {
+  .module('fitness', ['ui.bootstrap'])
+  .controller('MainCtrl', function ($http, $modal) {
 
+    //this.testModal = function () {
+    //  $modal.open({
+    //    template: '<div>TEST</div>',
+    //    controller: function () {
+    //      console.log('test ctrl');
+    //    }
+    //  }).result.then(function () {
+    //    console.log('then');
+    //  }).catch(function () {
+    //    console.log('catch');
+    //  })
+    //};
+    //
     this.presenters = presenters;
     this.formData = {
       name: '',
