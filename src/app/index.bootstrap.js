@@ -1,4 +1,3 @@
-// index.html page to dist folder
 import './images';
 
 import '../assets/js/slick.min.js';
@@ -13,23 +12,44 @@ import '../assets/styles/sass/index.scss';
 const presenter = require('./components/presenter/presenter');
 const presenters = require('./components/presenter/presenters.json');
 
-angular.module('fitness', []);
-
-//presenter(angular.module('fitness'));
 
 angular
-  .module('fitness')
-  .controller('MainCtrl', function ($rootScope) {
-    //$rootScope.loaded = false;
+  .module('fitness', [])
+  .controller('MainCtrl', function ($http) {
+
     this.presenters = presenters;
+    this.formData = {
+      name: '',
+      email: '',
+      message: ''
+    };
+
+    this.sendMessage = function (valid, data) {
+      if (valid) {
+        $http
+          .post('message', data)
+          .then((response)=> {
+            console.log('response', response);
+          })
+          .catch((error)=> {
+            console.log('error', error);
+          });
+      }
+    }
+  })
+  .directive('presenterInfo', function () {
+    return {
+      template: '',
+      scope: {
+        presenter: '='
+      },
+      link: (scope, element, attr)=> {
+        element.on('click', (e)=> {
+          console.log('e', e);
+        });
+      }
+    }
   });
-  //.run(($rootScope, $window, $timeout)=> {
-    //$window.addEventListener('load', ()=> {
-    //  $timeout(()=> {
-    //    $rootScope.loaded = true;
-    //  }, 300)
-    //});
-  //});
 
 angular
   .element(document)

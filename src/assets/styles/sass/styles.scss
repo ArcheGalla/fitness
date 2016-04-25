@@ -481,7 +481,7 @@ section#getApp .platforms .btn {
 
 /*-----------------------------------------------------  location -------------------------------------------------*/
 #location {
-  padding: 25px 0 25px 0;
+  //padding: 25px 0 25px 0;
   display: block;
   width: 100%;
 
@@ -713,31 +713,31 @@ section::after {
   transition: all 0.25s ease-in-out;
 }
 
-form .form-control {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  -webkit-border-radius: 5em;
-  -moz-border-radius: 5em;
-  -ms-border-radius: 5em;
-  -o-border-radius: 5em;
-  border-radius: 5em;
-  height: 40px;
-  line-height: 40px;
-  padding: 10px 20px;
-  color: #cfcfcf;
-  border: 2px solid #cccccc;
-  font-weight: 300;
-}
+form {
+  .error {
+    border: 2px solid #F44336 !important;
+  }
+  .form-control {
+    box-shadow: none;
+    border-radius: 5em;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 20px;
+    color: #cfcfcf;
+    border: 2px solid #cccccc;
+    font-weight: 300;
+  }
 
-form textarea.form-control {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px;
-  height: auto;
-  line-height: normal;
+  textarea.form-control {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    height: auto;
+    line-height: normal;
+  }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -758,15 +758,11 @@ form textarea.form-control {
     padding: 20px;
   }
   header .navbar-default .navbar-toggle {
-    margin-top: 0px;
-    margin-right: 0px;
+    margin-top: 0;
+    margin-right: 0;
     background: none;
     border: 2px solid #ffffff;
     color: #ffffff;
-    -webkit-border-radius: 5em;
-    -moz-border-radius: 5em;
-    -ms-border-radius: 5em;
-    -o-border-radius: 5em;
     border-radius: 5em;
   }
   header .navbar-default .navbar-toggle:hover,
@@ -783,11 +779,7 @@ form textarea.form-control {
   }
   header .navbar-default ul.navbar-nav li a.getApp {
     background: none !important;
-    -webkit-border-radius: 0em;
-    -moz-border-radius: 0em;
-    -ms-border-radius: 0em;
-    -o-border-radius: 0em;
-    border-radius: 0em;
+    border-radius: 0;
   }
   header .navbar-default .navbar-collapse {
     border-color: transparent;

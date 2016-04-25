@@ -1,0 +1,1 @@
+module.exports.EMAILS = ["artempushkar@gmail.com"];
