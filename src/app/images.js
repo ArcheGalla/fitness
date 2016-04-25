@@ -1,6 +1,14 @@
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/Slides/hand-freeze.png';
 
+//favicon
+import '!!file-loader?name=[name].[ext]!../favicon.ico';
+
+//logos
 import '!!file-loader?name=[name].[ext]!../assets/images/logos/logo.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/logos/logo-lion.png';
+
+
+
 import '!!file-loader?name=[name].[ext]!../assets/img/transparent.png';
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/screens/menu.jpg';
 import '!!file-loader?name=[name].[ext]!../assets/img/freeze/screens/weather.jpg';

@@ -1,5 +1,4 @@
 // index.html page to dist folder
-import '!!file-loader?name=[name].[ext]!../favicon.ico';
 import './images';
 
 import '../assets/js/slick.min.js';
@@ -16,13 +15,21 @@ const presenters = require('./components/presenter/presenters.json');
 
 angular.module('fitness', []);
 
-presenter(angular.module('fitness'));
+//presenter(angular.module('fitness'));
 
 angular
   .module('fitness')
-  .controller('MainCtrl', function () {
+  .controller('MainCtrl', function ($rootScope) {
+    //$rootScope.loaded = false;
     this.presenters = presenters;
   });
+  //.run(($rootScope, $window, $timeout)=> {
+    //$window.addEventListener('load', ()=> {
+    //  $timeout(()=> {
+    //    $rootScope.loaded = true;
+    //  }, 300)
+    //});
+  //});
 
 angular
   .element(document)
