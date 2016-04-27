@@ -5,7 +5,7 @@ import '!!file-loader?name=[name].[ext]!../favicon.ico';
 
 //logos
 import '!!file-loader?name=[name].[ext]!../assets/images/logos/logo.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/logos/logo-lion.png';
+//import '!!file-loader?name=[name].[ext]!../assets/images/logos/logo-lion.png';
 
 
 
@@ -63,6 +63,6 @@ import '!!file-loader?name=[name].[ext]!../assets/images/partners/vs_fitness_cen
 import '!!file-loader?name=[name].[ext]!../assets/images/partners/expo.png';
 
 //main
-import '!!file-loader?name=[name].[ext]!../assets/images/main/main-logo.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/main/slider_1.png';
+//import '!!file-loader?name=[name].[ext]!../assets/images/main/main-logo.png';
+//import '!!file-loader?name=[name].[ext]!../assets/images/main/slider_1.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/main/slider_2.png';

@@ -74,16 +74,16 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 //  font-weight: normal;
 //}
 
-
 body {
   min-height: 100%;
   position: relative;
   max-width: 100%;
   overflow-x: hidden;
+  overflow-y:hidden;
   font-family: 'LatoLight', 'Lato', Arial, serif;
   color: #666666;
   -webkit-font-smoothing: antialiased;
-
+  //overflow: hidden;
   .tp-banner-container {
     height: 100vh;
   }
@@ -97,6 +97,9 @@ body {
   .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #666666;
     font-family: 'LatoLight', Arial, serif;
+  }
+  .modal-open {
+    overflow: hidden;
   }
 }
 

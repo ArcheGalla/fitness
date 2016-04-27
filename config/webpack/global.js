@@ -1,7 +1,7 @@
 // Depends
 var path = require('path');
 var webpack = require('webpack');
-var autoprefixer = require('autoprefixer-core');
+var prefix = require('autoprefixer-core');
 var Manifest = require('manifest-revision-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -53,6 +53,7 @@ module.exports = function (_path) {
         },
         {
           test: /\.js$/,
+          exclude: 'node_modules',
           loaders: ['baggage-loader?[file].html&[file].css', 'ng-annotate-loader', 'babel-loader']
         },
         {
@@ -98,7 +99,7 @@ module.exports = function (_path) {
 
 
     // post css
-    postcss: [autoprefixer({browsers: ['last 5 versions']})],
+    postcss: [prefix({browsers: ['last 5 versions']})],
 
     // load plugins
     plugins: [
