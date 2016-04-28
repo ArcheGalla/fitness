@@ -9,15 +9,13 @@
     <img class="avatar" ng-src="{{ vm.info.avatar }}" alt="{{ vm.info.firstName + ' ' + vm.info.lastName }}">
     <h6>{{ vm.info.employment }}</h6>
     <div class="social-links">
-      <!--<a href="" ng-repeat="s in vm.info.s"></a>-->
-      <a href="#" class=""><i class="fa fa-twitter fa-lg"></i></a>
-      <a href="#" class=""><i class="fa fa-google-plus fa-lg"></i></a>
-      <a href="#" class=""><i class="fa fa-facebook fa-lg"></i></a>
+      <div class="social">
+        <a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg" ng-repeat="s in vm.info.socialLinks" ng-class="s.icon"></a>
+      </div>
     </div>
     <p>{{ vm.info.description }}</p>
   </div>
   <div class="modal-footer">
     <button class="btn btn-primary" type="button" ng-click="vm.close()">OK</button>
-    <!--<button class="btn btn-primary" type="button" ng-click="cancel()">Закрити</button>-->
   </div>
 </section>

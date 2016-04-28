@@ -22,7 +22,7 @@ export default function (module) {
                 vm.close = $modalInstance.close;
               },
               animation: true,
-              size: 'sm',
+              size: 'md',
               controllerAs: 'vm',
               windowClass: 'center-modal',
               resolve: {
@@ -42,9 +42,8 @@ export default function (module) {
       },
       controllerAs: 'vm',
       link: function (scope, element) {
-        element.on('click', function (event) {
+        element.on('click', function () {
           scope.$emit('open:modal:info');
-          console.log('presenter info click', event);
         })
       }
     })

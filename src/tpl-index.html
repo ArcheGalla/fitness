@@ -57,9 +57,6 @@
             <li>
               <a href="#getApp">Партнери</a>
             </li>
-            <!--<li>-->
-            <!--<a class="getApp" href="#getApp">get app</a>-->
-            <!--</li>-->
             <li>
               <a href="#location">Локація</a>
             </li>
@@ -77,13 +74,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7 scrollpoint sp-effect1 main-rigth">
-
-            <!--<img src="main-logo.png" alt="" class="scrollpoint sp-effect3">-->
-            <!--<img src="main-logo.png" alt="">-->
-            <!--<h2 class="scrollpoint sp-effect3">Seven App <span>Application Settings</span></h2>-->
-            <br><br>
-            <br><br><br>
-            <br>
+            <br><br><br><br><br><br>
 
             <h2>Lviv Fitness Weekend</h2>
             <!--<h2>30 Вересня - 1,2 Жовтня</h2>-->
@@ -92,10 +83,12 @@
               Фізична культура – частина загальної культури. Львів – культурна столиця України. Ми вважаємо, що фізична
               культура також мусить на рівні бути представлена у Львові!
             </p>
+
             <p>Ми знаємо як робити спортивні заходи! У нас глибокі знання і багаторічний досвід у сфері фітнесу!</p>
             <p>Ми знаємо як навчати людей, аби вони були справжніми фахівцями в галузі здорового способу життя!</p>
             <p>В нас багато друзів – справжніх професіоналів у сфері спорту та велнесу!</p>
             <p>Ми - організатори Lviv Fitness Weekend, команда професіоналів, які знають, що потрібно тренеру!</p>
+
             <div class="main-actions">
               <a href="" class="btn btn-primary btn-lg">Конвенція</a>
               <a href="" class="btn btn-primary btn-lg">Семінари</a>
@@ -103,7 +96,8 @@
             </div>
 
           </div>
-          <div class="col-md-5 scrollpoint sp-effect2 main-left">
+
+          <div class="col-md-5 scrollpoint sp-effect2 main-left hidden-xs">
             <img src="slider_2.png" alt="fitness lviv weekend">
           </div>
         </div>
@@ -181,23 +175,28 @@
           <div class="divider"></div>
         </div>
         <div class="row">
+
           <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 scrollpoint"
                ng-class="{ 'sp-effect1': $index % 2 === 0, 'sp-effect2': $index % 2 === 1}"
                ng-repeat="p in vm.presenters track by $index">
+
             <div modal-info info="p" class="media"
                  ng-class="{ 'left-order': $index % 2 === 0, 'right-order': $index % 2 === 1}">
               <img ng-src="{{ p.avatar }}" alt="{{ ::p.firstName + ' ' + p.lastName }}">
+
               <div class="media-body">
                 <h3 class="media-heading">{{ ::p.lastName + ' ' + p.firstName }}</h3>
+
                 <p>{{ ::p.employment }}</p>
+
                 <div class="social">
-                  <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
-                  <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
-                  <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
+                  <a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg" ng-repeat="s in p.socialLinks" ng-class="s.icon"></a>
                 </div>
               </div>
             </div>
           </div>
+
+
         </div>
       </div>
     </section>

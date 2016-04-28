@@ -6,9 +6,18 @@
     "employment": "STEP DANCE, AEROBIC DANCE",
     "description": "Міжнародний презентер. Інструктор групових програм за напрямками Aerobics, Step Professional, Strength, functional training. Бакалавр спорту. Провідний викладач навчального центру Fitness Factory (Литва). Організатор фітнес-конвенцій та навчальних семінарів",
     "socialLinks": [
-      "https://twitter.com",
-      "https://twitter.com",
-      "https://twitter.com"
+      {
+        "icon": "fa-twitter",
+        "link": ""
+      },
+      {
+        "icon": "fa-instagram",
+        "link": "https://www.instagram.com/virgilijusz/"
+      },
+      {
+        "icon": "fa-facebook",
+        "link": "https://www.facebook.com/virgilijus.zelvys?fref=nf"
+      }
     ]
   },
   {
@@ -18,9 +27,18 @@
     "employment": "PILATES 'ДО СОТНІ', MATWORK",
     "description": "Засновник International Pilates University Fitness4you, координатор навчальної програми, методист, автор спеціальних програм роботи в пілатесі, статей і навчальних посібників, презентер міжнародних та національних форумів і конвенцій",
     "socialLinks": [
-      "https://twitter.com",
-      "https://twitter.com",
-      "https://twitter.com"
+      {
+        "icon": "fa-vk",
+        "link": ""
+      },
+      {
+        "icon": "fa-twitter",
+        "link": ""
+      },
+      {
+        "icon": "fa-facebook",
+        "link": ""
+      }
     ]
   },
   {
@@ -30,9 +48,18 @@
     "employment": "TRX",
     "description": "Міжнародний презентер. Майстер тренер Life fitness academy. Майстер тренер TRX©, Trigger point©",
     "socialLinks": [
-      "https://twitter.com",
-      "https://twitter.com",
-      "https://twitter.com"
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -42,9 +69,18 @@
     "employment": "KANGOO JUMPS (Romania)",
     "description": "Офіційний тренер Kangoo Jumps Fitness Programs і засновник клубу Kangoo Club Ukraine. Міжнародний презентер Swvinn Cycling, C-moves",
     "socialLinks": [
-      "https://twitter.com",
-      "https://twitter.com",
-      "https://twitter.com"
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -54,9 +90,18 @@
     "employment": "OXYGEN WORKOUT",
     "description": "Кандидат наук з фізичного виховання і спорту, майстер спорту з важкої атлетики, головний тренер клубу SkyFitness, провідний викладач школи фітнес-інструкторів Fitnesservice",
     "socialLinks": [
-      "https://twitter.com",
-      "https://twitter.com",
-      "https://twitter.com"
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -66,9 +111,18 @@
     "employment": "OXYGEN WORKOUT, KETTLEBELL WORKOUT",
     "description": "Кандидат наук з фізичного виховання та спорту, доцент кафедри здоров'я, фітнесу та рекреації Національного університету фізичного виховання і спорту України, персональний тренер клубу SkyFitness, експерт з навчальних програм у сфері фітнесу",
     "socialLinks": [
-      "https://twitter.com",
-      "https://twitter.com",
-      "https://twitter.com"
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -78,9 +132,18 @@
     "employment": "AEROJUMP, ZUMBA",
     "description": "Методист тренінгового центру «Академія Фітнеса - Україна» (Київ). Спеціалізується на підготовці інструкторів групових програм. Презентер міжнародних фітнес-конвенцій. Сертифікований спеціаліст ZUMBA. Хореограф- постановник латиноамериканських танцювальних стилів",
     "socialLinks": [
-      "https://twitter.com",
-      "https://twitter.com",
-      "https://twitter.com"
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -90,9 +153,18 @@
     "employment": "CROSSFIT",
     "description": "Персональний тренер і інструктор групових програм в клубі Crossfit Banda. Персональний тренер клубу активного відпочинку «Подольский». Сертифікований інструктор з функціонального тренінгу TRX. Фіналіст і призерка всеукраїнськіх змагань з CrossFit",
     "socialLinks": [
-      "https://twitter.com",
-      "https://twitter.com",
-      "https://twitter.com"
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -102,9 +174,18 @@
     "employment": "SKY JUMPING",
     "description": "Координатор розвитку фітнес-програми Sky Jumping® в країнах СНД, презентер міжнародної конвенції NIKE 2014, директор мережі жіночих фітнес-клубів «Ківі Фітнес», керівник і викладач школи фітнес-інструкторів KFS",
     "socialLinks": [
-      "https://twitter.com",
-      "https://twitter.com",
-      "https://twitter.com"
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -114,9 +195,18 @@
     "employment": "CROSSFIT",
     "description": "Засновник афілійованого клубу Crossfit Banda. Персональний тренер. Фіналіст «Великого кубку на звання самої фізично підготовленої людини» 2013-2014 років. Призер всеукраїнських змагань",
     "socialLinks": [
-      "https://twitter.com",
-      "https://twitter.com",
-      "https://twitter.com"
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -126,9 +216,18 @@
     "employment": "OWER STRETCH",
     "description": "Дипломований фахівець у галузі фізичної реабілітації. Сертифікований фахівець з функціонального тренінгу, TRX, Power stretching. учасник міжнародних семінарів і фітнес-конвенцій. Фітнес-менеджер групових програм клубу «Фітнес-клас»",
     "socialLinks": [
-      "https://twitter.com",
-      "https://twitter.com",
-      "https://twitter.com"
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -138,9 +237,18 @@
     "employment": "UKRAINIAN STEP",
     "description": "Директор спортивного комплексу «Грація». Власниця фітнес-центру Vita Sana, чемпіонка International dance competition Leader. Дипломований та сертифікований фітнес-тренер. Групових та персональних тренувань. Автор напрямку Ukrainian step",
     "socialLinks": [
-      "https://twitter.com",
-      "https://twitter.com",
-      "https://twitter.com"
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -150,9 +258,18 @@
     "employment": "FIGHT FUNCTIONAL, FIGHT FIT",
     "description": "Менеджер групових програм TETRA FITNESS CLUB. сертифікований фахівець з TRX і TRX Sports Medicine, КМС України з тайського боксу, Фіналіст Кубку України з бодібілдингу та фітнесу. Презентер українських фітнес конвенцій",
     "socialLinks": [
-      "https://twitter.com",
-      "https://twitter.com",
-      "https://twitter.com"
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      },
+      {
+        "icon": "",
+        "link": ""
+      }
     ]
   }
 ]
