@@ -10,14 +10,24 @@ export default function (module) {
       scope: true,
       controller: function ($scope, $modal) {
         const vm = this;
+
+
         $scope.$on('open:modal:info', ()=> {
           $modal
             .open({
               templateUrl: require('./presenter-info.html'),
-              controller: function () {
-                this.presenter = vm.info;
+              controller: function ($modalInstance, info) {
+                var vm = this;
+                vm.info = info;
+                vm.close = $modalInstance.close;
               },
-              controllerAs: 'vm'
+              animation: true,
+              size: 'sm',
+              controllerAs: 'vm',
+              windowClass: 'center-modal',
+              resolve: {
+                info: ()=> vm.info
+              }
             })
             .result
             .then(()=> {
@@ -27,6 +37,8 @@ export default function (module) {
               console.log('modal dismiss');
             });
         });
+
+
       },
       controllerAs: 'vm',
       link: function (scope, element) {
