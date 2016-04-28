@@ -7,11 +7,10 @@ import '../assets/js/rs-plugin/js/jquery.themepunch.revolution.js';
 import '../assets/js/slick.min.js';
 import '../assets/js/scripts';
 
+require('../../node_modules/angular-ui-bootstrap/template/modal/backdrop.html');
+require('../../node_modules/angular-ui-bootstrap/template/modal/window.html');
 
-// "ng-scrollbar": "git+https://github.com/asafdav/ng-scrollbar.git",
-// 'ngScrollbar'
-
-const app = angular.module('fitness', ['ui.bootstrap']);
+const app = angular.module('fitness', ['ui.bootstrap.module.modal']);
 
 require('./components/presenter-info/presenter-info')(app);
 require('./components/mainCtrl')(app);

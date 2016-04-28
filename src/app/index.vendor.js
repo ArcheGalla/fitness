@@ -2,6 +2,9 @@
 import 'angular';
 import 'jquery';
 import 'bootstrap';
+import 'angular-ui-bootstrap/src/modal';
+//import 'angular-ui-bootstrap/template/index';
+
 //import 'ng-scrollbar';
 //import 'ng-scrollbar/dist/ng-scrollbar.css';
 import '../assets/js/ui-bootstrap/ui-bootstrap-custom-0.13.4';

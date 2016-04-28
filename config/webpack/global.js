@@ -105,34 +105,45 @@ module.exports = function (_path) {
     plugins: [
       //new LessPluginCleanCSS({advanced: true}),
       //new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en|hu/),
+
       new webpack.ProvidePlugin({
         $: 'jquery',
         jQuery: 'jquery'
       }),
+
       new webpack.DefinePlugin({
         'NODE_ENV': JSON.stringify(NODE_ENV)
       }),
+
       new webpack.NoErrorsPlugin(),
+
       new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+
       new webpack.optimize.DedupePlugin(),
+
       new webpack.optimize.AggressiveMergingPlugin({
         moveToParents: true
       }),
+
       new webpack.optimize.CommonsChunkPlugin({
         name: 'common',
         async: true,
         children: true,
         minChunks: Infinity
       }),
+
       new Manifest(path.join(_path + '/config', 'manifest.json'), {
         rootAssetPath: rootAssetPath,
         ignorePaths: ['.DS_Store']
       }),
+
       new ExtractTextPlugin('assets/styles/css/[name]' + (NODE_ENV === 'development' ? '' : '.[chunkhash]') + '.css', {allChunks: true}),
+
       new HtmlWebpackPlugin({
         filename: 'index.html',
         template: path.join(_path, 'src', 'tpl-index.html')
       })
+
     ]
   };
 
