@@ -6,6 +6,7 @@ const config = require('./app-config/config');
 
 app.use(express.static('dist'));
 
+
 app.post('message', function (req, res) {
   MessageService
     .sendMessage({})
@@ -19,4 +20,5 @@ app.post('message', function (req, res) {
     });
 });
 
-app.listen(3000);
+
+app.listen(3000,()=>{ console.log('app is running on port 3000'); });

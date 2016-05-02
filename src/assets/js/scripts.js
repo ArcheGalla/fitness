@@ -165,26 +165,16 @@ var appMaster = {
     //Placeholdem(document.querySelectorAll('[placeholder]'));
   }
 
-}; // AppMaster
+};
 
 
-$(document).ready(function () {
-
+export default function () {
   appMaster.smoothScroll();
-
   appMaster.reviewsCarousel();
-
   appMaster.screensCarousel();
-
   appMaster.animateScript();
-
   appMaster.revSlider();
-
   appMaster.scrollMenu();
-
-  appMaster.placeHold();
-
-  appMaster.preLoader();
-});
-
-export default appMaster;
+  //appMaster.placeHold();
+  //appMaster.preLoader();
+};

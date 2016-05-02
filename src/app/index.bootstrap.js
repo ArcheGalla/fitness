@@ -9,6 +9,8 @@ import '../assets/js/rs-plugin/js/jquery.themepunch.revolution.js';
 import 'slick-carousel';
 import '../assets/js/scripts';
 
+const queryModule = require('../assets/js/scripts');
+//require('../assets');
 const app = angular.module('fitness', ['ui.bootstrap']);
 
 require('./components/presenter-info/presenter-info')(app);
@@ -22,4 +24,6 @@ angular
       .bootstrap(document, ['fitness'], {
         strictDi: true
       });
+
+    queryModule();
   });
