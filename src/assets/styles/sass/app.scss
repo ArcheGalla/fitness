@@ -16,10 +16,6 @@
   height: 100%;
 }
 
-div.content {
-  //overflow: hidden;
-}
-
 .main-header {
   min-height: 100vh;
   padding-top: 130px;
@@ -79,15 +75,7 @@ div.content {
   }
 
   .navbar-default ul.navbar-nav li a.getApp {
-    -webkit-border-radius: 5em;
-    -moz-border-radius: 5em;
-    -ms-border-radius: 5em;
-    -o-border-radius: 5em;
     border-radius: 5em;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -ms-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
   }
 
@@ -106,14 +94,8 @@ div.content {
 
   .navbar-default.scrolled {
     background: rgba(255, 255, 255, 0.8);
-    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
     padding: 0;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -ms-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
   }
 
@@ -187,10 +169,6 @@ div.content {
   display: block;
   text-align: center;
   margin: 13px auto;
-  -webkit-border-radius: 5em;
-  -moz-border-radius: 5em;
-  -ms-border-radius: 5em;
-  -o-border-radius: 5em;
   border-radius: 5em;
 }
 
@@ -355,10 +333,6 @@ section#screens .slider {
 }
 
 section#screens .slider div img {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   border-radius: 20px;
   padding: 10px;
   display: inline;
@@ -371,10 +345,6 @@ section#screens .slider div h4 {
 }
 
 section#screens .slider .slick-dots li button {
-  -webkit-border-radius: 5em;
-  -moz-border-radius: 5em;
-  -ms-border-radius: 5em;
-  -o-border-radius: 5em;
   border-radius: 5em;
 }
 
