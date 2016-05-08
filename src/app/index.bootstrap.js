@@ -7,8 +7,6 @@ import './images';
 
 
 import '../assets/styles/sass/index.scss';
-
-//import "Placeholdem/placeholdem.min";
 import 'jquery-waypoints/waypoints.min';
 
 import '../assets/js/rs-plugin/js/jquery.themepunch.plugins.min.js';
@@ -25,9 +23,9 @@ require('./components/mainCtrl')(app);
 
 
 angular.element(document).ready(function () {
-    angular
-        .bootstrap(document, ['fitness'], {
-            strictDi: true
-        });
-    queryModule();
+  angular
+    .bootstrap(document, ['fitness'], {
+      strictDi: true
+    });
+  queryModule();
 });

@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Відновлення функціональності",
+    "lecturers": [
+      {
+        "firstName": "Катерина",
+        "lastName": "Смирнова",
+        "avatar": "smyrnova_ekateryna.png"
+      },
+      {
+        "firstName": "Катерина",
+        "lastName": "Смирнова",
+        "avatar": "smyrnova_ekateryna.png"
+      }
+    ],
+    "date_info": {
+      "date": "17.08",
+      "day": "субота",
+      "time": {
+        "start": "9:00",
+        "end": "13:00"
+      }
+    },
+    "location": "СК \"Олімпік\"",
+    "price": 300,
+    "description": "Воркшоп забезпечений методичним посібником і Свідоцтвами International Pilates University Fitness4you. Попередня реєстрація обов'язкова. Кількість місць обмежена. Відеозйомка заборонена"
+  },
+  {
+    "name": "Відновлення функціональності",
+    "lecturers": [
+      {
+        "firstName": "Катерина",
+        "lastName": "Смирнова",
+        "avatar": "smyrnova_ekateryna.png"
+      }
+    ],
+    "date_info": {
+      "date": "17.08",
+      "day": "субота",
+      "time": {
+        "start": "9:00",
+        "end": "13:00"
+      }
+    },
+    "location": "СК \"Олімпік\"",
+    "price": 300,
+    "description": "Воркшоп забезпечений методичним посібником і Свідоцтвами International Pilates University Fitness4you. Попередня реєстрація обов'язкова. Кількість місць обмежена. Відеозйомка заборонена"
+  },
+  {
+    "name": "Відновлення функціональності",
+    "lecturers": [
+      {
+        "firstName": "Катерина",
+        "lastName": "Смирнова",
+        "avatar": "smyrnova_ekateryna.png"
+      },
+      {
+        "firstName": "Катерина",
+        "lastName": "Смирнова",
+        "avatar": "smyrnova_ekateryna.png"
+      }
+    ],
+    "date_info": {
+      "date": "17.08",
+      "day": "субота",
+      "time": {
+        "start": "9:00",
+        "end": "13:00"
+      }
+    },
+    "location": "СК \"Олімпік\"",
+    "price": 300,
+    "description": "Воркшоп забезпечений методичним посібником і Свідоцтвами International Pilates University Fitness4you. Попередня реєстрація обов'язкова. Кількість місць обмежена. Відеозйомка заборонена"
+  },
+  {
+    "name": "Відновлення функціональності",
+    "lecturers": [
+      {
+        "firstName": "Катерина",
+        "lastName": "Смирнова",
+        "avatar": "smyrnova_ekateryna.png"
+      }
+    ],
+    "date_info": {
+      "date": "17.08",
+      "day": "субота",
+      "time": {
+        "start": "9:00",
+        "end": "13:00"
+      }
+    },
+    "location": "СК \"Олімпік\"",
+    "price": 300,
+    "description": "Воркшоп забезпечений методичним посібником і Свідоцтвами International Pilates University Fitness4you. Попередня реєстрація обов'язкова. Кількість місць обмежена. Відеозйомка заборонена"
+  },
+  {
+    "name": "Відновлення функціональності",
+    "lecturers": [
+      {
+        "firstName": "Катерина",
+        "lastName": "Смирнова",
+        "avatar": "smyrnova_ekateryna.png"
+      },
+      {
+        "firstName": "Катерина",
+        "lastName": "Смирнова",
+        "avatar": "smyrnova_ekateryna.png"
+      }
+    ],
+    "date_info": {
+      "date": "17.08",
+      "day": "субота",
+      "time": {
+        "start": "9:00",
+        "end": "13:00"
+      }
+    },
+    "location": "СК \"Олімпік\"",
+    "price": 300,
+    "description": "Воркшоп забезпечений методичним посібником і Свідоцтвами International Pilates University Fitness4you. Попередня реєстрація обов'язкова. Кількість місць обмежена. Відеозйомка заборонена"
+  },
+  {
+    "name": "Відновлення функціональності",
+    "lecturers": [
+      {
+        "firstName": "Катерина",
+        "lastName": "Смирнова",
+        "avatar": "smyrnova_ekateryna.png"
+      }
+    ],
+    "date_info": {
+      "date": "17.08",
+      "day": "субота",
+      "time": {
+        "start": "9:00",
+        "end": "13:00"
+      }
+    },
+    "location": "СК \"Олімпік\"",
+    "price": 300,
+    "description": "Воркшоп забезпечений методичним посібником і Свідоцтвами International Pilates University Fitness4you. Попередня реєстрація обов'язкова. Кількість місць обмежена. Відеозйомка заборонена"
+  }
+]

@@ -2,6 +2,7 @@ export default function (module) {
   module
     .controller('MainCtrl', function ($http) {
       this.presenters = require('../components/presenter/presenters.json');
+      this.workshops = require('./workshops/workshops.json');
 
       this.formData = {
         name: '',

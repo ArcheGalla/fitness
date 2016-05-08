@@ -207,7 +207,7 @@
         <div class="section-heading inverse scrollpoint sp-effect3">
           <h1>Партнери</h1>
           <div class="divider"></div>
-          <p>Read What's The People Are Saying About Us</p>
+          <!--<p>Read What's The People Are Saying About Us</p>-->
         </div>
       </div>
       <div class=" container partners-logos scrollpoint sp-effect3">
@@ -222,6 +222,9 @@
       </div>
     </section>
 
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!--                                         SCHEDULE  START                                                     -->
+    <!----------------------------------------------------------------------------------------------------------------->
     <section id="screens">
       <div class="container">
 
@@ -232,21 +235,26 @@
         </div>
 
         <div class="filter scrollpoint sp-effect3">
-          <a href="javascript:void(0)" class="button js-filter-all active">Всі дні</a>
-          <a href="javascript:void(0)" class="button js-filter-one">Перший день</a>
-          <a href="javascript:void(0)" class="button js-filter-two">Другий день</a>
-          <!--<a href="javascript:void(0)" class="button js-filter-three">Третій день</a>-->
+          <a href="javascript:void(0)" class="button active">Всі дні</a>
+          <a href="javascript:void(0)" class="button ">Перший день</a>
+          <a href="javascript:void(0)" class="button ">Другий день</a>
         </div>
 
       </div>
     </section>
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!--                                         SCHEDULE  END                                                       -->
+    <!----------------------------------------------------------------------------------------------------------------->
 
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!--                                            VIDEO  START                                                     -->
+    <!----------------------------------------------------------------------------------------------------------------->
     <section id="demo">
       <div class="container">
         <div class="section-heading scrollpoint sp-effect3">
-          <h1>Demo</h1>
+          <h1>Відео звіт</h1>
           <div class="divider"></div>
-          <p>Take a closer look in more detail</p>
+          <!--<p>Take a closer look in more detail</p>-->
         </div>
         <div class="row">
           <div class="col-md-8 col-md-offset-2 scrollpoint sp-effect2">
@@ -257,6 +265,58 @@
         </div>
       </div>
     </section>
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!--                                            VIDEO END                                                        -->
+    <!----------------------------------------------------------------------------------------------------------------->
+
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!--                                            WORKSHOPS  START                                                 -->
+    <!----------------------------------------------------------------------------------------------------------------->
+    <section id="workshops">
+      <div class="container-fluid">
+
+        <div class="section-heading scrollpoint sp-effect3">
+          <h1>Семінари</h1>
+          <!--<div class="divider"></div>-->
+          <!--<p>Oleose Beautiful App Landing Page</p>-->
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-xs-12 scrollpoint sp-effect5 workshop" ng-repeat="workshop in vm.workshops">
+            <h3 class="workshop-name">{{ workshop.name }}</h3>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 lecture"
+                       ng-class="{
+                       'col-xs-12': workshop.lecturers.length === 1,
+                       'col-xs-6': workshop.lecturers.length === 2,
+                       'col-xs-4': workshop.lecturers.length === 3
+                        }" ng-repeat="lecture in workshop.lecturers">
+                    <img ng-src="{{lecture.avatar}}" alt="{{lecture.firstName + ' ' + lecture.lastName}}">
+                    <h3 class="workshop-name">{{lecture.firstName + ' ' + lecture.lastName}}</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <p>Дата: {{ workshop.date_info.date }}</p>
+                <p>Час: {{ workshop.date_info.time.start }}-{{ workshop.date_info.time.end }}</p>
+                <p>Зал: {{ workshop.location }}</p>
+                <p>Вартість: {{ workshop.price }} грн</p>
+                <p>{{ workshop.description }}</p>
+              </div>
+            </div>
+            <div class="buy-wrap"><a href="" class="btn btn-primary btn-md">Квиток</a></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!--                                            WORKSHOPS  END                                                   -->
+    <!----------------------------------------------------------------------------------------------------------------->
+
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                            TICKETS    START                                                 -->
     <!----------------------------------------------------------------------------------------------------------------->
@@ -280,9 +340,9 @@
                 <span class="pricing__period">/ день</span>
               </div>
               <!--<ul class="pricing__feature-list">-->
-                <!--<li class="pricing__feature"></li>-->
-                <!--<li class="pricing__feature">Support at $25/hour</li>-->
-                <!--<li class="pricing__feature">1 campaign/month</li>-->
+              <!--<li class="pricing__feature"></li>-->
+              <!--<li class="pricing__feature">Support at $25/hour</li>-->
+              <!--<li class="pricing__feature">1 campaign/month</li>-->
               <!--</ul>-->
               <button class="pricing__action">Придбати квиток</button>
             </div>
@@ -295,9 +355,9 @@
                 <span class="pricing__period">/ 2 дні</span>
               </div>
               <!--<ul class="pricing__feature-list">-->
-                <!--<li class="pricing__feature">50 presentations/month</li>-->
-                <!--<li class="pricing__feature">5 hours of free support</li>-->
-                <!--<li class="pricing__feature">10 campaigns/month</li>-->
+              <!--<li class="pricing__feature">50 presentations/month</li>-->
+              <!--<li class="pricing__feature">5 hours of free support</li>-->
+              <!--<li class="pricing__feature">10 campaigns/month</li>-->
               <!--</ul>-->
               <button class="pricing__action">Придбати квиток</button>
             </div>
@@ -310,9 +370,9 @@
                 <span class="pricing__period">/ день</span>
               </div>
               <!--<ul class="pricing__feature-list">-->
-                <!--<li class="pricing__feature">Unlimited presentations</li>-->
-                <!--<li class="pricing__feature">Unlimited support</li>-->
-                <!--<li class="pricing__feature">Unlimited campaigns</li>-->
+              <!--<li class="pricing__feature">Unlimited presentations</li>-->
+              <!--<li class="pricing__feature">Unlimited support</li>-->
+              <!--<li class="pricing__feature">Unlimited campaigns</li>-->
               <!--</ul>-->
               <button class="pricing__action">Придбати квиток</button>
             </div>
@@ -323,6 +383,10 @@
     </section>
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                            TICKETS    END                                                   -->
+    <!----------------------------------------------------------------------------------------------------------------->
+
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!--                                            LOCATION START                                                   -->
     <!----------------------------------------------------------------------------------------------------------------->
     <section id="location">
       <div class="container-fluid">
@@ -413,7 +477,9 @@
         </div>
       </div>
     </section>
-
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!--                                            LOCATION END                                                     -->
+    <!----------------------------------------------------------------------------------------------------------------->
     <footer>
       <div class="container">
         <a href="#" class="scrollpoint sp-effect3">
