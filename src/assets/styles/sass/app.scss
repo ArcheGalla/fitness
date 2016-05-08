@@ -41,10 +41,6 @@
     font-weight: 400;
     font-size: 16px;
     padding: 7px 20px;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -ms-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
   }
 
@@ -63,10 +59,6 @@
   }
 
   .navbar-default ul.navbar-nav li a:hover {
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -ms-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
   }
 
@@ -145,6 +137,7 @@
 
 .section-heading {
   margin: 60px 0 80px;
+  //margin: 15px 0 20px;
   text-align: center;
 }
 
@@ -408,20 +401,24 @@ section#demo iframe {
   border: none;
 }
 
-/* Get app Section */
-section#getApp {
+/*---------------------------------------------------  Get app Section --------------------------------------------*/
+#tickets {
+  color: black !important;
   background-size: cover;
-  padding: 70px 0;
-}
+  //background: #66cc99;
+  background: linear-gradient(45deg, #66cc99 0%, #339999 100%);
 
-section#getApp .platforms {
-  margin: 5px auto 120px auto;
-  text-align: center;
-}
+  padding: 5px 0;
 
-section#getApp .platforms .btn {
-  margin-right: 10px;
-  margin-bottom: 20px;
+  .platforms {
+    margin: 5px auto 120px auto;
+    text-align: center;
+  }
+
+  .platforms .btn {
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
 }
 
 /*-----------------------------------------------------  location -------------------------------------------------*/

@@ -31,10 +31,10 @@ export default function (module) {
             })
             .result
             .then(()=> {
-              console.log('modal close');
+              //console.log('modal close');
             })
             .catch(()=> {
-              console.log('modal dismiss');
+              //console.log('modal dismiss');
             });
         });
 
