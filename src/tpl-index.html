@@ -321,16 +321,18 @@
                        'col-xs-4': workshop.lecturers.length === 3
                         }" ng-repeat="lecture in workshop.lecturers">
                     <img ng-src="{{lecture.avatar}}" alt="{{lecture.firstName + ' ' + lecture.lastName}}">
-                    <h3 class="workshop-name">{{lecture.firstName + ' ' + lecture.lastName}}</h3>
+                    <h3 class="lecture-name">{{lecture.firstName + ' ' + lecture.lastName}}</h3>
                   </div>
                 </div>
               </div>
               <div class="col-md-8">
-                <p>Дата: {{ workshop.date_info.date }}</p>
-                <p>Час: {{ workshop.date_info.time.start }}-{{ workshop.date_info.time.end }}</p>
+                <div>
+                  <p class="inline">Дата: {{ workshop.date_info.date }}</p>
+                  <p class="inline">Час: {{ workshop.date_info.time.start }}-{{ workshop.date_info.time.end }}</p>
+                </div>
                 <p>Зал: {{ workshop.location }}</p>
-                <p>Вартість: {{ workshop.price }} грн</p>
-                <p>{{ workshop.description }}</p>
+                <p class="workshop-price">Вартість: {{ workshop.price }} грн</p>
+                <p class="description">{{ workshop.description }}</p>
               </div>
             </div>
             <div class="buy-wrap"><a href="" class="btn btn-primary btn-md">Квиток</a></div>
