@@ -1,7 +1,8 @@
 #workshops {
+  //box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
   .workshop {
     min-height: 370px;
-    border: 1px solid #0b97c4;
+    //border-bottom: 1px solid #66cc99;
   }
 
   .buy-wrap {
@@ -11,7 +12,7 @@
     left: 0;
     right: 0;
     .btn {
-      margin: 15px;
+      margin: 15px 45px 15px 15px;
     }
   }
 
@@ -37,7 +38,7 @@
       line-height: 20px;
       color: #999999;
       cursor: default;
-      margin-top: 5px;
+      margin-top: 10px;
     }
     img {
       border-radius: 50%;

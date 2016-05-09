@@ -26,12 +26,59 @@
     "description": "Воркшоп забезпечений методичним посібником і Свідоцтвами International Pilates University Fitness4you. Попередня реєстрація обов'язкова. Кількість місць обмежена. Відеозйомка заборонена"
   },
   {
+    "name": "Їж та худни",
+    "lecturers": [
+      {
+        "firstName": "Катерина",
+        "lastName": "Смирнова",
+        "avatar": "cyoh_ekaterina.png"
+      }
+    ],
+    "date_info": {
+      "date": "17.08",
+      "day": "субота",
+      "time": {
+        "start": "9:00",
+        "end": "13:00"
+      }
+    },
+    "location": "СК \"Емілія\"",
+    "price": 790 ,
+    "description": "Лекція: все про правильне харчування. Їж та худни. Як змусити себе тренуватися! Мета. Терміни. Результат. Два різноспрямовані тренування. Питання-відповіді. Фотосет"
+  },
+  {
     "name": "Відновлення функціональності",
     "lecturers": [
       {
         "firstName": "Катерина",
         "lastName": "Смирнова",
         "avatar": "smyrnova_ekateryna.png"
+      },
+      {
+        "firstName": "Катерина",
+        "lastName": "Смирнова",
+        "avatar": "shygrova_evgeniya.png"
+      }
+    ],
+    "date_info": {
+      "date": "17.08",
+      "day": "субота",
+      "time": {
+        "start": "9:00",
+        "end": "13:00"
+      }
+    },
+    "location": "СК \"Олімпік\"",
+    "price": 300,
+    "description": "Воркшоп забезпечений методичним посібником і Свідоцтвами International Pilates University Fitness4you. Попередня реєстрація обов'язкова. Кількість місць обмежена.Попередня реєстрація обов'язкова. Кількість місць обмежена.Попередня реєстрація обов'язкова. Кількість місць обмежена. Відеозйомка заборонена. Відеозйомка заборонена. Відеозйомка заборонена. Відеозйомка заборонена"
+  },
+  {
+    "name": "Відновлення функціональності",
+    "lecturers": [
+      {
+        "firstName": "Катерина",
+        "lastName": "Смирнова",
+        "avatar": "moshescu_oxana.png"
       }
     ],
     "date_info": {
@@ -52,7 +99,7 @@
       {
         "firstName": "Катерина",
         "lastName": "Смирнова",
-        "avatar": "smyrnova_ekateryna.png"
+        "avatar": "shygrova_evgeniya.png"
       },
       {
         "firstName": "Катерина",
@@ -78,54 +125,7 @@
       {
         "firstName": "Катерина",
         "lastName": "Смирнова",
-        "avatar": "smyrnova_ekateryna.png"
-      }
-    ],
-    "date_info": {
-      "date": "17.08",
-      "day": "субота",
-      "time": {
-        "start": "9:00",
-        "end": "13:00"
-      }
-    },
-    "location": "СК \"Олімпік\"",
-    "price": 300,
-    "description": "Воркшоп забезпечений методичним посібником і Свідоцтвами International Pilates University Fitness4you. Попередня реєстрація обов'язкова. Кількість місць обмежена. Відеозйомка заборонена"
-  },
-  {
-    "name": "Відновлення функціональності",
-    "lecturers": [
-      {
-        "firstName": "Катерина",
-        "lastName": "Смирнова",
-        "avatar": "smyrnova_ekateryna.png"
-      },
-      {
-        "firstName": "Катерина",
-        "lastName": "Смирнова",
-        "avatar": "smyrnova_ekateryna.png"
-      }
-    ],
-    "date_info": {
-      "date": "17.08",
-      "day": "субота",
-      "time": {
-        "start": "9:00",
-        "end": "13:00"
-      }
-    },
-    "location": "СК \"Олімпік\"",
-    "price": 300,
-    "description": "Воркшоп забезпечений методичним посібником і Свідоцтвами International Pilates University Fitness4you. Попередня реєстрація обов'язкова. Кількість місць обмежена. Відеозйомка заборонена"
-  },
-  {
-    "name": "Відновлення функціональності",
-    "lecturers": [
-      {
-        "firstName": "Катерина",
-        "lastName": "Смирнова",
-        "avatar": "smyrnova_ekateryna.png"
+        "avatar": "moshescu_oxana.png"
       }
     ],
     "date_info": {

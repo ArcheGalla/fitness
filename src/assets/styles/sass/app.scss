@@ -128,12 +128,12 @@
 ;
 }
 
-.hanging-phone {
-  position: absolute;
-  right: 0;
-  z-index: 0;
-  bottom: -70px;
-}
+//.hanging-phone {
+//  position: absolute;
+//  right: 0;
+//  z-index: 0;
+//  bottom: -70px;
+//}
 
 .section-heading {
   margin: 60px 0 80px;
@@ -185,6 +185,7 @@
   position: relative;
 
   .about-item {
+    margin-top: 5px;
     text-align: center;
     font-size: 17px;
     line-height: 25px;
@@ -438,6 +439,14 @@ section#demo iframe {
     padding-left: 0;
     padding-right: 0;
   }
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .container-fluid {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
   .media {
     img {
       border-radius: 50%;
