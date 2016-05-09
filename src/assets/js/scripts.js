@@ -1,15 +1,15 @@
 var appMaster = {
 
-  preLoader: function () {
-    var imageSources = [];
-    $('img').each(function () {
-      var sources = $(this).attr('src');
-      imageSources.push(sources);
-    });
-    if ($(imageSources).load()) {
-      $('.pre-loader').fadeOut('slow');
-    }
-  },
+  //preLoader: function () {
+  //  var imageSources = [];
+  //  $('img').each(function () {
+  //    var sources = $(this).attr('src');
+  //    imageSources.push(sources);
+  //  });
+  //  if ($(imageSources).load()) {
+  //    $('.pre-loader').fadeOut('slow');
+  //  }
+  //},
 
   smoothScroll: function () {
     // Smooth Scrolling
@@ -28,19 +28,19 @@ var appMaster = {
     });
   },
 
-  reviewsCarousel: function () {
-    // Reviews Carousel
-    $('.review-filtering').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      dots: true,
-      arrows: false,
-      autoplay: true,
-      autoplaySpeed: 5000
-    });
-  },
+  //reviewsCarousel: function () {
+  //  // Reviews Carousel
+  //  $('.review-filtering').slick({
+  //    slidesToShow: 1,
+  //    slidesToScroll: 1,
+  //    dots: true,
+  //    arrows: false,
+  //    autoplay: true,
+  //    autoplaySpeed: 5000
+  //  });
+  //},
 
-  screensCarousel: function () {
+  //screensCarousel: function () {
     // Screens Carousel
     //$('.filtering').slick({
     //  slidesToShow: 4,
@@ -93,7 +93,7 @@ var appMaster = {
     //  $(this).addClass('active');
     //});
 
-  },
+  //},
 
   animateScript: function () {
     $('.scrollpoint.sp-effect1').waypoint(function () {
@@ -118,25 +118,25 @@ var appMaster = {
     }, {offset: '100%'});
   },
 
-  revSlider: function () {
-
-    var docHeight = $(window).height();
-
-
-    var mainSlider = $('.tp-banner').revolution({
-      delay: 9000,
-      startwidth: 1170,
-      startheight: docHeight,
-      hideThumbs: 10,
-      touchenabled: false,
-      fullWidth: "on",
-      hideTimerBar: "on",
-      fullScreen: "on",
-      onHoverStop: "off",
-      fullScreenOffsetContainer: ""
-    });
-
-  },
+  //revSlider: function () {
+  //
+  //  var docHeight = $(window).height();
+  //
+  //
+  //  var mainSlider = $('.tp-banner').revolution({
+  //    delay: 9000,
+  //    startwidth: 1170,
+  //    startheight: docHeight,
+  //    hideThumbs: 10,
+  //    touchenabled: false,
+  //    fullWidth: "on",
+  //    hideTimerBar: "on",
+  //    fullScreen: "on",
+  //    onHoverStop: "off",
+  //    fullScreenOffsetContainer: ""
+  //  });
+  //
+  //},
 
   scrollMenu: function () {
     var num = 50; //number of pixels before modifying styles
@@ -158,13 +158,13 @@ var appMaster = {
       }
     });
 
-  },
+  }
 
-  placeHold: function () {
+  //placeHold: function () {
     // run Placeholdem on all elements with placeholders
     // todo: uncomment and fix me
     //Placeholdem(document.querySelectorAll('[placeholder]'));
-  }
+  //}
 
 };
 
@@ -172,9 +172,9 @@ var appMaster = {
 export default function () {
   appMaster.smoothScroll();
   //appMaster.reviewsCarousel();
-  appMaster.screensCarousel();
+  //appMaster.screensCarousel();
   appMaster.animateScript();
-  appMaster.revSlider();
+  //appMaster.revSlider();
   appMaster.scrollMenu();
   //appMaster.placeHold();
   //appMaster.preLoader();

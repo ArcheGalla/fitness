@@ -183,12 +183,12 @@
 
             <div modal-info info="p" class="media"
                  ng-class="{ 'left-order': $index % 2 === 0, 'right-order': $index % 2 === 1}">
-              <img ng-src="{{ p.avatar }}" alt="{{ ::p.firstName + ' ' + p.lastName }}">
+              <img class="avatar" ng-src="{{ p.avatar }}" alt="{{ p.firstName + ' ' + p.lastName }}">
 
               <div class="media-body">
-                <h3 class="media-heading">{{ ::p.lastName + ' ' + p.firstName }}</h3>
+                <h3 class="media-heading">{{ p.lastName + ' ' + p.firstName }}</h3>
 
-                <p>{{ ::p.employment }}</p>
+                <p>{{ p.employment }}</p>
 
                 <div class="social">
                   <a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg"
