@@ -278,17 +278,20 @@
   }
 
   .left-order {
-    img {
+    .avatar {
       order: 1;
+      -webkit-box-ordinal-group: 0;
     }
     .media-body {
       order: 2;
+
     }
   }
 
   .right-order {
-    img {
+    .avatar {
       order: 2;
+      -webkit-box-ordinal-group: 0;
     }
     .media-body {
       order: 1;
@@ -296,13 +299,14 @@
   }
 
   .avatar {
-    display: block;
+    display: flex !important;
     order: 1;
     width: 115px;
     height: 115px;
     border-radius: 50%;
     transition: all 0.25s ease-in-out;
     border: 3px solid #66cc99;
+    -webkit-box-ordinal-group: 0;
   }
 
 }

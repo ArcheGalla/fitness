@@ -1,7 +1,7 @@
 // Depends
 var path = require('path');
 var webpack = require('webpack');
-var prefix = require('autoprefixer-core');
+var prefix = require('autoprefixer');
 var Manifest = require('manifest-revision-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var HtmlWebpackPlugin = require("html-webpack-plugin");

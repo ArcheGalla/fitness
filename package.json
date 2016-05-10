@@ -21,8 +21,7 @@
   },
   "devDependencies": {
     "assets-webpack-plugin": "^3.2.0",
-    "autoprefixer-core": "^5.2.1",
-    "json-loader": "^0.5.4",
+    "autoprefixer": "^6.3.6",
     "babel-core": "~5.8.23",
     "babel-loader": "^5.3.3",
     "baggage-loader": "^0.2.4",
@@ -37,6 +36,7 @@
     "html-loader": "^0.3.0",
     "html-webpack-plugin": "^1.7.0",
     "imagemin-pngquant": "^4.2.0",
+    "json-loader": "^0.5.4",
     "less": "^2.6.1",
     "less-loader": "^2.2.3",
     "less-plugin-clean-css": "^1.5.1",
