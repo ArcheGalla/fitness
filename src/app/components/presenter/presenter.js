@@ -9,7 +9,6 @@ export default function (module) {
         firstName: '=',
         lastName: '=',
         employment: '=',
-        socialLinks: '=',
         description: '='
       },
       controller: function () {
