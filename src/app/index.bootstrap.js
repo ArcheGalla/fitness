@@ -14,6 +14,7 @@ const app = angular.module('fitness', ['ui.bootstrap']);
 
 require('./components/presenter-info/presenter-info')(app);
 require('./components/mainCtrl')(app);
+require('./components/directives/animate')(app);
 
 angular.element(document).ready(function () {
   angular
