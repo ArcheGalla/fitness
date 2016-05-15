@@ -5,16 +5,13 @@ const email_template = require('./email_template');
 var transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
   port: 465,
-  secure: true, // use SSL
-  auth: {
-    user: "retinalviv@gmail.com",
-    pass: "REtinaLViv02"
-  }
+  secure: true,
+  auth: { user: "retinalviv@gmail.com", pass: "REtinaLViv02" }
 });
 
 module.exports.sendMessage = function (name, email, message) {
   var template = email_template(name, email, message);
-  console.log('template', template);
+
   var mailOptions = {
     from: email,
     to: emails,

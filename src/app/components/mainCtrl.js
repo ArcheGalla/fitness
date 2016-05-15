@@ -1,29 +1,47 @@
 export default function (module) {
   module
-    .controller('MainCtrl', function ($http) {
-      this.presenters = require('../components/presenter/presenters.json');
-      this.workshops = require('./workshops/workshops.json');
+    .controller('MainCtrl', function ($http, $timeout, $scope) {
+      var vm = this;
 
-      this.formData = {
+      vm.success = null;
+      vm.error = null;
+
+      vm.presenters = require('../components/presenter/presenters.json');
+      vm.workshops = require('./workshops/workshops.json');
+
+      vm.formData = {
         name: '',
         email: '',
         message: ''
       };
 
-      this.sendMessage = function (valid, data) {
+      vm.sendMessage = function (valid, data) {
+        vm.error = null;
+
+
         if (valid) {
           $http
             .post('message', data)
-            .then((response)=> {
-              this.formData = {
+            .then(()=> {
+              vm.formData = {
                 name: '',
                 email: '',
                 message: ''
               };
-              console.log('response', response);
+
+              $scope.messageForm.$submitted = false;
+              vm.success = true;
+
+              $timeout(()=> {
+                vm.success = false;
+              }, 4000);
             })
             .catch((error)=> {
-              console.log('error', error);
+              $scope.messageForm.$submitted = false;
+              vm.error = error;
+              $timeout(()=> {
+                vm.error = null;
+              }, 4000);
             });
         }
       }

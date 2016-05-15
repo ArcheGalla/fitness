@@ -318,10 +318,10 @@
   background-size: cover;
   background-image: url("../../images/bk-eco.jpg");
 
-  .section-heading{
+  .section-heading {
     margin: 25px auto;
   }
-  .action-btn{
+  .action-btn {
     border: 1px solid red;
     display: block;
     //background: #66cc99;
@@ -453,6 +453,18 @@ section#demo iframe {
   display: block;
   width: 100%;
 
+  .send-email-error {
+    color: red;
+    margin: 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .send-email-success {
+    color: #66cc99;
+    margin: 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .container-fluid {
     padding-left: 0;
     padding-right: 0;
