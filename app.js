@@ -9,13 +9,12 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 app.post('/message', function (req, res) {
+  var name = req.body.name || 'err name';
+  var email = req.body.email || 'err email';
+  var message = req.body.message || 'err message';
 
   MessageService
-    .sendMessage({
-      name: req.body.name || 'err name',
-      email: req.body.email || 'err email',
-      message: req.body.message || 'err message'
-    })
+    .sendMessage(name, email, message)
     .then((status)=> {
       res.send(status);
     })

@@ -1,5 +1,6 @@
 const nodemailer = require('nodemailer');
 const emails = (require('./emails.json')).toString();
+const email_template = require('./email_template');
 
 var transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
@@ -11,18 +12,15 @@ var transporter = nodemailer.createTransport({
   }
 });
 
-module.exports.sendMessage = function (data) {
+module.exports.sendMessage = function (name, email, message) {
+  var template = email_template(name, email, message);
+  console.log('template', template);
   var mailOptions = {
-    from: `dev test`,
+    from: email,
     to: emails,
     subject: `from user`,
-    text: `email message`,
-    html: `
-    <div>
-      <h2>This is html message</h2>
-      <h3>This is html message</h3>
-    </div>
-    `
+    text: message,
+    html: template
   };
 
   return new Promise(function (resolve, reject) {
