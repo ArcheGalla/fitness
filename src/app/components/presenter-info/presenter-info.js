@@ -21,7 +21,7 @@ export default function (module) {
                 vm.info = info;
                 vm.close = $modalInstance.close;
               },
-              animation: true,
+              //animation: true,
               size: 'md',
               controllerAs: 'vm',
               windowClass: 'center-modal',
