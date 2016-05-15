@@ -36,34 +36,22 @@ import '!!file-loader?name=[name].[ext]!../assets/images/organizers/sergey_konyu
 import '!!file-loader?name=[name].[ext]!../assets/images/organizers/sergey_putsov.png';
 
 /*------------------------------------ presenter ---------------------------------------------------*/
-// old
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/smyrnova_ekateryna.png';
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/cyoh_ekaterina.png';
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/dovgych_oleksandr.png';
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/gubenya_olesya.png';
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/kravchenko_olexsandr.png';
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/lashuk_anna.png';
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/moshescu_oxana.png';
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/pucov_sergiy.png';
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/shygrova_evgeniya.png';
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/shypkova_inna.png';
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/soynikov_yaroslav.png';
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/smelkova_olga.png';
-
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/vasil_virastiuk.png'
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/virgilijus_zelvys.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/presenters/svetlana_luchkina.png'
-import '!!file-loader?name=[name].[ext]!../assets/images/presenters/julia_brodska.png'
-import '!!file-loader?name=[name].[ext]!../assets/images/presenters/kisel_volodimyr.png'
-import '!!file-loader?name=[name].[ext]!../assets/images/presenters/steffen_conrad.png'
-import '!!file-loader?name=[name].[ext]!../assets/images/presenters/ania_horobiowska.png'
-import '!!file-loader?name=[name].[ext]!../assets/images/presenters/alessandro_oliveri.png'
-import '!!file-loader?name=[name].[ext]!../assets/images/presenters/alessandro_muo.png'
-
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/'
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/'
-//import '!!file-loader?name=[name].[ext]!../assets/images/presenters/'
-
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/svetlana_luchkina.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/julia_brodska.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/kisel_volodimyr.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/steffen_conrad.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/ania_horobiowska.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/alessandro_oliveri.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/alessandro_muo.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/sergey_falshtynskyy.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/catherine_putsova.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/andrew_nestyerov.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/sergey_matrosov.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/tatiana_sade.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/maria_skorchenko.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/sergey_konyushok.png'
 /*------------------------------------ presenter ---------------------------------------------------*/
 
 
