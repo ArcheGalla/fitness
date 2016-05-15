@@ -317,6 +317,18 @@
 #partners {
   background-size: cover;
   background-image: url("../../images/bk-eco.jpg");
+
+  .section-heading{
+    margin: 25px auto;
+  }
+  .action-btn{
+    border: 1px solid red;
+    display: block;
+    //background: #66cc99;
+    margin: 10px 35px;
+    width: 150px;
+    height: 50px;
+  }
   .partners-logos {
     padding-bottom: 25px;
     display: flex;
@@ -325,6 +337,7 @@
     flex-wrap: wrap;
 
     img {
+      border: 1px solid red;
       margin: 10px 35px;
       width: 150px;
       height: auto;

@@ -9,7 +9,7 @@
   {
     "firstName": "Валерій",
     "lastName": "Кисіль",
-    "avatar": "",
+    "avatar": "kisel_volodimyr.png",
     "employment": "Cross Fit",
     "description": "Менеджер тренажерного залу спорт клуб L-FITNESS (Миколаїв) Персональний тренер \"WORLD CLASS\". Сертифікований тренер з Cross Fit за напрямами Cf level 2, pose running, kettlebell, competitors, scaling"
   },
@@ -30,14 +30,14 @@
   {
     "firstName": "Steffen",
     "lastName": "Conrad",
-    "avatar": "",
+    "avatar": "steffen_conrad.png",
     "employment": "(Німеччина)",
     "description": "Міжнародний презентер. Викладач University of Bayreuth. Основний напрямок викладацької діяльності FACTS (Functional and Careful Training). Власник студії PT-Lounge \"Speedlounge\". Засновник ILIKEPERSONALTRAINING"
   },
   {
     "firstName": "Alessandro",
     "lastName": "Oliveri",
-    "avatar": "",
+    "avatar": "alessandro_oliveri.png",
     "employment": "(Італія)",
     "description": "Сертифікований інструктор Reebok, FIF, AFAA, CONI. Міжнародний презентер. Власник фітнес студії та організатор конвенцій у Італії. Кращій презентер Італії 2005 року. Викладач у Italian Fitness University. Спеціалізується на степ аеробіці, функціональному тренінгу та стрейчінгу"
   },
@@ -58,7 +58,7 @@
   {
     "firstName": "Василь",
     "lastName": "Вірастюк",
-    "avatar": "",
+    "avatar": "vasil_virastiuk.png",
     "employment": "",
     "description": "Заслужений майстер спорту України, дворазовий володар титулу \"Найсильніша людина світу\", чотириразовий чемпіон світу в команді, почесний президент федераціі стронгмену"
   },
@@ -72,7 +72,7 @@
   {
     "firstName": "Світлана",
     "lastName": "Лучкіна",
-    "avatar": "",
+    "avatar": "svetlana_luchkina.png",
     "employment": "",
     "description": "Засновник TRX TRAINING CLUB, дипломованний магістр у сфері спорту і фізічної культури, Майстер спорту з художньої гімнастики"
   },
@@ -93,21 +93,21 @@
   {
     "firstName": "Юлія",
     "lastName": "Бродська",
-    "avatar": "",
+    "avatar": "julia_brodska.png",
     "employment": "",
     "description": "Презентер міжнародних фітнес конвенцій, Pilates-тренер, фахівець з навчання інструкторів напрямків Mind&Body, сертифікований презентер PortDeBras"
   },
   {
     "firstName": "Ania",
     "lastName": "Horobiowska",
-    "avatar": "",
+    "avatar": "ania_horobiowska.png",
     "employment": "(Польща)",
     "description": "Міжнародний презентер та викладач з функціонального тренінгу. степ та танцювальної аэробіки. Переможець міжнародного конкурсу презенторів AEROBICMANIA “WANTED” (2013), накращий майстер-інструктор IFAA GERMANY (2014)"
   },
   {
     "firstName": "Alessandro",
     "lastName": "Muo",
-    "avatar": "",
+    "avatar": "alessandro_muo.png",
     "employment": "(Італія)",
     "description": "Міжнародній фітнес презентер. Отримав освіту у Sciences Sport University. Сертифікованій Nike тренер, а також за напрямками TRX, Nrg bag, kettlebells, Antigravity Yoga, Pilates matwork, Reformer. Основний напрямок роботи – функціональний тренінг"
   }
