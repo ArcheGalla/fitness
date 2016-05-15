@@ -10,12 +10,16 @@ export default function (module) {
         message: ''
       };
 
-
       this.sendMessage = function (valid, data) {
         if (valid) {
           $http
             .post('message', data)
             .then((response)=> {
+              this.formData = {
+                name: '',
+                email: '',
+                message: ''
+              };
               console.log('response', response);
             })
             .catch((error)=> {
@@ -23,7 +27,5 @@ export default function (module) {
             });
         }
       }
-
-
     });
 }
