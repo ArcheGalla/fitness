@@ -6,7 +6,6 @@
 @import "./fonts";
 @import "./app";
 
-
 body {
   overflow-x: hidden;
   font-family: 'LatoLight', 'Lato', Arial, serif;
@@ -21,42 +20,15 @@ body {
     -webkit-font-smoothing: antialiased;
   }
 
-  h1, h2, h3, h4, h5, h6,
-  .h1, .h2, .h3, .h4, .h5, .h6 {
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #666666;
     font-family: 'LatoLight', Arial, serif;
   }
+
   .modal-open {
     overflow: hidden;
   }
+  .shadow {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12);
+  }
 }
-
-//.active {
-//  opacity: 1;
-//}
-/*-------------------------------------------------------------------------------------------------------------------
-          LOADER WITH ANIMATION
-------------------------------------------------------------------------------------------------------------------*/
-//.loader {
-//  display: flex;
-//  align-items: center;
-//  justify-content: center;
-//  height: 100vh;
-//  width: 100vw;
-//  background: white;
-//  img {
-//    border-radius: 50%;
-//    width: 120px;
-//    height: 120px;
-//    animation: spin 2s linear infinite;
-//  }
-//}
-//
-//@keyframes spin {
-//  0% {
-//    transform: rotate(0deg);
-//  }
-//  100% {
-//    transform: rotate(360deg);
-//  }
-//}

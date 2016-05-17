@@ -71,7 +71,7 @@
               <a href="#demo">Форум</a>
             </li>
             <li>
-              <a href="#getApp">Партнери</a>
+              <a href="#partners">Партнери</a>
             </li>
             <li>
               <a href="#location">Локація</a>
@@ -202,7 +202,8 @@
                ng-class="{ 'sp-effect1': $index % 2 === 0, 'sp-effect2': $index % 2 === 1}"
                ng-repeat="p in vm.presenters track by $index">
 
-            <div modal-info info="p" class="media" ng-class="{ 'left-order': $index % 2 === 0, 'right-order': $index % 2 === 1}">
+            <div modal-info info="p" class="media"
+                 ng-class="{ 'left-order': $index % 2 === 0, 'right-order': $index % 2 === 1}">
               <div class="avatar-order">
                 <img ng-if="p.avatar" class="avatar" ng-src="{{ p.avatar }}" alt="{{ p.firstName + ' ' + p.lastName }}">
                 <div ng-if="!p.avatar" class="avatar">{{ p.firstName[0] + ' ' + p.lastName[0] }}</div>
@@ -214,8 +215,8 @@
                 <p>{{ p.employment }}</p>
 
                 <!--<div class="social">-->
-                  <!--<a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg"-->
-                     <!--ng-repeat="s in p.socialLinks" ng-class="s.icon"></a>-->
+                <!--<a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg"-->
+                <!--ng-repeat="s in p.socialLinks" ng-class="s.icon"></a>-->
                 <!--</div>-->
               </div>
             </div>
@@ -394,7 +395,7 @@
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                            PARTNERS  START                                                  -->
     <!----------------------------------------------------------------------------------------------------------------->
-    <section id="partners">
+    <section id="partners" class="shadow">
       <div class="container">
         <div class="section-heading inverse scrollpoint sp-effect3">
           <h1>Партнери</h1>
@@ -402,17 +403,33 @@
           <!--<p>Read What's The People Are Saying About Us</p>-->
         </div>
       </div>
-      <div class="container partners-logos scrollpoint sp-effect3">
-        <img src="ak.png" alt="">
-        <img src="graziya.png" alt="">
-        <img src="olimp.png" alt="">
-        <img src="olimpic.png" alt="">
-        <img src="try_styhiy.png" alt="">
-        <img src="vs_fitness_centre.png" alt="">
-        <img src="expo.png" alt="">
-        <button type="button" class="action-btn">EXPO</button>
-        <button type="button" class="action-btn">PARTNERS</button>
+      <!-- todo: move partners in to ng-repeat -->
+      <div class="partners-logos scrollpoint sp-effect3">
+        <a href="">
+          <img class="logo" src="ak.png" alt="">
+        </a>
+        <a href="">
+          <img class="logo" src="graziya.png" alt="">
+        </a>
+        <a href="">
+          <img class="logo" src="olimp.png" alt="">
+        </a>
+        <a href="">
+          <img class="logo" src="olimpic.png" alt="">
+        </a>
+        <a href="">
+          <img class="logo" src="try_styhiy.png" alt="">
+        </a>
+        <a href="">
+          <img class="logo" src="vs_fitness_centre.png" alt="">
+        </a>
+        <a href="">
+          <img class="logo" src="expo.png" alt="">
+        </a>
       </div>
+
+      <!--<button type="button" class="btn btn-primary btn-lg action-btn">EXPO</button>-->
+      <!--<button type="button" class="btn btn-primary btn-lg action-btn">PARTNERS</button>-->
     </section>
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                            PARTNERS  END                                                    -->
