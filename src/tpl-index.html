@@ -7,30 +7,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <style>
-    .full-loader {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #full-loader {
       position: relative;
+      animation: ease-out 1s;
       z-index: 9999;
       width: 100%;
       height: 100vh;
       background: linear-gradient(45deg, #66cc99 0%, #339999 100%);
     }
   </style>
-
+  <script>
+    window.addEventListener('load', function () {
+      document.querySelector('#full-loader').remove();
+    });
+  </script>
   {% for (var css in o.htmlWebpackPlugin.files.css) { %}
   <link href="{%=o.htmlWebpackPlugin.files.css[css] %}" rel="stylesheet">
   {% } %}
 
   {% for (var chunk in o.htmlWebpackPlugin.files.chunks) { %}
-  <script src="{%=o.htmlWebpackPlugin.files.chunks[chunk].entry %}"></script>
+  <script src="{%=o.htmlWebpackPlugin.files.chunks[chunk].entry %}" defer></script>
   {% } %}
 </head>
 <body id="top" ng-controller="MainCtrl as vm">
+<div id="full-loader"></div>
 <div class="scrollme">
-
-
-  <div id="loader" class="full-loader">
-    <!--<img src="logo-lion.png" alt="">-->
-  </div>
 
   <header class="main-header">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">

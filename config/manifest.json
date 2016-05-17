@@ -1,1 +1,1 @@
-{"assets":{"app.map":"assets/styles/css/app.13940ab3800e3b036b2c.css.map","vendor.map":"vendor.e873d0d4e886548790e5.js.map","common.map":"common.75c71c80644dcae2d041.js.map"},"publicPath":"/"}
+{"assets":{"app.map":"app.js.map","vendor.map":"vendor.js.map","common.map":"common.js.map"},"publicPath":"http://0.0.0.0:8080/"}
