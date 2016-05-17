@@ -4,9 +4,13 @@ export default function (module) {
       restrict: 'A',
       link: function ($scope, $element, $attr) {
 
+        //$element.waypoint(function () {
+        //  console.log('this', this);
+        //});
+
         //$($element).waypoint(function () {
-          //$(this).toggleClass('active');
-          //$(this).toggleClass('animated fadeInLeft');
+        //$(this).toggleClass('active');
+        //$(this).toggleClass('animated fadeInLeft');
         //}, {offset: '100%'});
       }
     });
