@@ -301,6 +301,9 @@
     width: 115px;
     height: 115px;
     border-radius: 50%;
+    line-height: 115px;
+    text-align: center;
+    justify-content: space-around;
     transition: all 0.25s ease-in-out;
     border: 3px solid #66cc99;
     -webkit-box-ordinal-group: 0;
@@ -314,6 +317,18 @@
 #partners {
   background-size: cover;
   background-image: url("../../images/bk-eco.jpg");
+
+  .section-heading {
+    margin: 25px auto;
+  }
+  .action-btn {
+    border: 1px solid red;
+    display: block;
+    //background: #66cc99;
+    margin: 10px 35px;
+    width: 150px;
+    height: 50px;
+  }
   .partners-logos {
     padding-bottom: 25px;
     display: flex;
@@ -322,6 +337,7 @@
     flex-wrap: wrap;
 
     img {
+      border: 1px solid red;
       margin: 10px 35px;
       width: 150px;
       height: auto;
@@ -437,6 +453,18 @@ section#demo iframe {
   display: block;
   width: 100%;
 
+  .send-email-error {
+    color: red;
+    margin: 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .send-email-success {
+    color: #66cc99;
+    margin: 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .container-fluid {
     padding-left: 0;
     padding-right: 0;

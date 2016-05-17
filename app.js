@@ -2,23 +2,28 @@ const express = require('express');
 const app = express();
 const MessageService = require('./service/MessageService');
 const config = require('./app-config/config');
-
+const bodyParser = require('body-parser');
 
 app.use(express.static('dist'));
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
 
+app.post('/message', function (req, res) {
+  var name = req.body.name || 'err name';
+  var email = req.body.email || 'err email';
+  var message = req.body.message || 'err message';
 
-app.post('message', function (req, res) {
   MessageService
-    .sendMessage({})
+    .sendMessage(name, email, message)
     .then((status)=> {
-      console.log('message send success');
       res.send(status);
     })
     .catch((err)=> {
-      console.log('message send failed');
       res.send(err);
     });
 });
 
 
-app.listen(3000,()=>{ console.log('app is running on port 3000'); });
+app.listen(3000, ()=> {
+  console.log('app is running on port 3000');
+});
