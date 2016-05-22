@@ -13,10 +13,6 @@
   {% for (var css in o.htmlWebpackPlugin.files.css) { %}
   <link href="{%=o.htmlWebpackPlugin.files.css[css] %}" rel="stylesheet">
   {% } %}
-
-  {% for (var chunk in o.htmlWebpackPlugin.files.chunks) { %}
-  <script src="{%=o.htmlWebpackPlugin.files.chunks[chunk].entry %}" defer></script>
-  {% } %}
 </head>
 <body id="top" ng-controller="MainCtrl as vm">
 <div id="full-loader"></div>
@@ -540,5 +536,8 @@
 <!-------------------------------------------------------------------------------------------------------------------->
 <!--                                                END APP                                                         -->
 <!-------------------------------------------------------------------------------------------------------------------->
+{% for (var chunk in o.htmlWebpackPlugin.files.chunks) { %}
+<script src="{%=o.htmlWebpackPlugin.files.chunks[chunk].entry %}" defer></script>
+{% } %}
 </body>
 </html>
