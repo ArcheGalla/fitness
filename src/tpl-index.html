@@ -7,9 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <style>
-    body{margin:0;padding:0}#full-loader{position:relative;animation:ease-out 1s;z-index:9999;width:100%;height:100vh;background:linear-gradient(45deg,#6c9 0,#399 100%)}
+    body {
+      margin: 0;
+      padding: 0
+    }
+
+    #full-loader {
+      position: relative;
+      animation: ease-out 1s;
+      z-index: 9999;
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(45deg, #6c9 0, #399 100%)
+    }
   </style>
-  <script>window.addEventListener('load',function(){document.querySelector('#full-loader').remove();});</script>
+  <script>window.addEventListener('load', function () {
+    document.querySelector('#full-loader').remove();
+  });</script>
   {% for (var css in o.htmlWebpackPlugin.files.css) { %}
   <link href="{%=o.htmlWebpackPlugin.files.css[css] %}" rel="stylesheet">
   {% } %}
@@ -124,10 +138,10 @@
                 Співзасновник фітнес - проекту Oxygen Workout</p>
               <div class="social">
                 <!--<a href="#" class="scrollpoint sp-effect3">-->
-                  <!--<i class="fa fa-twitter fa-lg"></i>-->
+                <!--<i class="fa fa-twitter fa-lg"></i>-->
                 <!--</a>-->
                 <!--<a href="#" class="scrollpoint sp-effect3">-->
-                  <!--<i class="fa fa-google-plus fa-lg"></i>-->
+                <!--<i class="fa fa-google-plus fa-lg"></i>-->
                 <!--</a>-->
                 <a href="https://www.facebook.com/putsov.sergei" target="_blank" class="scrollpoint sp-effect3">
                   <i class="fa fa-facebook fa-lg"></i></a>
@@ -216,7 +230,7 @@
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                         SCHEDULE  START                                                     -->
     <!----------------------------------------------------------------------------------------------------------------->
-    <section id="screens">
+    <section class="schedule" id="screens">
       <div class="container">
 
         <div class="section-heading scrollpoint sp-effect3">
@@ -232,9 +246,30 @@
         </div>
 
       </div>
+      <div class="schedule-table">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 scene">
+              <div class="schedule-row">
+                <span>08.00 - 09.00</span>
+                <span>about schedule</span>
+                <span>some info c row item</span>
+              </div>
+            </div>
+            <div class="col-lg-4 scene">
+              <p>сцена 1</p>
+            </div>
+            <div class="col-lg-4 scene">
+              <p>сцена 1</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                         SCHEDULE  END                                                       -->
+    <!-- http://themeforest.net/item/gym-edge-gym-fitness-psd-template/15937019?s_rank=6                             -->
     <!----------------------------------------------------------------------------------------------------------------->
 
     <!----------------------------------------------------------------------------------------------------------------->
@@ -384,7 +419,7 @@
     <section id="partners" class="shadow">
       <div class="container">
         <div class="section-heading inverse scrollpoint sp-effect3">
-        <!--<div class="section-heading inverse" animate>-->
+          <!--<div class="section-heading inverse" animate>-->
           <h1>Партнери</h1>
           <div class="divider"></div>
           <!--<p>Read What's The People Are Saying About Us</p>-->
