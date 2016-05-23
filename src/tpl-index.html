@@ -9,9 +9,10 @@
   <style>
     body {
       margin: 0;
-      padding: 0
+      padding: 0;
+      opacity: 0;
+      height: 0;
     }
-
     #full-loader {
       position: relative;
       animation: ease-out 1s;
@@ -21,18 +22,18 @@
       background: linear-gradient(45deg, #6c9 0, #399 100%)
     }
   </style>
-  <script>window.addEventListener('load', function () {
-    document.querySelector('#full-loader').remove();
-  });</script>
+  <script>
+    window.addEventListener('load', function () { document.querySelector('#full-loader').remove();document.body.style.opacity = 1;document.body.style.height = '100%'; });
+  </script>
   {% for (var css in o.htmlWebpackPlugin.files.css) { %}
   <link href="{%=o.htmlWebpackPlugin.files.css[css] %}" rel="stylesheet">
   {% } %}
 </head>
-<body id="top" ng-controller="MainCtrl as vm">
 <div id="full-loader"></div>
+<body id="top" ng-controller="MainCtrl as vm">
 <div class="scrollme">
 
-  <header class="main-header">
+  <header ng-if="false" class="main-header">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -121,7 +122,7 @@
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                         ORGANIZERS  START                                                   -->
     <!----------------------------------------------------------------------------------------------------------------->
-    <section id="organizers">
+    <section id="organizers" ng-if="false">
       <div class="container">
         <div class="section-heading scrollpoint sp-effect3">
           <h1>Організатори</h1>
@@ -190,7 +191,7 @@
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                         CONVENTION  START                                                   -->
     <!----------------------------------------------------------------------------------------------------------------->
-    <section id="convention">
+    <section id="convention" ng-if="false">
       <div class="container-fluid">
         <div class="section-heading scrollpoint sp-effect3">
           <h1>Презентери конвенції</h1>
@@ -230,9 +231,9 @@
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                         SCHEDULE  START                                                     -->
     <!----------------------------------------------------------------------------------------------------------------->
-    <section class="schedule" id="screens">
+    <section class="schedule" id="screens" ng-controller="scheduleCtrl as schedule">
       <div class="container">
-
+        <pre>{{ schedule | json }}</pre>
         <div class="section-heading scrollpoint sp-effect3">
           <h1>Розклад</h1>
           <div class="divider"></div>
@@ -240,27 +241,35 @@
         </div>
 
         <div class="filter scrollpoint sp-effect3">
-          <a href="javascript:void(0)" class="button active">Всі дні</a>
-          <a href="javascript:void(0)" class="button ">Перший день</a>
-          <a href="javascript:void(0)" class="button ">Другий день</a>
+          <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.ALL)" class="button" ng-class="{ 'active' : schedule.SCHEDULES.ALL === schedule.currertSchedule }">Всі дні</a>
+          <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.ONE)" class="button" ng-class="{ 'active' : schedule.SCHEDULES.ONE === schedule.currertSchedule }">Перший день</a>
+          <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.TWO)" class="button" ng-class="{ 'active' : schedule.SCHEDULES.TWO === schedule.currertSchedule }">Другий день</a>
         </div>
 
       </div>
       <div class="schedule-table">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-4 scene">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 scene" ng-if="schedule.SCHEDULES.ALL === schedule.currertSchedule">
               <div class="schedule-row">
                 <span>08.00 - 09.00</span>
                 <span>about schedule</span>
-                <span>some info c row item</span>
+                <span>some info</span>
               </div>
             </div>
-            <div class="col-lg-4 scene">
-              <p>сцена 1</p>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 scene" ng-if="schedule.SCHEDULES.ONE === schedule.currertSchedule">
+              <div class="schedule-row">
+                <span>08.00 - 09.00</span>
+                <span>about schedule</span>
+                <span>some info</span>
+              </div>
             </div>
-            <div class="col-lg-4 scene">
-              <p>сцена 1</p>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 scene" ng-if="schedule.SCHEDULES.TWO === schedule.currertSchedule">
+              <div class="schedule-row">
+                <span>08.00 - 09.00</span>
+                <span>about schedule</span>
+                <span>some info</span>
+              </div>
             </div>
           </div>
         </div>
@@ -275,7 +284,7 @@
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                            TICKETS    START                                                 -->
     <!----------------------------------------------------------------------------------------------------------------->
-    <section id="tickets">
+    <section id="tickets" ng-if="false">
 
       <div class="container-fluid">
         <div class="section-heading inverse scrollpoint sp-effect3">
@@ -343,7 +352,7 @@
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                            WORKSHOPS  START                                                 -->
     <!----------------------------------------------------------------------------------------------------------------->
-    <section id="workshops">
+    <section id="workshops" ng-if="false">
       <div class="container-fluid">
 
         <div class="section-heading scrollpoint sp-effect3">
@@ -393,7 +402,7 @@
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                            VIDEO  START                                                     -->
     <!----------------------------------------------------------------------------------------------------------------->
-    <section id="demo">
+    <section id="demo" ng-if="false">
       <div class="container">
         <div class="section-heading scrollpoint sp-effect3">
           <h1>Відео звіт</h1>
@@ -416,7 +425,7 @@
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                            PARTNERS  START                                                  -->
     <!----------------------------------------------------------------------------------------------------------------->
-    <section id="partners" class="shadow">
+    <section id="partners" class="shadow" ng-if="false">
       <div class="container">
         <div class="section-heading inverse scrollpoint sp-effect3">
           <!--<div class="section-heading inverse" animate>-->
@@ -460,7 +469,7 @@
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                            LOCATION START                                                   -->
     <!----------------------------------------------------------------------------------------------------------------->
-    <section id="location">
+    <section id="location" ng-if="false">
       <div class="container-fluid">
         <div class="section-heading scrollpoint sp-effect3">
           <h1>Контакти</h1>
@@ -553,7 +562,7 @@
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                            LOCATION END                                                     -->
     <!----------------------------------------------------------------------------------------------------------------->
-    <footer>
+    <footer ng-if="false">
       <div class="container">
         <a href="#" class="scrollpoint sp-effect3">
           <img src="logo.png" alt="" class="logo">
