@@ -7,7 +7,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <style>
-    body{margin:0;padding:0;} #full-loader{position:relative;animation:ease-out 1s;width:100%;height:100vh;background:linear-gradient(45deg,#6c9 0,#399 100%);}#loading,.expand{width:100%;height:2px;}#loading{margin:0;background:#000;}.expand{margin:0 0 2px;background:#2187e7;position:absolute;box-shadow:0 0 10px 1px rgba(0,198,255,.7);-moz-animation:fullexpand 4s ease-out;-webkit-animation:fullexpand 4s ease-out;}
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #full-loader {
+      position: relative;
+      animation: ease-out 1s;
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(45deg, #6c9 0, #399 100%);
+    }
+
+    #loading, .expand {
+      width: 100%;
+      height: 2px;
+    }
+
+    #loading {
+      margin: 0;
+      background: #000;
+    }
+
+    .expand {
+      margin: 0 0 2px;
+      background: #2187e7;
+      position: absolute;
+      box-shadow: 0 0 10px 1px rgba(0, 198, 255, .7);
+      -moz-animation: fullexpand 4s ease-out;
+      -webkit-animation: fullexpand 4s ease-out;
+    }
 
     @-moz-keyframes fullexpand {
       0% {
@@ -28,17 +58,22 @@
     }
   </style>
   <script>
-    window.addEventListener('load', function () { document.querySelector('#full-loader').remove(); /*document.body.style.opacity = 1; document.body.style.height = '100%';*/ });
+    window.addEventListener('load', function () {
+      document.querySelector('#full-loader').remove();
+      /*document.body.style.opacity = 1; document.body.style.height = '100%';*/
+    });
   </script>
   {% for (var css in o.htmlWebpackPlugin.files.css) { %}
   <link href="{%=o.htmlWebpackPlugin.files.css[css] %}" rel="stylesheet">
   {% } %}
 </head>
 <body id="top" ng-controller="MainCtrl as vm">
-<div id="full-loader"><div id="loading"><span class="expand"></span></div></div>
+<div id="full-loader">
+  <div id="loading"><span class="expand"></span></div>
+</div>
 <div class="scrollme">
 
-  <header ng-if="false" class="main-header">
+  <header class="main-header">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -127,476 +162,18 @@
     <!----------------------------------------------------------------------------------------------------------------->
     <!--                                         ORGANIZERS  START                                                   -->
     <!----------------------------------------------------------------------------------------------------------------->
-    <section id="organizers" ng-if="false">
-      <div class="container">
-        <div class="section-heading scrollpoint sp-effect3">
-          <h1>Організатори</h1>
-          <div class="divider"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="about-item scrollpoint sp-effect2">
-              <img ng-src="{{ 'sergey_putsov.png' }}" alt="Сергій Пуцов">
-              <h3>Сергій Пуцов</h3>
-              <p>Головний тренер фітнес клубу «Skyfitness» (Київ).
-                Кандидат наук фізичного виховання і спорту.
-                Майстер спорту України з важкої атлетики.
-                Співзасновник фітнес - проекту Oxygen Workout</p>
-              <div class="social">
-                <!--<a href="#" class="scrollpoint sp-effect3">-->
-                <!--<i class="fa fa-twitter fa-lg"></i>-->
-                <!--</a>-->
-                <!--<a href="#" class="scrollpoint sp-effect3">-->
-                <!--<i class="fa fa-google-plus fa-lg"></i>-->
-                <!--</a>-->
-                <a href="https://www.facebook.com/putsov.sergei" target="_blank" class="scrollpoint sp-effect3">
-                  <i class="fa fa-facebook fa-lg"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="about-item scrollpoint sp-effect5">
-              <img ng-src="{{ 'anna_lashchuk.png' }}" alt="Анна Лащук">
-              <h3>Анна Лащук</h3>
-              <p>
-                Заступник генерального директора ТВК "Південний".
-                Голова громадської організації. «Здорового способу життя».
-                Власниця фітнес - центру Vita Sana.
-                Чемпіонка International dance competition Leader. Дипломований
-                та сертифікований фітнес - тренер групових та персональних тренувань</p>
-              <div class="social">
-                <!--<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>-->
-                <!--<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>-->
-                <a href="https://www.facebook.com/anna.laschuk" target="_blank" class="scrollpoint sp-effect3">
-                  <i class="fa fa-facebook fa-lg"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="about-item scrollpoint sp-effect1">
-              <img ng-src="{{ 'sergey_konyushok.png' }}" alt="Сергій Конюшок">
-              <h3>Сергій Конюшок</h3>
-              <p>Керівник та співвласник мережі спортивних клубів «Олімп» (Львів).
-                Майстер спорту України міжнародного класу.
-                Чемпіон та рекордсмен світу зі стронгмену.
-                Президент федерації стронгмену України</p>
-              <div class="social">
-                <!--<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>-->
-                <!--<a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>-->
-                <a href="https://www.facebook.com/sergiy.konyushok" target="_blank" class="scrollpoint sp-effect3">
-                  <i class="fa fa-facebook fa-lg"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--                                         CONVENTION  START                                                   -->
-    <!----------------------------------------------------------------------------------------------------------------->
-    <section id="convention" ng-if="false">
-      <div class="container-fluid">
-        <div class="section-heading scrollpoint sp-effect3">
-          <h1>Презентери конвенції</h1>
-          <div class="divider"></div>
-        </div>
-        <div class="row">
 
-          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 scrollpoint"
-               ng-class="{ 'sp-effect1': $index % 2 === 0, 'sp-effect2': $index % 2 === 1}"
-               ng-repeat="p in vm.presenters track by $index">
-
-            <div modal-info info="p" class="media"
-                 ng-class="{ 'left-order': $index % 2 === 0, 'right-order': $index % 2 === 1}">
-              <div class="avatar-order">
-                <img ng-if="p.avatar" class="avatar" ng-src="{{ p.avatar }}" alt="{{ p.firstName + ' ' + p.lastName }}">
-                <div ng-if="!p.avatar" class="avatar">{{ p.firstName[0] + ' ' + p.lastName[0] }}</div>
-              </div>
-
-              <div class="media-body">
-                <h3 class="media-heading">{{ p.lastName + ' ' + p.firstName }}</h3>
-
-                <p>{{ p.employment }}</p>
-
-                <!--<div class="social">-->
-                <!--<a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg"-->
-                <!--ng-repeat="s in p.socialLinks" ng-class="s.icon"></a>-->
-                <!--</div>-->
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </section>
-
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--                                         SCHEDULE  START                                                     -->
-    <!----------------------------------------------------------------------------------------------------------------->
-    <section class="schedule" id="screens" ng-controller="scheduleCtrl as schedule">
-      <div class="container">
-        <div class="section-heading scrollpoint sp-effect3">
-          <h1>Розклад</h1>
-          <div class="divider"></div>
-          <p>Розклад уточнюється</p>
-        </div>
-
-        <div class="filter scrollpoint sp-effect3">
-          <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.ALL)" class="button" ng-class="{ 'active' : schedule.SCHEDULES.ALL === schedule.currertSchedule }">Всі дні</a>
-          <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.ONE)" class="button" ng-class="{ 'active' : schedule.SCHEDULES.ONE === schedule.currertSchedule }">Перший день</a>
-          <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.TWO)" class="button" ng-class="{ 'active' : schedule.SCHEDULES.TWO === schedule.currertSchedule }">Другий день</a>
-        </div>
-
-      </div>
-      <div class="schedule-table">
-        <div class="container-fluid">
-          <div class="row">
-            <!--<div class="col-lg-12">-->
-              <!--<div class="section-heading">-->
-                <!--<h3>Сцена 1</h3>-->
-                <!--<div class="divider"></div>-->
-                <!--&lt;!&ndash;<p>See what’s included in the App</p>&ndash;&gt;-->
-              <!--</div>-->
-            <!--</div>-->
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 scene">
-              <div class="schedule-row" ng-if="schedule.SCHEDULES.ALL === schedule.currertSchedule">
-                <span>08.00 - 09.00</span>
-                <span>about schedule</span>
-                <span>some info</span>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 scene">
-              <div class="schedule-row" ng-if="schedule.SCHEDULES.ONE === schedule.currertSchedule">
-                <span>08.00 - 09.00</span>
-                <span>about schedule</span>
-                <span>second</span>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 scene">
-              <div class="schedule-row" ng-if="schedule.SCHEDULES.TWO === schedule.currertSchedule">
-                <span>08.00 - 09.00</span>
-                <span>about schedule</span>
-                <span>third</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--                                         SCHEDULE  END                                                       -->
-    <!-- http://themeforest.net/item/gym-edge-gym-fitness-psd-template/15937019?s_rank=6                             -->
-    <!----------------------------------------------------------------------------------------------------------------->
-
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--                                            TICKETS    START                                                 -->
-    <!----------------------------------------------------------------------------------------------------------------->
-    <section id="tickets" ng-if="false">
-
-      <div class="container-fluid">
-        <div class="section-heading inverse scrollpoint sp-effect3">
-          <h1>Квитки</h1>
-          <div class="divider"></div>
-          <p>Приєднуйтесь до наймасштабнішої фітнес події року!</p>
-        </div>
-        <section class="pricing-section bg-6 scrollpoint sp-effect3">
-          <div class="pricing pricing--pema ">
-            <div class="pricing__item">
-              <h3 class="pricing__title">1 жовтня</h3>
-              <!--збільшити шрифт-->
-              <p class="pricing__sentence">Субота</p>
-              <div class="pricing__price">
-                <span class="pricing__currency">₴</span>
-                600
-                <span class="pricing__period">/ день</span>
-              </div>
-              <ul class="pricing__feature-list">
-                <li class="pricing__feature"></li>
-                <li class="pricing__feature">Support at $25/hour</li>
-                <li class="pricing__feature">1 campaign/month</li>
-              </ul>
-              <button class="pricing__action">Придбати квиток</button>
-            </div>
-            <div class="pricing__item pricing__item--featured">
-              <h3 class="pricing__title">1-2 жовтня</h3>
-              <p class="pricing__sentence">Субота - Неділя</p>
-              <div class="pricing__price">
-                <span class="pricing__currency">₴</span>
-                800
-                <span class="pricing__period">/ 2 дні</span>
-              </div>
-              <ul class="pricing__feature-list">
-                <li class="pricing__feature">50 presentations/month</li>
-                <li class="pricing__feature">5 hours of free support</li>
-                <li class="pricing__feature">10 campaigns/month</li>
-              </ul>
-              <button class="pricing__action">Придбати квиток</button>
-            </div>
-            <div class="pricing__item">
-              <h3 class="pricing__title">2 Жовтня</h3>
-              <p class="pricing__sentence">Неділя</p>
-              <div class="pricing__price">
-                <span class="pricing__currency">₴</span>
-                600
-                <span class="pricing__period">/ день</span>
-              </div>
-              <ul class="pricing__feature-list">
-                <li class="pricing__feature">Unlimited presentations</li>
-                <li class="pricing__feature">Unlimited support</li>
-                <li class="pricing__feature">Unlimited campaigns</li>
-              </ul>
-              <button class="pricing__action">Придбати квиток</button>
-            </div>
-          </div>
-        </section>
-
-      </div>
-    </section>
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--                                            TICKETS    END                                                   -->
-    <!----------------------------------------------------------------------------------------------------------------->
-
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--                                            WORKSHOPS  START                                                 -->
-    <!----------------------------------------------------------------------------------------------------------------->
-    <section id="workshops" ng-if="false">
-      <div class="container-fluid">
-
-        <div class="section-heading scrollpoint sp-effect3">
-          <h1>Семінари</h1>
-          <div class="divider"></div>
-          <!--<p>Oleose Beautiful App Landing Page</p>-->
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6 col-md-6 col-xs-12 scrollpoint sp-effect5 workshop" ng-repeat="workshop in vm.workshops">
-            <h3 class="workshop-name">{{ workshop.name }}</h3>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="row">
-                  <div class="col-lg-12 col-md-12 lecture"
-                       ng-class="{
-                       'col-xs-12': workshop.lecturers.length === 1,
-                       'col-xs-6': workshop.lecturers.length === 2,
-                       'col-xs-4': workshop.lecturers.length === 3
-                        }" ng-repeat="lecture in workshop.lecturers">
-                    <img ng-src="{{lecture.avatar}}" alt="{{lecture.firstName + ' ' + lecture.lastName}}">
-                    <h3 class="lecture-name">{{lecture.firstName + ' ' + lecture.lastName}}</h3>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div>
-                  <p class="inline">Дата: {{ workshop.date_info.date }}</p>
-                  <p class="inline">Час: {{ workshop.date_info.time.start }}-{{ workshop.date_info.time.end }}</p>
-                </div>
-                <p>Зал: {{ workshop.location }}</p>
-                <p class="workshop-price">Вартість: {{ workshop.price }} грн</p>
-                <p class="description">{{ workshop.description }}</p>
-              </div>
-            </div>
-            <div class="buy-wrap"><a href="" class="btn btn-primary btn-lg">Квиток</a></div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--                                            WORKSHOPS  END                                                   -->
-    <!----------------------------------------------------------------------------------------------------------------->
-
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--                                            VIDEO  START                                                     -->
-    <!----------------------------------------------------------------------------------------------------------------->
-    <section id="demo" ng-if="false">
-      <div class="container">
-        <div class="section-heading scrollpoint sp-effect3">
-          <h1>Відео звіт</h1>
-          <div class="divider"></div>
-          <!--<p>Take a closer look in more detail</p>-->
-        </div>
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 scrollpoint sp-effect2">
-            <div class="video-container">
-              <iframe src="https://www.youtube.com/embed/NtKssOqxLOE" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--                                            VIDEO END                                                        -->
-    <!----------------------------------------------------------------------------------------------------------------->
-
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--                                            PARTNERS  START                                                  -->
-    <!----------------------------------------------------------------------------------------------------------------->
-    <section id="partners" class="shadow" ng-if="false">
-      <div class="container">
-        <div class="section-heading inverse scrollpoint sp-effect3">
-          <!--<div class="section-heading inverse" animate>-->
-          <h1>Партнери</h1>
-          <div class="divider"></div>
-          <!--<p>Read What's The People Are Saying About Us</p>-->
-        </div>
-      </div>
-      <!-- todo: move partners in to ng-repeat -->
-      <div class="partners-logos scrollpoint sp-effect3">
-        <a href="">
-          <img class="logo" src="ak.png" alt="">
-        </a>
-        <a href="">
-          <img class="logo" src="graziya.png" alt="">
-        </a>
-        <a href="">
-          <img class="logo" src="olimp.png" alt="">
-        </a>
-        <a href="">
-          <img class="logo" src="olimpic.png" alt="">
-        </a>
-        <a href="">
-          <img class="logo" src="try_styhiy.png" alt="">
-        </a>
-        <a href="">
-          <img class="logo" src="vs_fitness_centre.png" alt="">
-        </a>
-        <a href="">
-          <img class="logo" src="expo.png" alt="">
-        </a>
-      </div>
-
-      <!--<button type="button" class="btn btn-primary btn-lg action-btn">EXPO</button>-->
-      <!--<button type="button" class="btn btn-primary btn-lg action-btn">PARTNERS</button>-->
-    </section>
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--                                            PARTNERS  END                                                    -->
-    <!----------------------------------------------------------------------------------------------------------------->
-
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--                                            LOCATION START                                                   -->
-    <!----------------------------------------------------------------------------------------------------------------->
-    <section id="location" ng-if="false">
-      <div class="container-fluid">
-        <div class="section-heading scrollpoint sp-effect3">
-          <h1>Контакти</h1>
-          <div class="divider"></div>
-          <p>Виникли запитання</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="scrollpoint sp-effect1">
-              <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.73075733132!2d23.970097215708297!3d49.80992927939217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae70c10051b3d%3A0x648b5ac5170279fa!2z0JLQuNGB0YLQsNCy0LrQvtCy0LjQuSDRhtC10L3RgtGAICLQn9GW0LLQtNC10L3QvdC40LktRVhQTyI!5e0!3m2!1suk!2sua!4v1461493597913"
-                  frameborder="0"
-                  style="border:0"
-                  width="100%"
-                  height="365px"
-                  allowfullscreen>
-              </iframe>
-            </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="row">
-              <div class="col-md-6 col-sm-8 scrollpoint sp-effect1">
-
-                <p ng-if="vm.error" class="send-email-error">Сталась помилка. Спробуйте пізніше</p>
-                <p ng-if="vm.success" class="send-email-success">Ваше повідомлення успішно відправленне</p>
-                <form role="form" name="messageForm" novalidate
-                      ng-submit="vm.sendMessage(messageForm.$valid,vm.formData)">
-                  <div class="form-group">
-                    <input type="text" name="name" ng-model="vm.formData.name" class="form-control"
-                           ng-class="{'error': messageForm.name.$invalid && messageForm.$submitted}"
-                           placeholder="Ім’я" required>
-                  </div>
-                  <div class="form-group">
-                    <input type="email" name="email" ng-model="vm.formData.email" class="form-control"
-                           ng-class="{'error': messageForm.email.$invalid && messageForm.$submitted}"
-                           placeholder="Поштова скринька" required>
-                  </div>
-                  <div class="form-group">
-                  <textarea cols="30" name="message" rows="10" ng-model="vm.formData.message" class="form-control"
-                            ng-class="{'error': messageForm.message.$invalid && messageForm.$submitted}"
-                            placeholder="Повідомлення" required></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-primary btn-lg">Відправити</button>
-                </form>
-
-
-              </div>
-              <div class="col-md-6 col-sm-4 contact-details scrollpoint sp-effect2">
-                <div class="media">
-                  <a class="pull-left" href="#">
-                    <i class="fa fa-map-marker fa-2x"></i>
-                  </a>
-                  <div class="media-body">
-                    <h4 class="media-heading">м. Львів вул. Щирецька, 36</h4>
-                  </div>
-                </div>
-                <div class="media">
-                  <a class="pull-left" href="#">
-                    <i class="fa fa-envelope fa-2x"></i>
-                  </a>
-                  <div class="media-body">
-                    <h4 class="media-heading">
-                      <a href="mailto:support@oleose.com">support@lviv.fitness.com</a>
-                    </h4>
-                  </div>
-                </div>
-                <div class="media">
-                  <a class="pull-left" href="#">
-                    <i class="fa fa-phone fa-2x"></i>
-                  </a>
-                  <div class="media-body">
-                    <h4 class="media-heading">+38 (093) 126 43 88</h4>
-                  </div>
-                </div>
-                <div class="media">
-                  <a class="pull-left" href="#">
-                    <img src="christina.png" alt="">
-                  </a>
-                  <div class="media-body">
-                    <h2 class="contact-name">Христина Равриш</h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!----------------------------------------------------------------------------------------------------------------->
-    <!--                                            LOCATION END                                                     -->
-    <!----------------------------------------------------------------------------------------------------------------->
-    <footer ng-if="false">
-      <div class="container">
-        <a href="#" class="scrollpoint sp-effect3">
-          <img src="logo.png" alt="" class="logo">
-        </a>
-        <div class="social">
-          <a href="https://www.youtube.com/channel/UCC_pPGQBC69uzt1tOrYhQkw" target="_blank"
-             class="scrollpoint sp-effect3"><i class="fa  fa-youtube-square fa-lg"></i></a>
-          <a href="https://vk.com/public99211814" target="_blank" class="scrollpoint sp-effect3"><i
-              class="fa fa-vk fa-lg"></i></a>
-          <a href="https://www.facebook.com/groups/776830325762913" target="_blank" class="scrollpoint sp-effect3"><i
-              class="fa fa-facebook fa-lg"></i></a>
-        </div>
-        <div class="rights">
-          <p>Copyright &copy; 2016</p>
-          <p>Lviv Fitness Weekend</p>
-        </div>
-      </div>
-    </footer>
+    <fitness-organizers></fitness-organizers>
+    <fitness-convention></fitness-convention>
+    <fitness-schedule></fitness-schedule>
+    <fitness-tickets></fitness-tickets>
+    <fitness-workshops></fitness-workshops>
+    <demo-video></demo-video>
+    <fitness-partners></fitness-partners>
+    <fitness-location></fitness-location>
+    <fitness-footer></fitness-footer>
   </div>
 </div>
-<!-------------------------------------------------------------------------------------------------------------------->
-<!--                                                END APP                                                         -->
-<!-------------------------------------------------------------------------------------------------------------------->
 {% for (var chunk in o.htmlWebpackPlugin.files.chunks) { %}
 <script src="{%=o.htmlWebpackPlugin.files.chunks[chunk].entry %}" defer></script>
 {% } %}
