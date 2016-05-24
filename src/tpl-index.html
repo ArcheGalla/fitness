@@ -10,27 +10,72 @@
     body {
       margin: 0;
       padding: 0;
-      opacity: 0;
-      height: 0;
+      /*opacity: 0;*/
+      /*height: 0;*/
     }
+
     #full-loader {
       position: relative;
       animation: ease-out 1s;
-      z-index: 9999;
+      /*z-index: 9999;*/
       width: 100%;
       height: 100vh;
       background: linear-gradient(45deg, #6c9 0, #399 100%)
     }
+
+    #loading {
+      width: 100%;
+      /* Full Width */
+      height: 2px;
+      margin: 0;
+      background: #000;
+    }
+
+    .expand {
+      width: 100%;
+      height: 2px;
+      margin: 0 0 2px 0;
+      background: #2187e7;
+      position: absolute;
+      box-shadow: 0 0 10px 1px rgba(0, 198, 255, 0.7);
+      -moz-animation: fullexpand 4s ease-out;
+      -webkit-animation: fullexpand 4s ease-out;
+    }
+
+    /* Full Width Animation Bar */
+    @-moz-keyframes fullexpand {
+      0% {
+        width: 0;
+      }
+
+      100% {
+        width: 100%;
+      }
+    }
+
+    @-webkit-keyframes fullexpand {
+      0% {
+        width: 0;
+      }
+
+      100% {
+        width: 100%;
+      }
+    }
   </style>
   <script>
-    window.addEventListener('load', function () { document.querySelector('#full-loader').remove();document.body.style.opacity = 1;document.body.style.height = '100%'; });
+    window.addEventListener('load', function () {
+      document.querySelector('#full-loader').remove();
+//      document.body.style.opacity = 1;
+//      document.body.style.height = '100%';
+    });
   </script>
   {% for (var css in o.htmlWebpackPlugin.files.css) { %}
   <link href="{%=o.htmlWebpackPlugin.files.css[css] %}" rel="stylesheet">
   {% } %}
 </head>
-<div id="full-loader"></div>
 <body id="top" ng-controller="MainCtrl as vm">
+<div id="full-loader"><div id="loading"><span class="expand"></span></div></div>
 <div class="scrollme">
 
   <header ng-if="false" class="main-header">
