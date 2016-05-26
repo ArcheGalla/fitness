@@ -71,23 +71,20 @@
 <div id="full-loader">
   <div id="loading"><span class="expand"></span></div>
 </div>
-<div class="scrollme">
-
-  <header class="main-header">
-    <nav-menu></nav-menu>
-    <main-section></main-section>
-  </header>
-  <div class="wrapper">
-    <fitness-organizers></fitness-organizers>
-    <fitness-convention></fitness-convention>
-    <fitness-schedule></fitness-schedule>
-    <fitness-tickets></fitness-tickets>
-    <fitness-workshops></fitness-workshops>
-    <demo-video></demo-video>
-    <fitness-partners></fitness-partners>
-    <fitness-location></fitness-location>
-    <fitness-footer></fitness-footer>
-  </div>
+<header class="main-header">
+  <nav-menu></nav-menu>
+  <main-section></main-section>
+</header>
+<div class="wrapper">
+  <fitness-organizers></fitness-organizers>
+  <fitness-convention></fitness-convention>
+  <fitness-schedule></fitness-schedule>
+  <fitness-tickets></fitness-tickets>
+  <fitness-workshops></fitness-workshops>
+  <demo-video></demo-video>
+  <fitness-partners></fitness-partners>
+  <fitness-location></fitness-location>
+  <fitness-footer></fitness-footer>
 </div>
 {% for (var chunk in o.htmlWebpackPlugin.files.chunks) { %}
 <script src="{%=o.htmlWebpackPlugin.files.chunks[chunk].entry %}" defer></script>
