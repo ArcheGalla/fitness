@@ -12,6 +12,8 @@ const app = angular.module('fitness', ['ui.bootstrap']);
 
 require('./components/presenter-info/presenter-info')(app);
 require('./components/mainCtrl')(app);
+require('./components/nav-menu/nav-menu')(app);
+require('./components/main-section/main-section')(app);
 require('./components/organizers/organizers')(app);
 require('./components/convention/convention')(app);
 require('./components/schedule/scheduleCtrl')(app);
