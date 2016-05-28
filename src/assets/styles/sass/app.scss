@@ -119,17 +119,8 @@
   }
 }
 
-.scrollpoint {
-  opacity: 0;
-}
-
-.scrollpoint.active {
-  opacity: 1;
-}
-
 .section-heading {
   margin: 60px 0 80px;
-  //margin: 15px 0 20px;
   text-align: center;
 }
 
@@ -164,12 +155,6 @@
 
 .section-heading.inverse .divider:after {
   background: #ffffff;
-}
-
-.main {
-  p {
-    font-size: 16px;
-  }
 }
 
 /*-----------------------------------------------------  organizers -------------------------------------------------*/
