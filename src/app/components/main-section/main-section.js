@@ -6,8 +6,6 @@ export default function (module) {
         <div class="container">
           <div class="row">
             <div class="col-md-7 scrollpoint sp-effect1 main-rigth">
-              <br><br><br><br><br><br>
-  
               <h2>Lviv Fitness Weekend</h2>
               <!--<h2>30 Вересня - 1,2 Жовтня</h2>-->
   
