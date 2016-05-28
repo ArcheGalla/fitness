@@ -1,5 +1,66 @@
+@import '../../../assets/styles/sass/variables';
+
 .main-section {
+  .main-section-left {
+    h2 {
+      margin-top: 9vh;
+    }
+  }
   p {
     font-size: 16px;
   }
+
+  .main-actions {
+    a {
+      margin: 20px 10px;
+      color: #f6f6f6;
+      border-color: #f6f6f6;
+    }
+  }
+  .main-left {
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  .btn-primary {
+    padding: 10px 45px;
+  }
 }
+
+@media (max-width: $screen-sm) {
+  .main-section {
+    .main-section-left {
+      text-align: justify;
+      h2 {
+        margin-top: 18vh;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-xs) {
+  .main-section {
+    .main-section-left {
+      text-align: justify;
+
+      h2 {
+        margin-top: 3vh;
+        text-align: center;
+      }
+    }
+    p {
+      font-size: 17px;
+    }
+    .btn-primary {
+      padding: 5px 10px;
+    }
+  }
+}
+
+//@media (max-width: @screen-xs-max) { ... }
+//@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+//@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+//@media (min-width: @screen-lg-min) { ... }
