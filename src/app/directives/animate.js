@@ -3,7 +3,7 @@ export default function (module) {
     return ({
       restrict: 'A',
       link: function ($scope, $element, $attr) {
-        console.log('TEST TEST');
+        //console.log('TEST TEST');
         //$element.waypoint(function () {
         //  console.log('this', this);
         //});
