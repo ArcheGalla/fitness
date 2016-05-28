@@ -1,11 +1,13 @@
 /*http://themeforest.net/item/gym-edge-gym-fitness-psd-template/15937019?s_rank=6*/
+
+import './tickets.scss';
 export default function (module) {
   module.directive('fitnessTickets', function () {
     return ({
       template: `
        <section id="tickets">
         <div class="container-fluid">
-          <div class="section-heading inverse scrollpoint sp-effect3">
+          <div class="section-heading scrollpoint sp-effect3">
             <h1>Квитки</h1>
             <div class="divider"></div>
             <p>Приєднуйтесь до наймасштабнішої фітнес події року!</p>

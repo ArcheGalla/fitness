@@ -1,4 +1,7 @@
 #tickets {
+  h1, p {
+    color: white;
+  }
 
   .pricing {
     display: flex;
@@ -32,7 +35,6 @@
   .pricing__action:focus {
     outline: none;
   }
-
 
   .pricing--pema .pricing__item {
     //font-family: 'LatoLight', sans-serif;
