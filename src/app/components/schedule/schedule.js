@@ -15,9 +15,9 @@ export default function (module) {
                 <p>Розклад уточнюється</p>
               </div>
 
-              <div class="filter scrollpoint sp-effect3">
-                <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.ALL)" class="button"
-                   ng-class="{ 'active' : schedule.SCHEDULES.ALL === schedule.currertSchedule }">Всі дні</a>
+              <!--<div class="filter scrollpoint sp-effect3">-->
+                <!--<a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.ALL)" class="button"-->
+                   <!--ng-class="{ 'active' : schedule.SCHEDULES.ALL === schedule.currertSchedule }">Всі дні</a>-->
                 <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.ONE)" class="button"
                    ng-class="{ 'active' : schedule.SCHEDULES.ONE === schedule.currertSchedule }">Перший день</a>
                 <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.TWO)" class="button"
@@ -26,23 +26,11 @@ export default function (module) {
 
             </div>
 
-            <div class="schedule-table" ng-if="schedule.SCHEDULES.ALL === schedule.currertSchedule">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 scene">
-                    <div class="schedule-row">
-                      <span>08.00 - 09.00</span>
-                      <span>about schedule</span>
-                      <span>some info</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="schedule-table" ng-if="schedule.SCHEDULES.ONE === schedule.currertSchedule">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 scene" ng-repeat="scene in dayone">
+                    <h4 class="text-center">{{ scene.title }}</h4>
                     <div class="schedule-row" ng-repeat="item in scene.lectures">
                       <span>{{ item.time }}</span>
                       <span>{{ item.name }}</span>
@@ -56,6 +44,7 @@ export default function (module) {
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 scene" ng-repeat="scene in daytwo">
+                    <h4 class="text-center">{{ scene.title }}</h4>
                     <div class="schedule-row" ng-repeat="item in scene.lectures">
                       <span>{{ item.time }}</span>
                       <span>{{ item.name }}</span>
