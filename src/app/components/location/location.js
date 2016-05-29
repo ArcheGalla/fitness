@@ -1,6 +1,8 @@
+import './location.scss';
+
 export default function (module) {
   module.directive('fitnessLocation', function () {
-    return ({
+      return ({
         template: `
         <section id="location">
           <div class="container-fluid">
@@ -13,14 +15,17 @@ export default function (module) {
             <div class="row">
               <div class="col-lg-5">
                 <div class="scrollpoint sp-effect1">
-                  <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.73075733132!2d23.970097215708297!3d49.80992927939217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae70c10051b3d%3A0x648b5ac5170279fa!2z0JLQuNGB0YLQsNCy0LrQvtCy0LjQuSDRhtC10L3RgtGAICLQn9GW0LLQtNC10L3QvdC40LktRVhQTyI!5e0!3m2!1suk!2sua!4v1461493597913"
-                      frameborder="0"
-                      style="border:0"
-                      width="100%"
-                      height="365px"
-                      allowfullscreen>
-                  </iframe>
+                  <div id="canvas1" fixmapscroll>
+                    <iframe
+                        id="map_canvas1"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.73075733132!2d23.970097215708297!3d49.80992927939217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae70c10051b3d%3A0x648b5ac5170279fa!2z0JLQuNGB0YLQsNCy0LrQvtCy0LjQuSDRhtC10L3RgtGAICLQn9GW0LLQtNC10L3QvdC40LktRVhQTyI!5e0!3m2!1suk!2sua!4v1461493597913"
+                        frameborder="0"
+                        style="border:0"
+                        width="100%"
+                        height="365px"
+                        allowfullscreen>
+                    </iframe>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-7">
@@ -93,53 +98,70 @@ export default function (module) {
           </div>
       </section>
         `,
-      controller: function ($http, $timeout, $scope) {
-        var vm = this;
+        controller: function ($http, $timeout, $scope) {
+          var vm = this;
 
-        vm.success = null;
-        vm.error = null;
-
-        vm.presenters = require('../presenter/presenters.json');
-        vm.workshops = require('../workshops/workshops.json');
-
-        vm.formData = {
-          name: '',
-          email: '',
-          message: ''
-        };
-
-        vm.sendMessage = function (valid, data) {
+          vm.success = null;
           vm.error = null;
 
+          vm.presenters = require('../presenter/presenters.json');
+          vm.workshops = require('../workshops/workshops.json');
 
-          if (valid) {
-            $http
-              .post('message', data)
-              .then(()=> {
-                vm.formData = {
-                  name: '',
-                  email: '',
-                  message: ''
-                };
+          vm.formData = {
+            name: '',
+            email: '',
+            message: ''
+          };
 
-                $scope.messageForm.$submitted = false;
-                vm.success = true;
+          vm.sendMessage = function (valid, data) {
+            vm.error = null;
 
-                $timeout(()=> {
-                  vm.success = false;
-                }, 4000);
-              })
-              .catch((error)=> {
-                $scope.messageForm.$submitted = false;
-                vm.error = error;
-                $timeout(()=> {
-                  vm.error = null;
-                }, 4000);
-              });
+
+            if (valid) {
+              $http
+                .post('message', data)
+                .then(()=> {
+                  vm.formData = {
+                    name: '',
+                    email: '',
+                    message: ''
+                  };
+
+                  $scope.messageForm.$submitted = false;
+                  vm.success = true;
+
+                  $timeout(()=> {
+                    vm.success = false;
+                  }, 4000);
+                })
+                .catch((error)=> {
+                  $scope.messageForm.$submitted = false;
+                  vm.error = error;
+                  $timeout(()=> {
+                    vm.error = null;
+                  }, 4000);
+                });
+            }
           }
-        }
-      },
-      controllerAs: 'vm'
+        },
+        controllerAs: 'vm'
+      });
+    })
+    .directive('fixmapscroll', function () {
+      return function (scope, element) {
+
+        const wrap = $(element);
+        const map = wrap.find('#map_canvas1');
+
+        map.addClass('scrolloff');
+
+        wrap.on('click', function () {
+          map.removeClass('scrolloff');
+        });
+
+        map.mouseleave(function () {
+          wrap.addClass('scrolloff');
+        });
+      }
     });
-  });
 }
