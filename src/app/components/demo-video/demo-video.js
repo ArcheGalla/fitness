@@ -12,7 +12,7 @@ export default function (module) {
           <div class="row">
             <div class="col-md-8 col-md-offset-2 scrollpoint sp-effect2">
               <div class="video-container">
-                <iframe src="" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/LFzz0s2HOBg" frameborder="0" allowfullscreen></iframe>
               </div>
             </div>
           </div>
