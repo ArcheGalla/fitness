@@ -1,19 +1,62 @@
 [
   {
+    "title": "Сцена 1",
     "lectures": [
       {
-        "time": "08.00-10.00",
-        "name": "Ярослав",
-        "instructor": "KANGOO JUMPS"
+        "time": "09.00-09.50",
+        "name": "Горбань Валентин",
+        "instructor": "V-STEP"
+      },
+      {
+        "time": "10.00-10.50",
+        "name": "Смірнова Катерина",
+        "instructor": "PILATES 'До сотні'"
+      },
+      {
+        "time": "11.00-11.50",
+        "name": "Virgilijus Želvys",
+        "instructor": "STEP DANCE"
       }
     ]
   },
-
   {
-    "lectures": []
+    "title": "Сцена 2",
+    "lectures": [
+      {
+        "time": "09.00-09.50",
+        "name": "Мартенс Аліса",
+        "instructor": "BODY BALET"
+      },
+      {
+        "time": "10.00-10.50",
+        "name": "Пляшечка Сергій",
+        "instructor": "YOGA 23"
+      },
+      {
+        "time": "11.00-11.50",
+        "name": "Трегубенко Ольга",
+        "instructor": "VIPR"
+      }
+    ]
   },
-
   {
-    "lectures": []
+    "title": "Зона функціонально тренінгу",
+    "lectures": [
+      {
+        "time": "09.00-09.50",
+        "name": "Мартенс Аліса",
+        "instructor": "BODY BALET"
+      },
+      {
+        "time": "10.00-10.50",
+        "name": "Пляшечка Сергій",
+        "instructor": "YOGA 23"
+      },
+      {
+        "time": "11.00-11.50",
+        "name": "Трегубенко Ольга",
+        "instructor": "VIPR"
+      }
+    ]
   }
 ]
