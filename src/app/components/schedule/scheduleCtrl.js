@@ -1,25 +1,24 @@
+const schedule_day_one = require('./day_one.json');
+const schedule_day_two = require('./day_two.json');
+
 export  default function (module) {
-  module.controller('scheduleCtrl', function () {
+  module.controller('scheduleCtrl', function ($scope) {
+
+    $scope.dayone = schedule_day_one;
+    $scope.daytwo = schedule_day_two;
+
     const vm = this;
+
     vm.SCHEDULES = {
-      ALL: 'all',
       ONE: 'one',
       TWO: 'two'
     };
 
-    //vm.all_days = true;
-    //vm.day_one = false;
-    //vm.day_two = false;
 
-    vm.currertSchedule = vm.SCHEDULES.ALL;
+    vm.currertSchedule = vm.SCHEDULES.ONE;
 
     vm.setSchedule = (day)=> {
       switch (day) {
-        case vm.SCHEDULES.ALL:
-        {
-          vm.currertSchedule = vm.SCHEDULES.ALL;
-          break;
-        }
         case vm.SCHEDULES.ONE:
         {
           vm.currertSchedule = vm.SCHEDULES.ONE;

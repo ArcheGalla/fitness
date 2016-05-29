@@ -1,6 +1,6 @@
 [
   {
-    "title": "Сцена 1",
+    "title": "Сцена 2",
     "lectures": [
       {
         "time": "09.00-09.50",
@@ -8,19 +8,19 @@
         "instructor": "STEP BEAT"
       },
       {
-        "time": "10.00-10.50",
-        "name": "Смірнова Катерина",
-        "instructor": "PILATES 'До сотні'"
-      },
-      {
         "time": "11.00-11.50",
         "name": "Virgilijus Želvys",
         "instructor": "STEP DANCE"
+      },
+      {
+        "time": "10.00-10.50",
+        "name": "Смірнова Катерина",
+        "instructor": "PILATES 'До сотні'"
       }
     ]
   },
   {
-    "title": "Сцена 2",
+    "title": "Сцена 1",
     "lectures": [
       {
         "time": "09.00-09.50",
@@ -28,14 +28,14 @@
         "instructor": "BODY BALET"
       },
       {
-        "time": "10.00-10.50",
-        "name": "Пляшечка Сергій",
-        "instructor": "YOGA 23"
-      },
-      {
         "time": "11.00-11.50",
         "name": "Трегубенко Ольга",
         "instructor": "VIPR"
+      },
+      {
+        "time": "10.00-10.50",
+        "name": "Пляшечка Сергій",
+        "instructor": "YOGA 23"
       }
     ]
   },

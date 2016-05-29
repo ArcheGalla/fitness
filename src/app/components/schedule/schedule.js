@@ -1,8 +1,4 @@
 import './schedule.scss';
-
-const schedule_day_one = require('./day_one.json');
-const schedule_day_two = require('./day_two.json');
-
 export default function (module) {
   module.directive('fitnessSchedule', function () {
     return ({
@@ -15,9 +11,7 @@ export default function (module) {
                 <p>Розклад уточнюється</p>
               </div>
 
-              <!--<div class="filter scrollpoint sp-effect3">-->
-                <!--<a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.ALL)" class="button"-->
-                   <!--ng-class="{ 'active' : schedule.SCHEDULES.ALL === schedule.currertSchedule }">Всі дні</a>-->
+              <div class="filter scrollpoint sp-effect3">
                 <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.ONE)" class="button"
                    ng-class="{ 'active' : schedule.SCHEDULES.ONE === schedule.currertSchedule }">Перший день</a>
                 <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.TWO)" class="button"
@@ -33,8 +27,8 @@ export default function (module) {
                     <h4 class="text-center">{{ scene.title }}</h4>
                     <div class="schedule-row" ng-repeat="item in scene.lectures">
                       <span>{{ item.time }}</span>
-                      <span>{{ item.name }}</span>
                       <span>{{ item.instructor }}</span>
+                      <span>{{ item.name }}</span>
                     </div>
                   </div>
                 </div>
@@ -47,8 +41,8 @@ export default function (module) {
                     <h4 class="text-center">{{ scene.title }}</h4>
                     <div class="schedule-row" ng-repeat="item in scene.lectures">
                       <span>{{ item.time }}</span>
-                      <span>{{ item.name }}</span>
                       <span>{{ item.instructor }}</span>
+                      <span>{{ item.name }}</span>
                     </div>
                   </div>
                 </div>
@@ -56,10 +50,8 @@ export default function (module) {
             </div>
         </section>
       `,
-      controller: function ($scope) {
-        $scope.dayone = schedule_day_one;
-        $scope.daytwo = schedule_day_two;
-      }
+      controller: 'scheduleCtrl',
+      controllerAs: 'schedule'
     });
   });
 }
