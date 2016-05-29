@@ -21,7 +21,10 @@ require('./components/schedule/schedule')(app);
 require('./components/tickets/tickets')(app);
 require('./components/workshops/workshop')(app);
 require('./components/demo-video/demo-video')(app);
+
 require('./components/partners/partners')(app);
+require('./components/partnership/partnership')(app);
+
 require('./components/location/location')(app);
 require('./components/footer/footer')(app);
 

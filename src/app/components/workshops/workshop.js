@@ -1,3 +1,4 @@
+import './workshop.scss';
 export default function (module) {
   module.directive('fitnessWorkshops', function () {
     return ({

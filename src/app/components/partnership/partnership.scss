@@ -1,0 +1,42 @@
+.partnership {
+  width: 100%;
+  background: #f6f6f6;
+
+  .partnership-align {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .partnership-align[direction="column"] {
+    flex-direction: column;
+  }
+  .partnership-align[direction="row"] {
+    flex-direction: row;
+  }
+
+  .invitation {
+    font-size: 16px;
+  }
+
+  .partner-btn {
+    height: 150px;
+    width: 150px;
+    line-height: 138px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 2px solid #66cc99;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12);
+    animation: all .3s ease;
+    &:focus {
+      border: 2px solid #66cc99;
+    }
+    &:hover {
+      box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+      animation: all .5s ease;
+    }
+  }
+}

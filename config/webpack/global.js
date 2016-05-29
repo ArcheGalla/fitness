@@ -6,8 +6,6 @@ var Manifest = require('manifest-revision-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var HtmlWebpackPlugin = require("html-webpack-plugin");
 
-var LessPluginCleanCSS = require('less-plugin-clean-css');
-
 var NODE_ENV = process.env.NODE_ENV || "production";
 var DEVELOPMENT = NODE_ENV === "production" ? false : true;
 var stylesLoader = 'css-loader?sourceMap!postcss-loader!sass-loader?outputStyle=expanded&sourceMap=true&sourceMapContents=true';
