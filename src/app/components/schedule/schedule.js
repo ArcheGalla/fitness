@@ -11,16 +11,16 @@ export default function (module) {
                 <p>Розклад уточнюється</p>
               </div>
 
-              <div class="filter scrollpoint sp-effect3">
-                <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.ONE)" class="button"
-                   ng-class="{ 'active' : schedule.SCHEDULES.ONE === schedule.currertSchedule }">Перший день</a>
-                <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.TWO)" class="button"
-                   ng-class="{ 'active' : schedule.SCHEDULES.TWO === schedule.currertSchedule }">Другий день</a>
-              </div>
+              <!--<div class="filter scrollpoint sp-effect3">-->
+                <!--<a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.ONE)" class="button"-->
+                   <!--ng-class="{ 'active' : schedule.SCHEDULES.ONE === schedule.currertSchedule }">Перший день</a>-->
+                <!--<a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.TWO)" class="button"-->
+                   <!--ng-class="{ 'active' : schedule.SCHEDULES.TWO === schedule.currertSchedule }">Другий день</a>-->
+              <!--</div>-->
 
             </div>
 
-            <div class="schedule-table" ng-if="schedule.SCHEDULES.ONE === schedule.currertSchedule">
+            <!--<div class="schedule-table" ng-if="schedule.SCHEDULES.ONE === schedule.currertSchedule">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 scene" ng-repeat="scene in dayone">
@@ -33,8 +33,8 @@ export default function (module) {
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="schedule-table" ng-if="schedule.SCHEDULES.TWO === schedule.currertSchedule">
+            </div>-->
+            <!--<div class="schedule-table" ng-if="schedule.SCHEDULES.TWO === schedule.currertSchedule">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 scene" ng-repeat="scene in daytwo">
@@ -47,7 +47,7 @@ export default function (module) {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>-->
         </section>
       `,
       controller: 'scheduleCtrl',
