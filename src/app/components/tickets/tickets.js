@@ -24,9 +24,9 @@ export default function (module) {
                   <span class="pricing__period">/ день</span>
                 </div>
                 <ul class="pricing__feature-list">
-                  <li class="pricing__feature"></li>
-                  <li class="pricing__feature">Support at $25/hour</li>
-                  <li class="pricing__feature">1 campaign/month</li>
+                  <li class="pricing__feature">10 годин Non-Stop фітнес тренувань</li>
+                  <li class="pricing__feature">1500 людей</li>
+                  <li class="pricing__feature">3 сцени</li>
                 </ul>
                 <button class="pricing__action">Придбати квиток</button>
               </div>
@@ -39,9 +39,10 @@ export default function (module) {
                   <span class="pricing__period">/ 2 дні</span>
                 </div>
                 <ul class="pricing__feature-list">
-                  <li class="pricing__feature">50 presentations/month</li>
-                  <li class="pricing__feature">5 hours of free support</li>
-                  <li class="pricing__feature">10 campaigns/month</li>
+                  <li class="pricing__feature">20 годин Non-Stop фітнес тренувань</li>
+                  <li class="pricing__feature">3000 людей</li>
+                  <li class="pricing__feature">27 презентерів</li>
+                  <li class="pricing__feature">3 сцени</li>
                 </ul>
                 <button class="pricing__action">Придбати квиток</button>
               </div>
@@ -54,9 +55,9 @@ export default function (module) {
                   <span class="pricing__period">/ день</span>
                 </div>
                 <ul class="pricing__feature-list">
-                  <li class="pricing__feature">Unlimited presentations</li>
-                  <li class="pricing__feature">Unlimited support</li>
-                  <li class="pricing__feature">Unlimited campaigns</li>
+                  <li class="pricing__feature">10 годин Non-Stop фітнес тренувань</li>
+                  <li class="pricing__feature">1500 людей</li>
+                  <li class="pricing__feature">3 сцени</li>
                 </ul>
                 <button class="pricing__action">Придбати квиток</button>
               </div>
