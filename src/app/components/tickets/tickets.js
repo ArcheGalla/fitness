@@ -20,7 +20,7 @@ export default function (module) {
                 <p class="pricing__sentence">Субота</p>
                 <div class="pricing__price">
                   <span class="pricing__currency">₴</span>
-                  600
+                  640
                   <span class="pricing__period">/ день</span>
                 </div>
                 <ul class="pricing__feature-list">
@@ -35,7 +35,7 @@ export default function (module) {
                 <p class="pricing__sentence">Субота - Неділя</p>
                 <div class="pricing__price">
                   <span class="pricing__currency">₴</span>
-                  800
+                  720
                   <span class="pricing__period">/ 2 дні</span>
                 </div>
                 <ul class="pricing__feature-list">
@@ -51,7 +51,7 @@ export default function (module) {
                 <p class="pricing__sentence">Неділя</p>
                 <div class="pricing__price">
                   <span class="pricing__currency">₴</span>
-                  600
+                  640
                   <span class="pricing__period">/ день</span>
                 </div>
                 <ul class="pricing__feature-list">
