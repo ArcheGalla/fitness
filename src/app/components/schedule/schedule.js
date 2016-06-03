@@ -7,7 +7,7 @@ export default function (module) {
             <div class="container">
               <div class="section-heading scrollpoint sp-effect3">
                 <!--<h1>Розклад</h1>-->
-                <h1>Розклад очікуйте</h1>
+                <h1>Розклад очікуйте !</h1>
                 <!--<div class="divider"></div>-->
                 <!--<p>Розклад уточнюється</p>-->
               </div>

@@ -71,7 +71,7 @@ export default function (module) {
                       </a>
                       <div class="media-body">
                         <h4 class="media-heading">
-                          <a href="mailto:support@oleose.com">support@lviv.fitness.com</a>
+                          <a href="mailto:lvivfitnessweekend@gmail.com">lvivfitnessweekend@gmail.com</a>
                         </h4>
                       </div>
                     </div>
@@ -80,7 +80,7 @@ export default function (module) {
                         <i class="fa fa-phone fa-2x"></i>
                       </a>
                       <div class="media-body">
-                        <h4 class="media-heading">+38 (093) 126 43 88</h4>
+                        <h4 class="media-heading">+38 (068) 655 87 91</h4>
                       </div>
                     </div>
                     <div class="media">
