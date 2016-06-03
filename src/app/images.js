@@ -56,12 +56,6 @@ import '!!file-loader?name=[name].[ext]!../assets/images/partners/try_styhiy.png
 import '!!file-loader?name=[name].[ext]!../assets/images/partners/vs_fitness_centre.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/partners/expo.png';
 
-//main
-//import '!!file-loader?name=[name].[ext]!../assets/images/main/main-logo.png';
-//import '!!file-loader?name=[name].[ext]!../assets/images/main/slider_1.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/main/slider_2.png';
-
-
 //---------------------------------------------DOWNLOADS----------------------------------------------------
 
 import '!!file-loader?name=[name].[ext]!../assets/downloads/Offer_LFWЕКСПО.pdf';
