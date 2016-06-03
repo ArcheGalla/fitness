@@ -30,11 +30,6 @@ import '!!file-loader?name=[name].[ext]!../assets/js/rs-plugin/assets/large_righ
 //import '!!file-loader?name=[name].[ext]!../../sample/Oleose-master/assets/img/freeze/Slides/hand-freeze.png';
 
 
-// orgs
-import '!!file-loader?name=[name].[ext]!../assets/images/organizers/anna_lashchuk.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/organizers/sergey_konyushok.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/organizers/sergey_putsov.png';
-
 /*------------------------------------ presenter ---------------------------------------------------*/
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/old/smyrnova_ekateryna.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/old/cyoh_ekaterina.png';
