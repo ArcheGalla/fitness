@@ -84,13 +84,6 @@
     "description": "Майстер спорту міжнародного класу. дворазовий чемпіон світу зі стронгмену, президент федерації стронгмену України, Магістр фізіології спорту, співвласник та керівник мережі фітнес центрів \"Олімп\""
   },
   {
-    "firstName": "Тетяна",
-    "lastName": "Саде",
-    "avatar": "tatiana_sade.png",
-    "employment": "",
-    "description": "Сертифікований тренер «The Ingle Institute for Somatic Movement Education».  Інструктор групових програм за напрямками розумне тіло, пілатес та клінічна соматика. Кандидат в майстри спорту з дзю-до. Презентер українських фітнес конвенцій. Досвід тренерської роботи 11 років"
-  },
-  {
     "firstName": "Юлія",
     "lastName": "Бродська",
     "avatar": "julia_brodska.png",
@@ -133,84 +126,84 @@
     "firstName": "Катерина",
     "lastName": "Смирнова",
     "avatar": "smyrnova_ekateryna.png",
-    "employment": "PILATES 'ДО СОТНІ', MATWORK",
+    "employment": "",
     "description": "Засновник International Pilates University Fitness4you, координатор навчальної програми, методист, автор спеціальних програм роботи в пілатесі, статей і навчальних посібників, презентер міжнародних та національних форумів і конвенцій"
   },
   {
     "firstName": "Ярослав",
     "lastName": "Сойніков",
     "avatar": "soynikov_yaroslav.png",
-    "employment": "TRX",
+    "employment": "",
     "description": "Міжнародний презентер. Майстер тренер Life fitness academy. Майстер тренер TRX©, Trigger point©"
   },
   {
     "firstName": "Oxana",
     "lastName": "Moshescu",
     "avatar": "moshescu_oxana.png",
-    "employment": "KANGOO JUMPS (Romania)",
+    "employment": "",
     "description": "Офіційний тренер Kangoo Jumps Fitness Programs і засновник клубу Kangoo Club Ukraine. Міжнародний презентер Swvinn Cycling, C-moves"
   },
   {
     "firstName": "Сергій",
     "lastName": "Пуцов",
     "avatar": "pucov_sergiy.png",
-    "employment": "OXYGEN WORKOUT",
+    "employment": "",
     "description": "Кандидат наук з фізичного виховання і спорту, майстер спорту з важкої атлетики, головний тренер клубу SkyFitness, провідний викладач школи фітнес-інструкторів Fitnesservice"
   },
   {
     "firstName": "Олександр",
     "lastName": "Довгич",
     "avatar": "dovgych_oleksandr.png",
-    "employment": "OXYGEN WORKOUT, KETTLEBELL WORKOUT",
+    "employment": "",
     "description": "Кандидат наук з фізичного виховання та спорту, доцент кафедри здоров'я, фітнесу та рекреації Національного університету фізичного виховання і спорту України, персональний тренер клубу SkyFitness, експерт з навчальних програм у сфері фітнесу"
   },
   {
     "firstName": "Ольга",
     "lastName": "Смелкова",
     "avatar": "smelkova_olga.png",
-    "employment": "AEROJUMP, ZUMBA",
+    "employment": "",
     "description": "Методист тренінгового центру «Академія Фітнеса - Україна» (Київ). Спеціалізується на підготовці інструкторів групових програм. Презентер міжнародних фітнес-конвенцій. Сертифікований спеціаліст ZUMBA. Хореограф- постановник латиноамериканських танцювальних стилів"
   },
   {
     "firstName": "Олеся",
     "lastName": "Губеня",
     "avatar": "gubenya_olesya.png",
-    "employment": "CROSSFIT",
+    "employment": "",
     "description": "Персональний тренер і інструктор групових програм в клубі Crossfit Banda. Персональний тренер клубу активного відпочинку «Подольский». Сертифікований інструктор з функціонального тренінгу TRX. Фіналіст і призерка всеукраїнськіх змагань з CrossFit"
   },
   {
     "firstName": "Катерина",
     "lastName": "Цьовх",
     "avatar": "cyoh_ekaterina.png",
-    "employment": "SKY JUMPING",
+    "employment": "",
     "description": "Координатор розвитку фітнес-програми Sky Jumping® в країнах СНД, презентер міжнародної конвенції NIKE 2014, директор мережі жіночих фітнес-клубів «Ківі Фітнес», керівник і викладач школи фітнес-інструкторів KFS"
   },
   {
     "firstName": "Олександр",
     "lastName": "Кравченко",
     "avatar": "kravchenko_olexsandr.png",
-    "employment": "CROSSFIT",
+    "employment": "",
     "description": "Засновник афілійованого клубу Crossfit Banda. Персональний тренер. Фіналіст «Великого кубку на звання самої фізично підготовленої людини» 2013-2014 років. Призер всеукраїнських змагань"
   },
   {
     "firstName": "Євгенія",
     "lastName": "Щігрова",
     "avatar": "shygrova_evgeniya.png",
-    "employment": "OWER STRETCH",
+    "employment": "",
     "description": "Дипломований фахівець у галузі фізичної реабілітації. Сертифікований фахівець з функціонального тренінгу, TRX, Power stretching. учасник міжнародних семінарів і фітнес-конвенцій. Фітнес-менеджер групових програм клубу «Фітнес-клас»"
   },
   {
     "firstName": "Ганна",
     "lastName": "Лащук",
     "avatar": "lashuk_anna.png",
-    "employment": "UKRAINIAN STEP",
+    "employment": "",
     "description": "Директор спортивного комплексу «Грація». Власниця фітнес-центру Vita Sana, чемпіонка International dance competition Leader. Дипломований та сертифікований фітнес-тренер. Групових та персональних тренувань. Автор напрямку Ukrainian step"
   },
   {
     "firstName": "Інна",
     "lastName": "Шипкова",
     "avatar": "shypkova_inna.png",
-    "employment": "FIGHT FUNCTIONAL, FIGHT FIT",
+    "employment": "",
     "description": "Менеджер групових програм TETRA FITNESS CLUB. сертифікований фахівець з TRX і TRX Sports Medicine, КМС України з тайського боксу, Фіналіст Кубку України з бодібілдингу та фітнесу. Презентер українських фітнес конвенцій"
   }
 ]

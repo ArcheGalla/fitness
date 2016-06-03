@@ -11,7 +11,6 @@ export default function (module) {
       controller: function ($scope, $modal) {
         const vm = this;
 
-
         $scope.$on('open:modal:info', ()=> {
           $modal
             .open({
