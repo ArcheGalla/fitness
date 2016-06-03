@@ -3,6 +3,7 @@ import '../assets/js/ui-bootstrap/ui-bootstrap-custom-tpls-0.13.4';
 import './images';
 
 //require('./directives/animate')(app);
+// require('./components/widget/widget')(app);
 
 import '../assets/styles/sass/index.scss';
 import 'jquery-waypoints/waypoints.min';
