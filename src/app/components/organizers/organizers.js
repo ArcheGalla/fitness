@@ -35,8 +35,8 @@ export default function (module) {
                 <div class="about-item scrollpoint sp-effect5">
                   <img ng-src="{{ 'anna_lashchuk.png' }}" alt="Анна Лащук">
                   <h3>Анна Лащук</h3>
+                    <!--Заступник генерального директора ТВК "Південний".-->
                   <p>
-                    Заступник генерального директора ТВК "Південний".
                     Голова громадської організації. «Здорового способу життя».
                     Власниця фітнес - центру Vita Sana.
                     Чемпіонка International dance competition Leader. Дипломований
