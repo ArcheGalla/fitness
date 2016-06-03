@@ -29,9 +29,9 @@ export default function (module) {
               <li>
                 <a href="#workshops">Семінари</a>
               </li>
-              <li>
-                <a href="#demo">Форум</a>
-              </li>
+              <!--<li>-->
+                <!--<a href="#demo">Форум</a>-->
+              <!--</li>-->
               <li>
                 <a href="#partners">Партнери</a>
               </li>

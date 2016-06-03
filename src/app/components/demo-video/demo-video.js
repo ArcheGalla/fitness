@@ -7,7 +7,7 @@ export default function (module) {
       <section id="demo">
         <div class="container">
           <div class="section-heading scrollpoint sp-effect3">
-            <h1>Відео звіт</h1>
+            <h1>Відео звіт 2015 року</h1>
             <div class="divider"></div>
             <!--<p>Take a closer look in more detail</p>-->
           </div>
