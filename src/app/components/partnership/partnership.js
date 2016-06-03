@@ -15,8 +15,12 @@ export default function (module) {
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div class="partnership-align" direction="row">
-                 <div class="btn partner-btn" ng-click="partnership.showVideo()">Стати <br> партнером</div>
-                 <div class="btn partner-btn partner-expo">Expo Участь</div>
+                 <a href class="link-download">
+                  <div class="btn partner-btn" ng-click="partnership.showVideo()">Стати <br> партнером</div>
+                 </a>
+                 <a class="link-download" href="Offer_LFWЕКСПО.pdf" target="_blank">
+                  <div class="btn partner-btn partner-expo">Expo Участь</div>
+                  </a>
               </div>
             </div>
           </div>

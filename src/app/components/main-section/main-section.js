@@ -21,7 +21,7 @@ export default function (module) {
 
                 <div class="row main-actions text-center">
                   <div class="col-xs-4"><a href="#convention" class="btn btn-primary">Конвенція</a></div>
-                  <!--<div class="col-xs-4"><a href="" class="btn btn-primary">Семінари</a></div>-->
+                  <div class="col-xs-4"><a href="#workshops" class="btn btn-primary">Семінари</a></div>
                   <!--<div class="col-xs-4"><a href="" class="btn btn-primary">Форум</a></div>-->
                 </div>
               </div>
