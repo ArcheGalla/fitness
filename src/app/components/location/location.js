@@ -3,15 +3,15 @@ import './location.scss';
 export default function (module) {
   module.directive('fitnessLocation', function () {
       return ({
-        template: require('./location.html'),
+        templateUrl: require('./location.html'),
         controller: function ($http, $timeout, $scope) {
           var vm = this;
 
           vm.success = null;
           vm.error = null;
 
-          vm.presenters = require('../presenter/presenters.json');
-          vm.workshops = require('../workshops/workshops.json');
+          //vm.presenters = require('../presenter/presenters.json');
+          //vm.workshops = require('../workshops/workshops.json');
 
           vm.formData = {
             name: '',

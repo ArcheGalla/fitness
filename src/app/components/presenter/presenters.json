@@ -84,13 +84,6 @@
     "description": "Майстер спорту міжнародного класу. дворазовий чемпіон світу зі стронгмену, президент федерації стронгмену України, Магістр фізіології спорту, співвласник та керівник мережі фітнес центрів \"Олімп\""
   },
   {
-    "firstName": "Юлія",
-    "lastName": "Бродська",
-    "avatar": "julia_brodska.png",
-    "employment": "",
-    "description": "Презентер міжнародних фітнес конвенцій, Pilates-тренер, фахівець з навчання інструкторів напрямків Mind&Body, сертифікований презентер PortDeBras"
-  },
-  {
     "firstName": "Ania",
     "lastName": "Horobiowska",
     "avatar": "ania_horobiowska.png",
@@ -104,27 +97,9 @@
     "employment": "(Італія)",
     "description": "Міжнародній фітнес презентер. Отримав освіту у Sciences Sport University. Сертифікованій Nike тренер, а також за напрямками TRX, Nrg bag, kettlebells, Antigravity Yoga, Pilates matwork, Reformer. Основний напрямок роботи – функціональний тренінг"
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   {
     "firstName": "Катерина",
-    "lastName": "Смирнова",
+    "lastName": "Смірнова",
     "avatar": "smyrnova_ekateryna.png",
     "employment": "",
     "description": "Засновник International Pilates University Fitness4you, координатор навчальної програми, методист, автор спеціальних програм роботи в пілатесі, статей і навчальних посібників, презентер міжнародних та національних форумів і конвенцій"
@@ -135,13 +110,6 @@
     "avatar": "soynikov_yaroslav.png",
     "employment": "",
     "description": "Міжнародний презентер. Майстер тренер Life fitness academy. Майстер тренер TRX©, Trigger point©"
-  },
-  {
-    "firstName": "Oxana",
-    "lastName": "Moshescu",
-    "avatar": "moshescu_oxana.png",
-    "employment": "",
-    "description": "Офіційний тренер Kangoo Jumps Fitness Programs і засновник клубу Kangoo Club Ukraine. Міжнародний презентер Swvinn Cycling, C-moves"
   },
   {
     "firstName": "Сергій",
@@ -191,13 +159,6 @@
     "avatar": "shygrova_evgeniya.png",
     "employment": "",
     "description": "Дипломований фахівець у галузі фізичної реабілітації. Сертифікований фахівець з функціонального тренінгу, TRX, Power stretching. учасник міжнародних семінарів і фітнес-конвенцій. Фітнес-менеджер групових програм клубу «Фітнес-клас»"
-  },
-  {
-    "firstName": "Ганна",
-    "lastName": "Лащук",
-    "avatar": "lashuk_anna.png",
-    "employment": "",
-    "description": "Директор спортивного комплексу «Грація». Власниця фітнес-центру Vita Sana, чемпіонка International dance competition Leader. Дипломований та сертифікований фітнес-тренер. Групових та персональних тренувань. Автор напрямку Ukrainian step"
   },
   {
     "firstName": "Інна",
