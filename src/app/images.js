@@ -46,16 +46,6 @@ import '!!file-loader?name=[name].[ext]!../assets/images/presenters/sergey_konyu
 //contact
 import '!!file-loader?name=[name].[ext]!../assets/images/contacts/christina.png';
 
-// partners
-import '!!file-loader?name=[name].[ext]!../assets/images/partners/ak.png';
-//import '!!file-loader?name=[name].[ext]!../assets/images/partners/emiliya.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/partners/graziya.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/partners/olimp.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/partners/olimpic.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/partners/try_styhiy.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/partners/vs_fitness_centre.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/partners/expo.png';
-
 //---------------------------------------------DOWNLOADS----------------------------------------------------
 
 import '!!file-loader?name=[name].[ext]!../assets/downloads/Offer_LFWЕКСПО.pdf';
