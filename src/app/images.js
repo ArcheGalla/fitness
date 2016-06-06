@@ -41,11 +41,6 @@ import '!!file-loader?name=[name].[ext]!../assets/images/presenters/sergey_konyu
 /*------------------------------------ presenter ---------------------------------------------------*/
 
 
-
-
-//contact
-import '!!file-loader?name=[name].[ext]!../assets/images/contacts/christina.png';
-
 //---------------------------------------------DOWNLOADS----------------------------------------------------
 
 import '!!file-loader?name=[name].[ext]!../assets/downloads/Offer_LFWЕКСПО.pdf';
