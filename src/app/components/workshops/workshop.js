@@ -6,16 +6,16 @@ export default function (module) {
     return ({
       //templateUrl: require('./workshops.html'),
       template: `
-            <section id="workshops">
+      <section id="workshops">
         <div class="container-fluid">
           <div class="section-heading scrollpoint sp-effect3">
             <h1>Семінари</h1>
             <div class="divider"></div>
-            <!--<p>Розклад семінарів уточнюється</p>-->
-            <p>Після проходження семінару всім учасникам видається сертифікат LVIV FITNESS WEEKEND</p>
+            <p>Розклад семінарів уточнюється</p>
+            <!--<p>Після проходження семінару всім учасникам видається сертифікат LVIV FITNESS WEEKEND</p>-->
           </div>
 
-          <div class="row">
+          <div class="row" ng-if="false">
             <div class="col-lg-6 col-md-6 col-xs-12 scrollpoint sp-effect5 workshop" ng-repeat="workshop in workshops">
               <h3 class="workshop-name">{{ workshop.name }}</h3>
               <div class="row">
