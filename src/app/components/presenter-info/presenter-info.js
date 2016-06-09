@@ -12,6 +12,7 @@ export default function (module) {
         const vm = this;
 
         $scope.$on('open:modal:info', ()=> {
+          if(!vm.info.description || !vm.info.avatar) return;
           $modal
             .open({
               templateUrl: require('./presenter-info.html'),
@@ -36,7 +37,6 @@ export default function (module) {
               //console.log('modal dismiss');
             });
         });
-
 
       },
       controllerAs: 'vm',

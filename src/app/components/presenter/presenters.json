@@ -3,7 +3,7 @@
     "firstName": "Роман",
     "lastName": "Грицина",
     "class": "TOTAL GYM ELEVATE",
-    "avatar": "",
+    "avatar": "roman_hrytsyna.jpg",
     "country": "",
     "description": ""
   },
@@ -11,7 +11,7 @@
     "firstName": "Яна",
     "lastName": "Чеханова",
     "class": "HOUSE, AERODANCE",
-    "avatar": "",
+    "avatar": "yana_chehanova.jpg",
     "country": "",
     "description": ""
   },
@@ -86,13 +86,14 @@
     "class": "STRONG FIT",
     "country": "",
     "description": "Заслужений майстер спорту України, дворазовий володар титулу \"Найсильніша людина світу\", чотириразовий чемпіон світу в команді, почесний президент федераціі стронгмену"
-  },{
+  },
+  {
     "firstName": "Майкл",
     "lastName": "Полукаров",
     "avatar": "",
     "class": "JAZZ BODY STREAM",
     "country": "",
-    "description": ""
+    "description": "Топ-тренер, менеджер групових програм клубу \"Sky Fitness\".Сертифікований тренер \" ZUMBA FITNESS\",\"BOKWA FITNESS\". Професійний хореограф-педагог. Презентер міжнародних фітнес-конвенцій NIKE, MIOFF"
   },
   {
     "firstName": "Марія",
@@ -161,7 +162,7 @@
   {
     "firstName": "Олексій",
     "lastName": "Торохтій",
-    "avatar": "",
+    "avatar": "alexey_torokhtiy.jpg",
     "class": "ВАЖКА АТЛЕТИКА",
     "country": "",
     "description": ""
@@ -169,7 +170,7 @@
   {
     "firstName": "Oxana",
     "lastName": "Moshescu",
-    "avatar": "",
+    "avatar": "moshescu_oxana.png",
     "class": "KANGOO JUMPS",
     "country": "Румунія",
     "description": ""
@@ -185,7 +186,7 @@
   {
     "firstName": "Маргарита",
     "lastName": "Солодвнікова",
-    "avatar": "",
+    "avatar": "solodovnikova_marina.jpg",
     "class": "DANCE HALL, BOOTY DANCE",
     "country": "",
     "description": ""
@@ -233,14 +234,14 @@
   {
     "firstName": "Сергей",
     "lastName": "Пляшечка",
-    "avatar": "",
+    "avatar": "sergey_plyshechca.jpg",
     "class": "",
     "country": "",
     "description": ""
   },
   {
     "firstName": "Alessandro",
-    "lastName": "Muò",
+    "lastName": "Muo",
     "class": "BODY IN ACTION, FUNCTIONAL STEP",
     "avatar": "",
     "country": "Італія",
