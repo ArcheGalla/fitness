@@ -1,170 +1,257 @@
 [
   {
+    "firstName": "Роман",
+    "lastName": "Грицина",
+    "class": "TOTAL GYM ELEVATE",
+    "avatar": "",
+    "country": "",
+    "description": ""
+  },
+  {
+    "firstName": "Яна",
+    "lastName": "Чеханова",
+    "class": "HOUSE, AERODANCE",
+    "avatar": "",
+    "country": "",
+    "description": ""
+  },
+  {
     "firstName": "Virgilijus",
-    "lastName": "Želvys",
+    "lastName": "Zelvys",
     "avatar": "virgilijus_zelvys.png",
-    "employment": "STEP DANCE, AEROBIC DANCE",
+    "class": "STEP DANCE, AEROBIC DANCE",
+    "country": "Литва",
     "description": "Керівник  та  методист тренінгового центру \"Fitness Factory\". Провідний інструктор групових програм. Презентер міжнародних фітнес-конвенцій. Тренер баскетбольних команд. Фітнес-директор та духовний надихач клубу «LINIJA». Організатор фітнес конвенцій. Викладач фізичного виховання. Досвід роботи більше 10 років"
   },
   {
     "firstName": "Валерій",
+    "class": "CROSSFIT, Cross Fit",
     "lastName": "Кисіль",
     "avatar": "kisel_volodimyr.png",
-    "employment": "Cross Fit",
+    "country": "",
     "description": "Менеджер тренажерного залу спорт клуб L-FITNESS (Миколаїв) Персональний тренер \"WORLD CLASS\". Сертифікований тренер з Cross Fit за напрямами Cf level 2, pose running, kettlebell, competitors, scaling"
   },
   {
     "firstName": "Сергій",
     "lastName": "Фальштинський",
+    "class": "SPORT MOVES FUNCTIONAL, FUNCTIONAL AGILITY",
     "avatar": "sergey_falshtynskyy.png",
-    "employment": "Sport MOVES Functional",
+    "country": "",
     "description": "Сертифікований тренер із функціонального тренінгу «Deep Work», «INSANITY»,  ХТ 29, номінант на премію Fitness Awards 2015 (Rotterdam, Holland), переможець конкурсу презентерів Beachbody Challenge 2013 (USA),  автор методики з фітнесу: «Sport MOVES Functional», менеджер навчальних програм Академії Фитнесу та Академії Танцю «Master»"
   },
   {
     "firstName": "Катерина",
     "lastName": "Пуцова",
+    "class": "CRUSH MUSCLE",
     "avatar": "catherine_putsova.png",
-    "employment": "",
+    "country": "",
     "description": "Фахівець у сфері рекреації, персональный тренер, інструктор групових програм і функціонального тренінгу, чемпіонка України й майстер спорту міжнародного классу з важкої атлетики, призер й учасниця чемпіонатів Європи та світу"
   },
   {
-    "firstName": "Steffen",
+    "firstName": "Seffen",
     "lastName": "Conrad",
+    "class": "FACTS MOVEMENTt & HIT, FACTS ALL IN ONE",
     "avatar": "steffen_conrad.png",
-    "employment": "(Німеччина)",
+    "country": "Німеччина",
     "description": "Міжнародний презентер. Викладач University of Bayreuth. Основний напрямок викладацької діяльності FACTS (Functional and Careful Training). Власник студії PT-Lounge \"Speedlounge\". Засновник ILIKEPERSONALTRAINING"
   },
   {
-    "firstName": "Alecsandro",
-    "lastName": "Overli",
+    "firstName": "Alesandro",
+    "lastName": "Oliveri",
+    "class": "STEP FUNCTION (ALE), STEP'N ACTION, FUSION",
     "avatar": "alessandro_oliveri.png",
-    "employment": "(Італія)",
+    "country": "Італія",
     "description": "Сертифікований інструктор Reebok, FIF, AFAA, CONI. Міжнародний презентер. Власник фітнес студії та організатор конвенцій у Італії. Кращий презентер Італії 2005 року. Викладач у Italian Fitness University. Спеціалізується на степ аеробіці, функціональному тренінгу та стрейчінгу"
   },
   {
     "firstName": "Андрій",
     "lastName": "Нестєров",
     "avatar": "andrew_nestyerov.png",
-    "employment": "",
+    "class": "CRUSH MUSCLE",
+    "country": "",
     "description": "Сертифікованний фахівець із функціонального тренінгу, TRX и Core Master, спіннінгу и міофасціальному релізі. Кандидат в майстри спорту й бронзовий призер чемпіонату Україны з шорт-треку. Тренер Nike+run club та Nike+training club. Презентер й участник фітнес-конвенцій в Україні й за кордоном. Дипломований фахівець з рекреації й ОФК"
   },
   {
     "firstName": "Сергій",
     "lastName": "Матросов",
+    "class": "FIT FIGHT",
     "avatar": "sergey_matrosov.png",
-    "employment": "",
+    "country": "",
     "description": "Викладач школи фітнесу TFS. Презентер всеукраїнських й міжднародних фітнес конвенцій по напрямках Step, Cardio Fit Fight, Metabolic training. Презентер конвенції NIKE  2014-2016. Участник конкурсу презентерів \"IFO International Fitness Open\". Інструктор групових програм, персональний тренер. Переможець кубку Харкова з бодибілдингу й фітнесу 2015. Призер кубку України з бодибілдингу й фітнесу 2015"
   },
   {
     "firstName": "Василь",
     "lastName": "Вірастюк",
     "avatar": "vasil_virastiuk.png",
-    "employment": "",
+    "class": "STRONG FIT",
+    "country": "",
     "description": "Заслужений майстер спорту України, дворазовий володар титулу \"Найсильніша людина світу\", чотириразовий чемпіон світу в команді, почесний президент федераціі стронгмену"
+  },{
+    "firstName": "Майкл",
+    "lastName": "Полукаров",
+    "avatar": "",
+    "class": "JAZZ BODY STREAM",
+    "country": "",
+    "description": ""
   },
   {
     "firstName": "Марія",
     "lastName": "Скорченко",
     "avatar": "maria_skorchenko.png",
-    "employment": "",
+    "class": "TWERK",
+    "country": "",
     "description": "Провідній викладач стилю Twerk в Україні. Тренер групових програм клубу Body art fitness та Tsarsky. Викладач багатьох танцювальніх шкіл та студій: \"Dance Centre MyWay\", \"D.side\", \"DecaDance\", \"FreeLady\", \"DanceFam\", \"MixStyle\""
   },
   {
     "firstName": "Світлана",
     "lastName": "Лучкіна",
     "avatar": "svetlana_luchkina.png",
-    "employment": "",
+    "class": "TRX",
+    "country": "",
     "description": "Засновник TRX TRAINING CLUB, дипломованний магістр у сфері спорту і фізічної культури, Майстер спорту з художньої гімнастики"
   },
   {
     "firstName": "Сергій",
     "lastName": "Конюшок",
     "avatar": "sergey_konyushok.png",
-    "employment": "",
+    "class": "STRONG FIT",
+    "country": "",
     "description": "Майстер спорту міжнародного класу. дворазовий чемпіон світу зі стронгмену, президент федерації стронгмену України, Магістр фізіології спорту, співвласник та керівник мережі фітнес центрів \"Олімп\""
   },
   {
     "firstName": "Ania",
     "lastName": "Horobiowska",
     "avatar": "ania_horobiowska.png",
-    "employment": "(Польща)",
+    "class": "STEP DEFINITION, DANCE EXPLOSION",
+    "country": "Польща",
     "description": "Міжнародний презентер та викладач з функціонального тренінгу. степ та танцювальної аэробіки. Переможець міжнародного конкурсу презенторів AEROBICMANIA “WANTED” (2013), накращий майстер-інструктор IFAA GERMANY (2014)"
-  },
-  {
-    "firstName": "Alessandro",
-    "lastName": "Muo",
-    "avatar": "alessandro_muo.png",
-    "employment": "(Італія)",
-    "description": "Міжнародній фітнес презентер. Отримав освіту у Sciences Sport University. Сертифікованій Nike тренер, а також за напрямками TRX, Nrg bag, kettlebells, Antigravity Yoga, Pilates matwork, Reformer. Основний напрямок роботи – функціональний тренінг"
   },
   {
     "firstName": "Катерина",
     "lastName": "Смірнова",
     "avatar": "smyrnova_ekateryna.png",
-    "employment": "",
+    "class": "Центр з Core Band®, Пiлатес. Дихання – це не правило, а інструмент",
+    "country": "",
     "description": "Засновник International Pilates University Fitness4you, координатор навчальної програми, методист, автор спеціальних програм роботи в пілатесі, статей і навчальних посібників, презентер міжнародних та національних форумів і конвенцій"
   },
   {
     "firstName": "Ярослав",
     "lastName": "Сойніков",
     "avatar": "soynikov_yaroslav.png",
-    "employment": "",
+    "class": "TRX",
+    "country": "",
     "description": "Міжнародний презентер. Майстер тренер Life fitness academy. Майстер тренер TRX©, Trigger point©"
   },
   {
     "firstName": "Сергій",
     "lastName": "Пуцов",
     "avatar": "pucov_sergiy.png",
-    "employment": "",
+    "class": "TOTAL GYM ELEVATE",
+    "country": "",
     "description": "Кандидат наук з фізичного виховання і спорту, майстер спорту з важкої атлетики, головний тренер клубу SkyFitness, провідний викладач школи фітнес-інструкторів Fitnesservice"
   },
   {
     "firstName": "Олександр",
     "lastName": "Довгич",
     "avatar": "dovgych_oleksandr.png",
-    "employment": "",
+    "class": "TOTAL GYM ELEVATE",
+    "country": "",
     "description": "Кандидат наук з фізичного виховання та спорту, доцент кафедри здоров'я, фітнесу та рекреації Національного університету фізичного виховання і спорту України, персональний тренер клубу SkyFitness, експерт з навчальних програм у сфері фітнесу"
+  },
+  {
+    "firstName": "Олексій",
+    "lastName": "Торохтій",
+    "avatar": "",
+    "class": "ВАЖКА АТЛЕТИКА",
+    "country": "",
+    "description": ""
+  },
+  {
+    "firstName": "Oxana",
+    "lastName": "Moshescu",
+    "avatar": "",
+    "class": "KANGOO JUMPS",
+    "country": "Румунія",
+    "description": ""
   },
   {
     "firstName": "Ольга",
     "lastName": "Смелкова",
     "avatar": "smelkova_olga.png",
-    "employment": "",
+    "class": "ЕASY FUN, DANCE TOGETHER",
+    "country": "",
     "description": "Методист тренінгового центру «Академія Фітнеса - Україна» (Київ). Спеціалізується на підготовці інструкторів групових програм. Презентер міжнародних фітнес-конвенцій. Сертифікований спеціаліст ZUMBA. Хореограф- постановник латиноамериканських танцювальних стилів"
+  },
+  {
+    "firstName": "Маргарита",
+    "lastName": "Солодвнікова",
+    "avatar": "",
+    "class": "DANCE HALL, BOOTY DANCE",
+    "country": "",
+    "description": ""
   },
   {
     "firstName": "Олеся",
     "lastName": "Губеня",
     "avatar": "gubenya_olesya.png",
-    "employment": "",
+    "class": "CROSSFIT",
+    "country": "",
     "description": "Персональний тренер і інструктор групових програм в клубі Crossfit Banda. Персональний тренер клубу активного відпочинку «Подольский». Сертифікований інструктор з функціонального тренінгу TRX. Фіналіст і призерка всеукраїнськіх змагань з CrossFit"
   },
   {
     "firstName": "Катерина",
     "lastName": "Цьовх",
     "avatar": "cyoh_ekaterina.png",
-    "employment": "",
+    "class": "",
+    "country": "",
     "description": "Координатор розвитку фітнес-програми Sky Jumping® в країнах СНД, презентер міжнародної конвенції NIKE 2014, директор мережі жіночих фітнес-клубів «Ківі Фітнес», керівник і викладач школи фітнес-інструкторів KFS"
   },
   {
     "firstName": "Олександр",
     "lastName": "Кравченко",
     "avatar": "kravchenko_olexsandr.png",
-    "employment": "",
+    "class": "CROSSFIT",
+    "country": "",
     "description": "Засновник афілійованого клубу Crossfit Banda. Персональний тренер. Фіналіст «Великого кубку на звання самої фізично підготовленої людини» 2013-2014 років. Призер всеукраїнських змагань"
   },
   {
     "firstName": "Євгенія",
-    "lastName": "Щігрова",
+    "lastName": "Щигрова",
     "avatar": "shygrova_evgeniya.png",
-    "employment": "",
+    "class": "POWER STRETCH",
+    "country": "",
     "description": "Дипломований фахівець у галузі фізичної реабілітації. Сертифікований фахівець з функціонального тренінгу, TRX, Power stretching. учасник міжнародних семінарів і фітнес-конвенцій. Фітнес-менеджер групових програм клубу «Фітнес-клас»"
   },
   {
     "firstName": "Інна",
     "lastName": "Шипкова",
     "avatar": "shypkova_inna.png",
-    "employment": "",
+    "class": "FIT FIGHT",
+    "country": "",
     "description": "Менеджер групових програм TETRA FITNESS CLUB. сертифікований фахівець з TRX і TRX Sports Medicine, КМС України з тайського боксу, Фіналіст Кубку України з бодібілдингу та фітнесу. Презентер українських фітнес конвенцій"
+  },
+  {
+    "firstName": "Сергей",
+    "lastName": "Пляшечка",
+    "avatar": "",
+    "class": "",
+    "country": "",
+    "description": ""
+  },
+  {
+    "firstName": "Alessandro",
+    "lastName": "Muò",
+    "class": "BODY IN ACTION, FUNCTIONAL STEP",
+    "avatar": "",
+    "country": "Італія",
+    "description": ""
+  },
+  {
+    "firstName": "Олена",
+    "lastName": "Сідерська",
+    "class": "Yoga 23. Атлетик Хатха",
+    "avatar": "",
+    "country": "",
+    "description": ""
   }
 ]

@@ -2,7 +2,6 @@ import './workshop.scss';
 
 export default function (module) {
   module.directive('fitnessWorkshops', function () {
-    console.log('workshops');
     return ({
       //templateUrl: require('./workshops.html'),
       template: `
