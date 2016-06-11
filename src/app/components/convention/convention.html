@@ -18,10 +18,9 @@
             <h3 class="media-heading">{{ p.firstName + ' ' + p.lastName}}</h3>
             <p>{{ p.country }}</p>
             <p>{{ p.class }}</p>
-            <!--<div class="social">-->
-            <!--<a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg"-->
-            <!--ng-repeat="s in p.socialLinks" ng-class="s.icon"></a>-->
-            <!--</div>-->
+            <div class="social">
+            <a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg" ng-repeat="s in p.socialLinks" ng-class="s.icon"></a>
+            </div>
           </div>
         </div>
       </div>
