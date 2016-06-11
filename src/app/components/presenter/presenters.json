@@ -3,7 +3,7 @@
     "firstName": "Роман",
     "lastName": "Грицина",
     "class": "TOTAL GYM ELEVATE",
-    "avatar": "roman_hrytsyna.jpg",
+    "avatar": "roman_hrysyna.png",
     "country": "",
     "description": ""
   },
@@ -39,14 +39,7 @@
     "country": "",
     "description": "Сертифікований тренер із функціонального тренінгу «Deep Work», «INSANITY»,  ХТ 29, номінант на премію Fitness Awards 2015 (Rotterdam, Holland), переможець конкурсу презентерів Beachbody Challenge 2013 (USA),  автор методики з фітнесу: «Sport MOVES Functional», менеджер навчальних програм Академії Фитнесу та Академії Танцю «Master»"
   },
-  {
-    "firstName": "Катерина",
-    "lastName": "Пуцова",
-    "class": "CRUSH MUSCLE",
-    "avatar": "catherine_putsova.png",
-    "country": "",
-    "description": "Фахівець у сфері рекреації, персональный тренер, інструктор групових програм і функціонального тренінгу, чемпіонка України й майстер спорту міжнародного классу з важкої атлетики, призер й учасниця чемпіонатів Європи та світу"
-  },
+
   {
     "firstName": "Seffen",
     "lastName": "Conrad",
@@ -90,7 +83,7 @@
   {
     "firstName": "Майкл",
     "lastName": "Полукаров",
-    "avatar": "",
+    "avatar": "mike_polukarov.jpg",
     "class": "JAZZ BODY STREAM",
     "country": "",
     "description": "Топ-тренер, менеджер групових програм клубу \"Sky Fitness\".Сертифікований тренер \" ZUMBA FITNESS\",\"BOKWA FITNESS\". Професійний хореограф-педагог. Презентер міжнародних фітнес-конвенцій NIKE, MIOFF"
@@ -243,7 +236,7 @@
     "firstName": "Alessandro",
     "lastName": "Muo",
     "class": "BODY IN ACTION, FUNCTIONAL STEP",
-    "avatar": "",
+    "avatar": "alessandro_muo.jpg",
     "country": "Італія",
     "description": ""
   },
@@ -251,8 +244,16 @@
     "firstName": "Олена",
     "lastName": "Сідерська",
     "class": "Yoga 23. Атлетик Хатха",
-    "avatar": "",
+    "avatar": "olena_siderskay.png",
     "country": "",
     "description": ""
+  },
+  {
+    "firstName": "Юлія",
+    "lastName": "Бродська",
+    "class": "PortDeBras",
+    "avatar": "uliya_brodskay.jpg",
+    "country": "",
+    "description": "Презентер міжнародних фітнес конвенцій, Pilates тренер, фахівець з навчання інструкторів напрямків Mind&Body, сертифікованій презентер PortDeBras"
   }
 ]
