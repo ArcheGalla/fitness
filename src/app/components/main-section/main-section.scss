@@ -27,6 +27,36 @@
   .btn-primary {
     padding: 10px 45px;
   }
+
+  .social {
+    display: block;
+    margin-top: 30px;
+    margin-left: 15px;
+
+    a {
+      margin: 0 8px;
+      padding: 15px;
+      border-radius: 50%;
+      display: inline-block;
+      transition: all 0.25s ease-in-out;
+      border: 2px solid white;
+      text-align: center;
+
+      &:hover {
+        background: #339999;
+      }
+
+      i {
+        width: 1em;
+        //color: #66cc99;
+        color: white;
+
+        &:hover {
+          color: #66cc99;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: $screen-sm) {
