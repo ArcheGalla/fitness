@@ -1,4 +1,4 @@
-import './partnership.scss';
+import "./partnership.scss";
 export default function (module) {
   module.directive('partnership', function () {
     return ({
@@ -8,7 +8,7 @@ export default function (module) {
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div class="partnership-align" direction="column">
-                <h2 class="text-left">Стати нашим партнером легко !</h2>
+                <h2 class="text-left">Стати партнером Lviv Fitness Weekend легко!</h2>
                 <p class="text-left">
                 </p>
               </div>
@@ -19,7 +19,7 @@ export default function (module) {
                   <div class="btn partner-btn" ng-click="partnership.showVideo()">Стати <br> партнером</div>
                  </a>
                  <a class="link-download" href="Offer_LFWЕКСПО.pdf" target="_blank">
-                  <div class="btn partner-btn partner-expo">Expo Участь</div>
+                  <div class="btn partner-btn partner-expo"> <span class="expo">Expo</span><br><span class="join">Участь</span></div>
                   </a>
               </div>
             </div>
