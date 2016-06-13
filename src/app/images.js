@@ -9,7 +9,6 @@ import '!!file-loader?name=[name].[ext]!../assets/js/rs-plugin/assets/large_righ
 /*------------------------------------ presenter ---------------------------------------------------*/
 //import '!!file-loader?name=[name].[ext]!../assets/images/presenters/cyoh_ekaterina.png';
 
-
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/smyrnova_ekateryna.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/dovgych_oleksandr.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/alessandro_muo.jpg';
@@ -19,7 +18,7 @@ import '!!file-loader?name=[name].[ext]!../assets/images/presenters/olena_siders
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/gubenya_olesya.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/kravchenko_olexsandr.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/lashuk_anna.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/presenters/pucov_sergiy.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/sergey_putsov.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/shygrova_evgeniya.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/shypkova_inna.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/soynikov_yaroslav.png';
