@@ -1,4 +1,21 @@
 #tickets {
+  color: black !important;
+  background-size: cover;
+  //background: #66cc99;
+  background: linear-gradient(45deg, #66cc99 0%, #339999 100%);
+
+  padding: 5px 0;
+
+  .platforms {
+    margin: 5px auto 120px auto;
+    text-align: center;
+  }
+
+  .platforms .btn {
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
   h1, p {
     color: white;
   }

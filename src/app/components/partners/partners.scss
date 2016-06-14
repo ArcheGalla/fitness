@@ -1,0 +1,25 @@
+/*-----------------------------------------------------  partners -------------------------------------------------*/
+#partners {
+  background-size: cover;
+  background-image: url("../../../assets/images/bk-eco.jpg");
+
+  .section-heading {
+    margin: 25px auto;
+  }
+
+  .partners-logos {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .logo {
+      margin: 10px;
+      width: 150px;
+      height: auto;
+    }
+  }
+
+}

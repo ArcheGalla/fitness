@@ -1,3 +1,89 @@
 .scrolloff {
   pointer-events: none;
 }
+
+#location {
+  //padding: 25px 0 25px 0;
+  display: block;
+  width: 100%;
+
+  .send-email-error {
+    color: red;
+    margin: 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .send-email-success {
+    color: #66cc99;
+    margin: 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .container-fluid {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  .media {
+    img {
+      border-radius: 50%;
+      border: 3px solid #66cc99;
+    }
+    .contact-name {
+      color: #66cc99;
+    }
+  }
+
+  .media {
+    margin-bottom: 10px;
+  }
+
+  .media {
+    i.fa {
+      border-radius: 50%;
+      padding: 10px;
+      transition: all 0.25s ease-in-out;
+      width: 1.9em;
+      text-align: center;
+    }
+
+    .media-heading {
+      padding-top: 15px;
+      font-weight: 300;
+    }
+
+    .media-heading a {
+      font-weight: 400;
+    }
+  }
+
+  header h1:after {
+    background: #66cc99;
+  }
+
+  .media i.fa {
+    border: 2px solid #66cc99;
+    color: #66cc99;
+  }
+
+  .media a {
+    color: #66cc99;
+  }
+
+  .media:hover i.fa {
+    color: #ffffff;
+    background: #66cc99;
+  }
+
+  .media:hover h3 {
+    color: #66cc99;
+  }
+
+}
