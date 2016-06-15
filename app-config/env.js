@@ -17,7 +17,7 @@ module.exports = function (env) {
     default:
     {
       console.info('env variable is not defined');
-      port = 80;
+      port = 3000;
     }
   }
 
