@@ -27,6 +27,8 @@ app.post('/message', function (req, res) {
 });
 
 
-app.listen(port(process.env.NODE_ENV), ()=> {
+app.listen(port(process.env.NODE_ENV), (err, result)=> {
+  console.log('err', err);
+  console.log('result', result);
   console.log(`app is running on port ${port(process.env.NODE_ENV)}`);
 });
