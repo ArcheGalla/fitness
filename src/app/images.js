@@ -25,6 +25,9 @@ import '!!file-loader?name=[name].[ext]!../assets/images/presenters/soynikov_yar
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/smelkova_olga.png';
 // this is mock images above
 
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/ludmila_romaniv.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/kristina_senchin.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/nina_bilash.jpg';
 
 
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/alexey_torokhtiy.jpg';
