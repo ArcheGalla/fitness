@@ -10,6 +10,8 @@
   background: #f6f6f6;
 
   .media {
+    border: 1px solid red;
+
     padding: 5px;
     display: flex;
     flex-direction: row-reverse;
@@ -55,14 +57,14 @@
     }
   }
 
-  .right-order {
-    .avatar-order {
-      order: 2;
-    }
-    .media-body {
-      order: 1;
-    }
-  }
+  //.right-order {
+  //  .avatar-order {
+  //    order: 2;
+  //  }
+  //  .media-body {
+  //    order: 1;
+  //  }
+  //}
 
   .avatar {
     display: flex !important;
