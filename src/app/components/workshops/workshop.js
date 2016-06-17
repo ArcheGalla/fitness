@@ -10,11 +10,11 @@ export default function (module) {
           <div class="section-heading scrollpoint sp-effect3">
             <h1>Семінари</h1>
             <div class="divider"></div>
-            <p>Розклад семінарів уточнюється</p>
-            <!--<p>Після проходження семінару всім учасникам видається сертифікат LVIV FITNESS WEEKEND</p>-->
+            <!--<p>Розклад семінарів уточнюється</p>-->
+            <p>Після проходження семінару всім учасникам видається сертифікат LVIV FITNESS WEEKEND</p>
           </div>
 
-          <div class="row" ng-if="false">
+          <div class="row">
             <div class="col-lg-6 col-md-6 col-xs-12 scrollpoint sp-effect5 workshop" ng-repeat="workshop in workshops">
               <h3 class="workshop-name">{{ workshop.name }}</h3>
               <div class="row">
@@ -36,11 +36,12 @@ export default function (module) {
                   <div>
                     <p class="inline">Дата: {{ workshop.date_info.date }}</p>
                     <p class="inline">Час: {{ workshop.date_info.time.start }}-{{ workshop.date_info.time.end }}</p><br>
-                    <p class="inline">Тривалість: {{ workshop.duration }}</p>
+                    <p class="inline">Тривалість: {{ workshop.duration }}</p><br>
+                    <p class="inline" ng-show="workshop.people">Кількість учасників обмежена: ({{ workshop.people }} чоловік)</p>
                   </div>
                   <p>Зал: {{ workshop.location }}</p>
-                  <!--<p class="workshop-price">Вартість: {{ workshop.price }} грн</p>-->
-                  <p class="description">{{ workshop.description }}</p>
+                  <p class="workshop-price">Вартість: {{ workshop.price }} грн</p>
+                  <!--<p class="description">{{ workshop.description }}</p>-->
                 </div>
               </div>
               <!--<div class="buy-wrap"><a href="" class="btn btn-primary btn-lg">Квиток</a></div>-->
