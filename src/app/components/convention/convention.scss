@@ -10,8 +10,6 @@
   background: #f6f6f6;
 
   .media {
-    border: 1px solid red;
-
     padding: 5px;
     display: flex;
     flex-direction: row-reverse;
@@ -57,14 +55,14 @@
     }
   }
 
-  //.right-order {
-  //  .avatar-order {
-  //    order: 2;
-  //  }
-  //  .media-body {
-  //    order: 1;
-  //  }
-  //}
+  .right-order {
+    .avatar-order {
+      order: 2;
+    }
+    .media-body {
+      order: 1;
+    }
+  }
 
   .avatar {
     display: flex !important;
@@ -77,12 +75,12 @@
     transition: all 0.25s ease-in-out;
     border: 3px solid #66cc99;
   }
-  @media (max-width: 768px) {
-    .avatar{
-      margin: 10px 0;
-      width: 75px;
-      height: 75px;
-    }
-  }
+  //@media (max-width: 768px) {
+  //  .avatar{
+  //    margin: 10px 0;
+  //    width: 75px;
+  //    height: 75px;
+  //  }
+  //}
 
 }

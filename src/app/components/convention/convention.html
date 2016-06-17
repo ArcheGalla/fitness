@@ -6,8 +6,7 @@
       <p>Презентери конвенції</p>
     </div>
     <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 scrollpoint"  ng-class="{ 'sp-effect1': $index % 2 === 0, 'sp-effect2': $index % 2 === 1}" ng-repeat="p in presenters">
-
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 scrollpoint"  ng-class="{ 'sp-effect1': $index % 2 === 0, 'sp-effect2': $index % 2 === 1}" ng-repeat="p in presenters">
         <div class="media" ng-class="{ 'left-order': $index % 2 === 0, 'right-order': $index % 2 === 1}">
           <div modal-info info="p" class="avatar-order">
             <img ng-if="p.avatar" class="avatar" ng-src="{{ p.avatar }}" alt="{{ p.firstName + ' ' + p.lastName }}">
