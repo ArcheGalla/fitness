@@ -461,6 +461,12 @@
     "class": "Sky Jumping®",
     "avatar": "ludmila_romaniv.jpg",
     "country": "",
+    "socialLinks": [
+      {
+        "link": "https://www.facebook.com/liuda.romaniv?fref=ts&__mref=message_bubble",
+        "icon": "fa-facebook"
+      }
+    ],
     "description": "Провідний інструктор фітнес-програми Sky Jumping®, методист школи інструкторів KFS, міжнародний презентер"
   },
   {
@@ -469,6 +475,12 @@
     "class": "Sky Jumping®",
     "avatar": "nina_bilash.jpg",
     "country": "",
+    "socialLinks": [
+      {
+        "link": "https://www.facebook.com/nina.bilash?fref=ts&__mref=message_bubble",
+        "icon": "fa-facebook"
+      }
+    ],
     "description": "Майстер-інструктор фітнес-програми Sky Jumping®, міжнародний презентер, методист школи інструкторів KFS, персональний тренер"
  },
   {
@@ -477,6 +489,12 @@
     "class": "Sky Jumping®",
     "avatar": "kristina_senchin.jpg",
     "country": "",
+    "socialLinks": [
+      {
+        "link": "https://www.facebook.com/christine.tkach.9?fref=ts&__mref=message_bubble",
+        "icon": "fa-facebook"
+      }
+    ],
     "description": "Майстер-інструктор фітнес-програми Sky Jumping®, хореограф, міжнародний презентер, провідний фітнес-інструктор мережі жіночих фітнес клубів «Ківі Фітнес»"
   }
    
