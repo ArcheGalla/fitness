@@ -17,7 +17,8 @@
                       }"
            ng-repeat="p in presenters">
 
-        <div class="media" ng-class="{ 'left-order': $index % 2 === 0, 'right-order': $index % 2 === 1}">
+        <!--<div class="media" ng-class="{ 'left-order': $index % 2 === 0, 'right-order': $index % 2 === 1}">-->
+        <div class="media">
           <div modal-info info="p" class="avatar-order">
             <img ng-if="p.avatar" class="avatar" ng-src="{{ p.avatar }}" alt="{{ p.firstName + ' ' + p.lastName }}">
             <div ng-if="!p.avatar" class="avatar">{{ p.firstName[0] + ' ' + p.lastName[0] }}</div>
