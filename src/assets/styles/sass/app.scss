@@ -7,6 +7,12 @@
     font-size: 55px;
     font-weight: 300;
     margin-bottom: 0;
+    @media (max-width: 768px) {
+      & {
+        font-size: 42px;
+        font-size: 4vh;
+      }
+    }
   }
 
   p {
@@ -186,6 +192,7 @@ form {
     border-radius: 5em;
   }
 }
+
 .spinner {
   margin: 50px auto 0;
   width: 70px;
