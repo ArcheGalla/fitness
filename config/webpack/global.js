@@ -25,7 +25,7 @@ module.exports = function (_path) {
       path: 'dist',
       filename: '[name].js',
       //publicPath: '/'
-      publicPath: 'http://0.0.0.0:8080/'
+      publicPath: 'http://0.0.0.0:8080'
       //https://github.com/webpack/style-loader/issues/55
     },
 
