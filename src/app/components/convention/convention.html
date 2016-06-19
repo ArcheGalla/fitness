@@ -9,6 +9,8 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="container-fluid no-padding">
     <div class="row">
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"
            ng-class="{
@@ -16,26 +18,29 @@
                       'sp-effect2': $index % 2 === 1
                       }"
            ng-repeat="p in presenters">
-
-        <!--<div class="media" ng-class="{ 'left-order': $index % 2 === 0, 'right-order': $index % 2 === 1}">-->
-        <div class="media">
+        <div style="border:1px solid red; width:100%">
+          <div class="media" ng-class="{ 'left-order': $index % 2 === 0, 'right-order': $index % 2 === 1}">
+          <div class="media">
           <div modal-info info="p" class="avatar-order">
-            <img ng-if="p.avatar" class="avatar" ng-src="{{ p.avatar }}" alt="{{ p.firstName + ' ' + p.lastName }}">
-            <div ng-if="!p.avatar" class="avatar">{{ p.firstName[0] + ' ' + p.lastName[0] }}</div>
+          <img ng-if="p.avatar" class="avatar" ng-src="{{ p.avatar }}" alt="{{ p.firstName + ' ' + p.lastName }}">
+          <div ng-if="!p.avatar" class="avatar">{{ p.firstName[0] + ' ' + p.lastName[0] }}</div>
           </div>
 
           <div class="media-body">
-            <h3 class="media-heading" modal-info info="p">{{ p.firstName + ' ' + p.lastName}}</h3>
-            <p>{{ p.country }}</p>
-            <p>{{ p.class }}</p>
-            <div class="social">
-              <a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg" ng-repeat="s in p.socialLinks"
-                 ng-class="s.icon"></a>
-            </div>
+          <h3 class="media-heading" modal-info info="p">{{ p.firstName + ' ' + p.lastName}}</h3>
+          <p>{{ p.country }}</p>
+          <p>{{ p.class }}</p>
+          <div class="social">
+          <a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg"
+          ng-repeat="s in p.socialLinks"
+          ng-class="s.icon"></a>
+          </div>
+          </div>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
+  </div>
   </div>
 </section>

@@ -34,4 +34,11 @@ body {
   .scrollpoint.active {
     opacity: 1;
   }
+
+  .no-margin {
+    margin: 0 !important;
+  }
+  .no-padding {
+    padding: 0 !important;
+  }
 }
