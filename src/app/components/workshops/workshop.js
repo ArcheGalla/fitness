@@ -40,10 +40,10 @@ export default function (module) {
                     </div>
                     <p>Зал: {{ workshop.location }}</p>
                     <p class="workshop-price">Вартість: {{ workshop.price }} грн</p>
-                    <!--<p class="description">{{ workshop.description }}</p>-->
+                    <p class="description">{{ workshop.description }}</p>
                   </div>
                 </div>
-                <!--<div class="buy-wrap"><a href="" class="btn btn-primary btn-lg">Квиток</a></div>-->
+                <div class="pull-right"><a href="" class="btn btn-primary btn-lg">Квиток</a></div>
               </div>
             </div>
           </div>
