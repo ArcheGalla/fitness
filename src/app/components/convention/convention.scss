@@ -21,12 +21,22 @@
     //  color: #66cc99;
     //}
   }
+
+  .avatar {
+    margin-top: 15px;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    transition: all 0.25s ease-in-out;
+    border: 3px solid #66cc99;
+  }
+
   .presenter-wrap {
-    border: 1px solid green;
+    //border: 1px solid green;
 
     padding-top: 10px;
     padding-bottom: 10px;
-
+    height: 170px;
     transition: all 0.5s ease-in-out;
 
     &:hover {
@@ -80,11 +90,4 @@
   //  }
   //}
 
-  .avatar {
-    width: 115px;
-    height: 115px;
-    border-radius: 50%;
-    transition: all 0.25s ease-in-out;
-    border: 3px solid #66cc99;
-  }
 }
