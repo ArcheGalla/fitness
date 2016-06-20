@@ -13,45 +13,24 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 scrollpoint" ng-class="{
-                      'sp-effect1': $index % 2 === 0,
-                      'sp-effect2': $index % 2 === 1
-                      }" ng-repeat="p in presenters">
-
-        <div class="row presenter-wrap">
+                      'sp-effect1': $index % 2 === 0,'sp-effect2': $index % 2 === 1}" ng-repeat="p in presenters">
+        <div class="row presenter-wrap" modal-info>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
             <img ng-if="p.avatar" class="avatar" ng-src="{{ p.avatar }}" alt="{{ p.firstName + ' ' + p.lastName }}">
           </div>
+
           <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
             <h3 class="presenter-name text-center" modal-info info="p">{{ p.firstName + ' ' + p.lastName}}</h3>
+
             <p class="presenter-country text-center">{{ p.country }}</p>
+
             <p class="presenter-class text-center">{{ p.class }}</p>
+
             <div class="text-center">
               <a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg social-icon"
                  ng-repeat="s in p.socialLinks"
                  ng-class="s.icon"></a>
             </div>
-          </div>
-        </div>
-        <!--========================================================================================================-->
-        <!--========================================================================================================-->
-        <!--========================================================================================================-->
-        <div class="media" ng-if="false">
-
-          <div modal-info info="p" class="avatar-order">
-            <img ng-if="p.avatar" class="avatar" ng-src="{{ p.avatar }}" alt="{{ p.firstName + ' ' + p.lastName }}">
-          </div>
-
-          <div class="media-body">
-            <h3 modal-info info="p">{{ p.firstName + ' ' + p.lastName}}</h3>
-            <p>{{ p.country }}</p>
-            <p>{{ p.class }}</p>
-
-            <div>
-              <a ng-href="{{ s.link }}" ng-show="s.link" target="_blank" class="fa la-lg social-icon"
-                 ng-repeat="s in p.socialLinks"
-                 ng-class="s.icon"></a>
-            </div>
-
           </div>
         </div>
       </div>
