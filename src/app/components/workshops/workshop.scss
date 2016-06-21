@@ -71,10 +71,10 @@
     font-size: 16px;
   }
 
-  //*[ngTruncateToggleText] {
-  //  &:hover {
-  //    cursor: pointer;
-  //  }
-  //}
-
+  .ngTruncateToggleText{
+    color: #66cc99;
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
