@@ -40,7 +40,11 @@ export default function (module) {
                     </div>
                     <p>Зал: {{ workshop.location }}</p>
                     <p class="workshop-price">Вартість: {{ workshop.price }} грн</p>
-                    <p class="description">{{ workshop.description }}</p>
+                    <p class="description" ng-text-truncate="workshop.description"
+                       ng-tt-chars-threshold="160"
+                       ng-tt-more-label="Читати повністю"
+                       ng-tt-less-label="Сховати"></p>
+
                   </div>
                 </div>
                 <div class="pull-right"><a href="" class="btn btn-primary btn-lg">Квиток</a></div>

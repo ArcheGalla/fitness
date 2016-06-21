@@ -317,30 +317,6 @@ header .navbar-default ul.navbar-nav li a.getApp:hover {
   transition: all 0.25s ease-in-out;
 }
 
-header .navbar-default ul.navbar-nav li a:hover {
-  color: #ffffff;
-  transition: all 0.25s ease-in-out;
-}
-
-header .navbar-default.scrolled {
-  border-bottom: 3px solid #339999;
-}
-
-header .navbar-default.scrolled ul.navbar-nav li a {
-  color: #339999;
-}
-
-header .navbar-default.scrolled ul.navbar-nav li a:hover {
-  color: #339999;
-}
-
-header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
-  background: #339999;
-}
-
-header .navbar-default.scrolled .navbar-brand {
-  background: #339999;
-}
 
 section .section-heading .divider:after {
   background: #66cc99;
