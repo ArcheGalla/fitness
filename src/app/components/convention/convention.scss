@@ -7,8 +7,10 @@
   .avatar {
     width: 125px;
     height: 125px;
-
-    margin-top: 15px;
+    display: block;
+    //margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%;
     transition: all 0.25s ease-in-out;
     border: 3px solid #66cc99;
@@ -19,7 +21,7 @@
       margin-top: 25px;
     }
 
-    @media (max-width: 768px) and (orientation:landscape) {
+    @media (max-width: 768px) and (orientation: landscape) {
       width: 125px;
       height: 125px;
       margin-top: 9px;
@@ -39,31 +41,53 @@
 
   }
 
-  .presenter-wrap {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 170px;
-    transition: all 0.5s ease-in-out;
-
-    &:hover {
-      .presenter-name {
-        color: #66cc99;
-      }
-    }
-
+  .hover-affect {
     &:hover {
       border-radius: 10px;
       box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
     }
-
-    @media (max-width: 768px) {
-      //height: auto;
-    }
-    @media (max-width: 480px) {
-      height: auto;
-    }
   }
-  .presenter-name {
 
+  .presenter-wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 170px;
+    transition: all 0.5s ease-in-out;
+
+    //&:hover {
+    //  .presenter-name {
+    //    color: #66cc99;
+    //  }
+    //}
+
+    //@media (max-width: 768px) {
+    //  //height: auto;
+    //}
+    //@media (max-width: 480px) {
+    //  height: auto;
+    //}
+  }
+
+  .test-flex {
+    height: 184px;
+    min-height: 184px;
+    max-height: 184px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    //border: 1px solid red;
+  }
+
+  .presenter-class {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+  }
+
+  .presenter-name {
+    margin-bottom: 0;
+    margin-top: 0;
   }
 }
