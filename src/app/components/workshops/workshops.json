@@ -166,7 +166,7 @@
       {
         "firstName": "Олена",
         "lastName": "Сідерська",
-        "avatar": "olena_siderskay.png"
+        "avatar": "siderska_workshop.png"
       }
     ],
     "people": 40,
@@ -210,14 +210,10 @@
     "name": "Fit Fight",
     "lecturers": [
       {
-        "firstName": "Інна",
-        "lastName": "Шипкова",
-        "avatar": "shypkova_inna.png"
-      },
-      {
-        "firstName": "Сергій",
-        "lastName": "Матросов",
-        "avatar": "sergey_matrosov.png"
+        "two": true,
+        "firstName": "Сергій Матросов",
+        "lastName": "Інна Шипкова",
+        "avatar": "siderska_matrosov.png"
       }
     ],
     "people": 40,

@@ -26,7 +26,7 @@ export default function (module) {
                                       'col-xs-4': workshop.lecturers.length === 3
                                       }" ng-repeat="lecture in workshop.lecturers">
                         <img ng-if="lecture.avatar" ng-src="{{lecture.avatar}}" alt="{{lecture.firstName + ' ' + lecture.lastName}}">
-                        <h3 class="lecture-name">{{lecture.firstName + ' ' + lecture.lastName}}</h3>
+                        <h3 class="lecture-name">{{lecture.firstName }} <br ng-if="lecture.two">  {{ lecture.lastName}}</h3>
                       </div>
                     </div>
                   </div>
