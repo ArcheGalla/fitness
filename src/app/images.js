@@ -22,6 +22,7 @@ import '!!file-loader?name=[name].[ext]!../assets/images/presenters/shygrova_evg
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/shypkova_inna.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/soynikov_yaroslav.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/smelkova_olga.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/matilde_demarchi.png';
 // this is mock images above
 
 
