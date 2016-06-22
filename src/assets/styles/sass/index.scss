@@ -1,19 +1,18 @@
 @import "../css/animate.css";
 @import "./fonts";
+@import "./font-size";
 @import "./app";
 
 body {
   overflow-x: hidden;
   font-family: 'LatoLight', 'Lato', Arial, serif;
   color: #666666;
+  //width: 100% !important;;
+  //max-width: 100% !important;
   -webkit-font-smoothing: antialiased;
-  .tp-banner-container {
-    height: 100vh;
-  }
 
   a {
     font-family: 'Lato', Arial, serif;
-    -webkit-font-smoothing: antialiased;
   }
 
   h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -35,5 +34,12 @@ body {
 
   .scrollpoint.active {
     opacity: 1;
+  }
+
+  .no-margin {
+    margin: 0 !important;
+  }
+  .no-padding {
+    padding: 0 !important;
   }
 }

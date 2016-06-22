@@ -1,20 +1,26 @@
 .partnership {
   width: 100%;
   background: #f6f6f6;
+  min-height: 250px;
 
-  h2 {
-    font-size: 25px;
-    line-height: 25px;
+  .section-title {
+    //font-size: 25px;
+    //line-height: 25px;
     color: #999999;
     font-weight: 700;
   }
   .partnership-align {
     padding-left: 10px;
     padding-right: 10px;
-    height: 300px;
+    min-height: 250px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    @media (max-width: 480px) {
+      min-height: 160px;
+      padding: 10px;
+    }
   }
 
   .partnership-align[direction="column"] {

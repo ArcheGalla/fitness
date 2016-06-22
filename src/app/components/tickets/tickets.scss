@@ -95,6 +95,10 @@
     color: #6ed19c;
     position: relative;
     z-index: 100;
+
+    @media (max-width: 480px) {
+      font-size: 2em;
+    }
   }
 
   .pricing--pema .pricing__currency {

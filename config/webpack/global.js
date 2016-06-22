@@ -1,14 +1,30 @@
-// Depends
+'use strict';
+
 var path = require('path');
+var os = require('os');
+var ifaces = os.networkInterfaces();
+
 var webpack = require('webpack');
 var prefix = require('autoprefixer');
 var Manifest = require('manifest-revision-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
-var HtmlWebpackPlugin = require("html-webpack-plugin");
 
+var HtmlWebpackPlugin = require("html-webpack-plugin");
 var NODE_ENV = process.env.NODE_ENV || "production";
-var DEVELOPMENT = NODE_ENV === "production" ? false : true;
+var DEVELOPMENT = NODE_ENV !== "production";
+
 var stylesLoader = 'css-loader?sourceMap!postcss-loader!sass-loader?outputStyle=expanded&sourceMap=true&sourceMapContents=true';
+
+var publicPath = 'http://0.0.0.0:8080/';
+
+// try {
+  // publicPath = `http://${ifaces.eth0[0].address}:8080/`;
+  // publicPath = 'http://0.0.0.0:8080/';
+// } catch (e) {
+//   console.log('e', e);
+//   publicPath = 'http://0.0.0.0:8080/'
+// }
+// console.log('publicPath',publicPath);
 
 module.exports = function (_path) {
   var rootAssetPath = _path + 'src';
@@ -24,8 +40,8 @@ module.exports = function (_path) {
     output: {
       path: 'dist',
       filename: '[name].js',
-      //publicPath: '/'
-      publicPath: 'http://0.0.0.0:8080/'
+      // publicPath: '/'
+      publicPath: publicPath
       //https://github.com/webpack/style-loader/issues/55
     },
 

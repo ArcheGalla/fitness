@@ -44,7 +44,8 @@
     img {
       border-radius: 50%;
       transition: all 0.25s ease-in-out;
-      width: 115px;
+      width: 140px;
+      height: 140px;
       display: block;
       margin: 5px auto;
       border: 2px solid #66cc99;
@@ -68,5 +69,12 @@
   }
   .description {
     font-size: 16px;
+  }
+
+  .ngTruncateToggleText{
+    color: #66cc99;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
