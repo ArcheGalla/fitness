@@ -75,12 +75,12 @@
   }
 
   .navbar-default.scrolled .navbar-brand {
-    padding: 15px 20px;
+    padding: 5px;
   }
 
   .navbar-default.scrolled .navbar-brand img {
     width: auto;
-    max-height: 33px;
+    max-height: 53px;
   }
 
   .navbar-default.scrolled ul.navbar-nav {
@@ -88,30 +88,37 @@
   }
 }
 
+header {
 
-header .navbar-default ul.navbar-nav li a:hover {
-  color: #ffffff;
-  transition: all 0.25s ease-in-out;
-}
+  .navbar-default ul.navbar-nav li a:hover {
+    color: #ffffff;
+    transition: all 0.25s ease-in-out;
+  }
 
-header .navbar-default.scrolled {
-  border-bottom: 3px solid #339999;
-}
+  .navbar-default.scrolled {
+    border-bottom: 3px solid #339999;
+  }
 
-header .navbar-default.scrolled ul.navbar-nav li a {
-  color: #339999;
-}
+  .navbar-default.scrolled ul.navbar-nav li a {
+    color: #339999;
+  }
 
-header .navbar-default.scrolled ul.navbar-nav li a:hover {
-  color: #339999;
-}
+  .navbar-default.scrolled ul.navbar-nav li a:hover {
+    color: #339999;
+  }
 
-header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
-  background: #339999;
-}
+  .navbar-default.scrolled ul.navbar-nav li a:hover:after {
+    background: #339999;
+  }
 
+  .navbar-default.scrolled .navbar-brand {
+    //color: #339999;
+    background: #339999;
+  }
 
-header .navbar-default.scrolled .navbar-brand {
-  //color: #339999;
-  background: #339999;
+  .brand-logo-image {
+    width: 150px;
+    height: 150px;
+  }
+
 }
