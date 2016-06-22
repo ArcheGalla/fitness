@@ -1,5 +1,5 @@
 export default function (module) {
-  module.factory('FitnessTicket', function ($modal,TWO_EVENT_ID) {
+  module.factory('FitnessTicket', function ($modal, TWO_EVENT_ID) {
     return ({
       open: function (ticketId) {
         if (typeof  ticketId !== 'number') {
@@ -9,14 +9,19 @@ export default function (module) {
           .open({
             template: `
                 <div class="widget-modal">
+                <div class="modal-header">
+                  <button type="button" class="close" ng-click="close()" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
                   <div id="2event_tickets_widget"></div>
                 </div>
               `,
             size: 'md',
             windowClass: 'widget-modal',
             animate: true,
-            controller: function () {
-
+            controller: function ($scope, $modalInstance) {
+              $scope.close = $modalInstance.close;
             }
           })
           .opened
