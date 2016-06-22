@@ -16,7 +16,6 @@ require('./components/nav-menu/nav-menu')(app);
 require('./components/main-section/main-section')(app);
 require('./components/organizers/organizers')(app);
 require('./components/convention/convention')(app);
-require('./components/schedule/scheduleCtrl')(app);
 require('./components/workshops/workshop')(app);
 require('./components/schedule/schedule')(app);
 require('./components/tickets/tickets')(app);
