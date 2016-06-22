@@ -2,6 +2,9 @@ export default function (module) {
   module.factory('FitnessTicket', function ($modal,TWO_EVENT_ID) {
     return ({
       open: function (ticketId) {
+        if (typeof  ticketId !== 'number') {
+          return;
+        }
         $modal
           .open({
             template: `
