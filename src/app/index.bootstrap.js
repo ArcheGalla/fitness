@@ -10,6 +10,8 @@ const app = angular.module('fitness', ['ui.bootstrap','ngTextTruncate']);
 
 require('./components/presenter-info/presenter-info')(app);
 require('./components/mainCtrl')(app);
+require('./service/tickets-id')(app);
+require('./service/tickets_modal')(app);
 require('./components/nav-menu/nav-menu')(app);
 require('./components/main-section/main-section')(app);
 require('./components/organizers/organizers')(app);
