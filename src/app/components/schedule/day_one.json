@@ -3,19 +3,49 @@
     "title": "Сцена 1",
     "lectures": [
       {
-        "time": "09.00-09.50",
-        "name": "Горбань Валентин",
-        "instructor": "V-STEP"
+        "time": "09:00-09:50",
+        "name": "Інна Шипкова, Сергій Матросов",
+        "instructor": "Fit fight"
       },
       {
-        "time": "10.00-10.50",
-        "name": "Смірнова Катерина",
-        "instructor": "PILATES 'До сотні'"
+        "time": "10:00-10:50",
+        "name": "Олена Сідерська",
+        "instructor": "Yoga 23. Атлетик Хатха"
       },
       {
-        "time": "11.00-11.50",
-        "name": "Virgilijus Želvys",
-        "instructor": "STEP DANCE"
+        "time": "11:00-11:50",
+        "name": "Alessandro Oliveri",
+        "instructor": "Step function(Ale)"
+      },
+      {
+        "time": "12:00-12:50",
+        "name": "Олексій Торохтій",
+        "instructor": "Важка атлетика"
+      },
+      {
+        "time": "13:00-13:50",
+        "name": "Оксана Мошеску",
+        "instructor": "Kangoo Jumps"
+      },
+      {
+        "time": "14:00-14:50",
+        "name": "Ania Horoibowska",
+        "instructor": "Dance explosion"
+      },
+      {
+        "time": "15:00-15:50",
+        "name": "Alessandro Oliveri",
+        "instructor": "Step'n action"
+      },
+      {
+        "time": "16:00-16:50",
+        "name": "Steffen Conrad",
+        "instructor": "FACTS Movement & Hit"
+      },
+      {
+        "time": "17:00-17:50",
+        "name": "Virgilius Želvys",
+        "instructor": "Step dance"
       }
     ]
   },
@@ -23,19 +53,49 @@
     "title": "Сцена 2",
     "lectures": [
       {
-        "time": "09.00-09.50",
-        "name": "Мартенс Аліса",
-        "instructor": "BODY BALET"
+        "time": "09:00-09:50",
+        "name": "Ольга Смєлкова",
+        "instructor": "Еasy FUN"
       },
       {
-        "time": "10.00-10.50",
-        "name": "Пляшечка Сергій",
-        "instructor": "YOGA 23"
+        "time": "10:00-10:50",
+        "name": "Катерина Смірнова",
+        "instructor": "Находячи центр з Core Band®"
       },
       {
-        "time": "11.00-11.50",
-        "name": "Трегубенко Ольга",
-        "instructor": "VIPR"
+        "time": "11:00-11:50",
+        "name": "Яна Чеханова",
+        "instructor": "AeroDance"
+      },
+      {
+        "time": "12:00-12:50",
+        "name": "Matilde Demarchi",
+        "instructor": "Коса Матильди"
+      },
+      {
+        "time": "13:00-13:50",
+        "name": "Сергій Фальштинський",
+        "instructor": "Sport Moves Functional"
+      },
+      {
+        "time": "14:00-14:50",
+        "name": "Сергій Пуцов, Олександр Довгич, Роман Грицина",
+        "instructor": "TotalGymElevate"
+      },
+      {
+        "time": "15:00-15:50",
+        "name": "Маргарита Солодовнікова",
+        "instructor": "BootyDance"
+      },
+      {
+        "time": "16:00-16:50",
+        "name": "Людмила Романів, Кристина Сенчишин, Ніна Білаш",
+        "instructor": "SKY Jumping"
+      },
+      {
+        "time": "17:00-17:50",
+        "name": "Юлія Бродська",
+        "instructor": "Portdebras"
       }
     ]
   },
@@ -43,19 +103,49 @@
     "title": "Зона функціонально тренінгу",
     "lectures": [
       {
-        "time": "09.00-09.50",
-        "name": "Мартенс Аліса",
-        "instructor": "BODY BALET"
+        "time": "09:00-09:50",
+        "name": "Ярослав Сойніков",
+        "instructor": "TRX Hiit works"
       },
       {
-        "time": "10.00-10.50",
-        "name": "Пляшечка Сергій",
-        "instructor": "YOGA 23"
+        "time": "10:00-10:50",
+        "name": "Олеся Губеня",
+        "instructor": "Cross Fit"
       },
       {
-        "time": "11.00-11.50",
-        "name": "Трегубенко Ольга",
-        "instructor": "VIPR"
+        "time": "11:00-11:50",
+        "name": "Андрій Нєстєров, Катерина Пуцова",
+        "instructor": "CRUSH MUSCLE"
+      },
+      {
+        "time": "12:00-12:50",
+        "name": "Ярослав Сойніков",
+        "instructor": "TRX Warrior workout"
+      },
+      {
+        "time": "13:00-13:50",
+        "name": "Олександр Кравченко",
+        "instructor": "Cross Fit"
+      },
+      {
+        "time": "14:00-14:50",
+        "name": "Світлана Лучкіна",
+        "instructor": "TRX INTERVAL"
+      },
+      {
+        "time": "15:00-15:50",
+        "name": "Василь Вірастюк, Сергій Конюшок",
+        "instructor": "Strong Fit"
+      },
+      {
+        "time": "16:00-16:50",
+        "name": "Валерий Кисіль",
+        "instructor": "Cross Fit"
+      },
+      {
+        "time": "17:00-17:50",
+        "name": "Світлана Лучкіна",
+        "instructor": "TRX IRON ABS"
       }
     ]
   }
