@@ -6,6 +6,10 @@ import '!!file-loader?name=[name].[ext]!../favicon.ico';
 import '!!file-loader?name=[name].[ext]!../assets/js/rs-plugin/assets/large_left.png';
 import '!!file-loader?name=[name].[ext]!../assets/js/rs-plugin/assets/large_right.png';
 
+
+import '!!file-loader?name=[name].[ext]!../assets/images/logos/logo_with_title.png';
+
+
 /*------------------------------------ presenter ---------------------------------------------------*/
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/cyoh_ekaterina.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/smyrnova_ekateryna.png';
