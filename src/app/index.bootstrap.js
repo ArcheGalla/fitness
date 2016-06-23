@@ -12,6 +12,12 @@ require('./components/presenter-info/presenter-info')(app);
 require('./components/mainCtrl')(app);
 require('./service/tickets-id')(app);
 require('./service/tickets_modal')(app);
+
+require('./components/forum-presenters/forum-presenters')(app);
+require('./components/forum-schedule/forum-schedule')(app);
+require('./components/forum-tickets/forum-tickets')(app);
+require('./components/forum-workshop/forum-workshop')(app);
+
 require('./components/nav-menu/nav-menu')(app);
 require('./components/main-section/main-section')(app);
 require('./components/organizers/organizers')(app);

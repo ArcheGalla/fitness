@@ -79,3 +79,16 @@ import '!!file-loader?name=[name].[ext]!../assets/images/workshops-lectures/side
 //---------------------------------------------DOWNLOADS----------------------------------------------------
 
 import '!!file-loader?name=[name].[ext]!../assets/downloads/Offer_LFWЕКСПО.pdf';
+
+
+
+
+/*------------------------------------ forum presenter ---------------------------------------------------*/
+
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/andryj_nedostup.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/anna_ermylova.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/iryna_tretyak.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/maryna_toropova.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/oleksandr_kravchenko.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/svetlana_byruchynska.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/vadym_gumenuk.jpg';
