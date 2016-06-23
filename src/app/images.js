@@ -8,6 +8,7 @@ import '!!file-loader?name=[name].[ext]!../assets/js/rs-plugin/assets/large_righ
 
 
 import '!!file-loader?name=[name].[ext]!../assets/images/logos/logo_with_title.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/logos/logo_original.png';
 
 
 /*------------------------------------ presenter ---------------------------------------------------*/
