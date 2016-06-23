@@ -57,6 +57,12 @@
     }
   }
 
+  .description-link {
+    font-size: 18px;
+    font-weight: 400;
+    color: #339999;
+  }
+
   .inline {
     display: inline;
     padding-right: 15px;
@@ -71,7 +77,7 @@
     font-size: 16px;
   }
 
-  .ngTruncateToggleText{
+  .ngTruncateToggleText {
     color: #66cc99;
     &:hover {
       cursor: pointer;
