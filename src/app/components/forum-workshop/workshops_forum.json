@@ -1,0 +1,33 @@
+[
+  {
+    "name": "CROSSFIT – погляд з середини!",
+    "lecturers": [
+      {
+        "firstName": "Олександр",
+        "lastName": "Кравченко",
+        "avatar": "oleksandr_kravchenko.jpg",
+        "fb": ""
+      },
+      {
+        "firstName": "Андрій",
+        "lastName": "Недоступ",
+        "avatar": "andryj_nedostup.jpg",
+        "fb": ""
+      }
+    ],
+    "people": "",
+    "duration": "6 години",
+    "date_info": {
+      "date": "30.09.16",
+      "day": "п'ятниця",
+      "time": {
+        "start": "",
+        "end": ""
+      }
+    },
+    "ticket_id": null,
+    "location": "",
+    "price": 2500,
+    "description": "<strong>PreForum – спеціалізований семінар для бізнесу</strong><br><strong>Олександр Кравченко</strong><br>Фіналіст AfroditeGames2014-2015, Великого Кубку 2013-2016. Призер українських змагань з CrossFit. Засновник мережі клубів  CrossFit BANDA. Організатор змагань з CrossFit, у тому числі, наймаштабнішого CrossFit змагання в Україні BANDA Open Challenge<br><br><strong>Андрій Недоступ</strong><br>Президент Украинскої фітнес ассоціації УФА. Засновник керуючої компанії «ФітКультура». Генеральний директор клуба «Фітнес Блокбастер». Керуючий  партнер «CrossFit BANDA». Досвід  у фітнес-індустрії - більше 15 років.<br><br><strong>Головні тези PreForum:</strong><br>Створення CROSSFITBOX<br>Управління CROSSFITBOX<br>Спортивний маркетинг<br>Менеджмент заходів<br>Навчальний центр<br>Додаткові продукти та послуги"
+  }
+]

@@ -1,8 +1,7 @@
 #workshops {
-  //box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+  padding-bottom: 15px;
   .workshop {
     min-height: 370px;
-    //border-bottom: 1px solid #66cc99;
   }
 
   .buy-wrap {
@@ -57,6 +56,12 @@
     }
   }
 
+  .description-link {
+    font-size: 18px;
+    font-weight: 400;
+    color: #339999;
+  }
+
   .inline {
     display: inline;
     padding-right: 15px;
@@ -71,7 +76,7 @@
     font-size: 16px;
   }
 
-  .ngTruncateToggleText{
+  .ngTruncateToggleText {
     color: #66cc99;
     &:hover {
       cursor: pointer;

@@ -6,6 +6,13 @@ import '!!file-loader?name=[name].[ext]!../favicon.ico';
 import '!!file-loader?name=[name].[ext]!../assets/js/rs-plugin/assets/large_left.png';
 import '!!file-loader?name=[name].[ext]!../assets/js/rs-plugin/assets/large_right.png';
 
+
+import '!!file-loader?name=[name].[ext]!../assets/images/logos/logo_with_title.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/logos/logo_original.png';
+
+import '!!file-loader?name=[name].[ext]!../assets/images/logos/open_graph_logo.png';
+
+
 /*------------------------------------ presenter ---------------------------------------------------*/
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/cyoh_ekaterina.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/smyrnova_ekateryna.png';
@@ -72,3 +79,16 @@ import '!!file-loader?name=[name].[ext]!../assets/images/workshops-lectures/side
 //---------------------------------------------DOWNLOADS----------------------------------------------------
 
 import '!!file-loader?name=[name].[ext]!../assets/downloads/Offer_LFWЕКСПО.pdf';
+
+
+
+
+/*------------------------------------ forum presenter ---------------------------------------------------*/
+
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/andryj_nedostup.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/anna_ermylova.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/iryna_tretyak.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/maryna_toropova.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/oleksandr_kravchenko.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/svetlana_byruchynska.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/vadym_gumenuk.jpg';

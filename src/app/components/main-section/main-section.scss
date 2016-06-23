@@ -24,7 +24,12 @@
   }
 
   .section-links {
-    /*wrap on main btn-s*/
+    @media (max-width: 480px) {
+      .main-btn {
+        font-size: 12px;
+        padding: 10px 20px;
+      }
+    }
   }
 
   .main-btn {

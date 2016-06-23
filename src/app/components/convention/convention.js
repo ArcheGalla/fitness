@@ -5,7 +5,7 @@ export default function (module) {
     return ({
       templateUrl: require('./convention.html'),
       controller: function ($scope) {
-        $scope.presenters  = require('../presenter/presenters.json');
+        $scope.presenters  = require('./presenters.json');
       }
     });
   });
