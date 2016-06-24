@@ -1,8 +1,8 @@
 export default function (module) {
-  module.factory('FitnessTicket', function ($modal, TWO_EVENT_ID) {
+  module.factory('FitnessTicket', function ($modal) {
     return ({
-      open: function (ticketId) {
-        if (typeof  ticketId !== 'number') {
+      open: function (ticketId, eventId) {
+        if (typeof  ticketId !== 'number' || typeof eventId !== 'number') {
           return;
         }
         $modal
@@ -27,7 +27,7 @@ export default function (module) {
           .opened
           .then(function () {
 
-            window.widgetOptions = {bg_color: 'fcfcfc', id: TWO_EVENT_ID, tickets: [ticketId], lang: 'uk'};
+            window.widgetOptions = {bg_color: 'fcfcfc', id: eventId, tickets: [ticketId], lang: 'uk'};
 
             var script = document.createElement('script');
             script.type = 'text/javascript';

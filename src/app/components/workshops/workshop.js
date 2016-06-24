@@ -47,15 +47,16 @@ export default function (module) {
 
                   </div>
                 </div>
-                <div class="pull-right"><button type="button"  class="btn btn-primary btn-lg"  ng-click="openWidget(workshop.ticket_id)">Квиток</button></div>
+                <div class="pull-right"><button type="button"  class="btn btn-primary btn-lg"  ng-click="openWidget(workshop.ticket_id,CONVENTION_EVENT_ID)">Квиток</button></div>
               </div>
             </div>
           </div>
         </section>
       `,
-      controller: function ($scope, FitnessTicket) {
+      controller: function ($scope, FitnessTicket,CONVENTION_EVENT_ID) {
         $scope.workshops = require('./workshops.json');
         $scope.openWidget = FitnessTicket.open;
+        $scope.CONVENTION_EVENT_ID = CONVENTION_EVENT_ID;
       }
     });
   });

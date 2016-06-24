@@ -1,4 +1,4 @@
-import './convention.scss';
+import "./convention.scss";
 
 export default function (module) {
   module.directive('fitnessConvention', function () {
