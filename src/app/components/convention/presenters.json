@@ -2,7 +2,7 @@
   {
     "firstName": "Alessandro",
     "lastName": "Muo",
-    "class": "BODY IN ACTION, FUNCTIONAL STEP",
+    "class": "BODY IN ACTION, <br> FUNCTIONAL STEP",
     "avatar": "alessandro_muo.jpg",
     "country": "Італія",
     "socialLinks": [
@@ -30,7 +30,7 @@
   {
     "firstName": "Яна",
     "lastName": "Чеханова",
-    "class": "HOUSE, AERODANCE",
+    "class": "HOUSE, <br>AERODANCE",
     "avatar": "yana_chehanova.jpg",
     "country": "",
     "socialLinks": [
@@ -86,7 +86,7 @@
   {
     "firstName": "Alessandro",
     "lastName": "Oliveri",
-    "class": "STEP FUNCTION (ALE), STEP'N ACTION, FUSION",
+    "class": "STEP FUNCTION (ALE), <br> STEP'N ACTION,<br>FUSION",
     "avatar": "alessandro_oliveri.png",
     "country": "Італія",
     "socialLinks": [
@@ -100,7 +100,7 @@
   {
     "firstName": "Сергій",
     "lastName": "Фальштинський",
-    "class": "SPORT MOVES FUNCTIONAL, FUNCTIONAL AGILITY",
+    "class": "SPORT MOVES FUNCTIONAL,<br> FUNCTIONAL AGILITY",
     "avatar": "sergey_falshtynskyy.png",
     "country": "",
     "socialLinks": [
@@ -143,7 +143,7 @@
     "firstName": "Ania",
     "lastName": "Horobiowska",
     "avatar": "ania_horobiowska.png",
-    "class": "STEP DEFINITION, DANCE EXPLOSION",
+    "class": "STEP DEFINITION,<br> DANCE EXPLOSION",
     "country": "Польща",
     "socialLinks": [
       {
@@ -227,7 +227,7 @@
     "firstName": "Virgilijus",
     "lastName": "Zelvys",
     "avatar": "virgilijus_zelvys.png",
-    "class": "STEP DANCE,   DANCE TOGETHER",
+    "class": "STEP DANCE,<br>DANCE TOGETHER",
     "country": "Литва",
     "socialLinks": [
       {
@@ -310,7 +310,7 @@
   {
     "firstName": "Steffen",
     "lastName": "Conrad",
-    "class": "FACTS MOVEMENT & HIT, FACTS ALL IN ONE",
+    "class": "FACTS MOVEMENT & HIT,<br>FACTS ALL IN ONE",
     "avatar": "steffen_conrad.png",
     "country": "Німеччина",
     "socialLinks": [
@@ -339,7 +339,7 @@
     "firstName": "Сергей",
     "lastName": "Пляшечко",
     "avatar": "sergey_plyshechca.jpg",
-    "class": "YOGA 23. УПАВИШТХА КОНАСАНА",
+    "class": "YOGA 23. <br> УПАВИШТХА КОНАСАНА",
     "country": "",
     "socialLinks": [
       {
@@ -352,7 +352,7 @@
   {
     "firstName": "Олена",
     "lastName": "Сідерська",
-    "class": "Yoga 23. Атлетик Хатха",
+    "class": "Yoga 23.<br> Атлетик Хатха",
     "avatar": "olena_siderskay.png",
     "country": "",
     "socialLinks": [
@@ -367,7 +367,7 @@
     "firstName": "Ольга",
     "lastName": "Смелкова",
     "avatar": "smelkova_olga.png",
-    "class": "ЕASY FUN, DANCE TOGETHER",
+    "class": "ЕASY FUN,<br> DANCE TOGETHER",
     "country": "",
     "socialLinks": [
       {
@@ -437,7 +437,7 @@
     "firstName": "Маргарита",
     "lastName": "Солодвнікова",
     "avatar": "solodovnikova_marina.jpg",
-    "class": "DANCE HALL, BOOTY DANCE",
+    "class": "DANCE HALL,<br> BOOTY DANCE",
     "country": "",
     "socialLinks": [
       {
