@@ -25,30 +25,32 @@
       <div class="col-lg-7">
         <div class="row">
           <div class="col-md-6 col-sm-8 scrollpoint sp-effect1">
-
             <p ng-if="vm.error" class="send-email-error">Сталась помилка. Спробуйте пізніше</p>
+
             <p ng-if="vm.success" class="send-email-success">Ваше повідомлення успішно відправленне</p>
-            <form role="form" name="messageForm" novalidate
-                  ng-submit="vm.sendMessage(messageForm.$valid,vm.formData)">
+
+            <form role="form" name="messageForm" novalidate ng-submit="vm.sendMessage(messageForm.$valid,vm.formData)">
               <div class="form-group">
                 <input type="text" name="name" ng-model="vm.formData.name" class="form-control"
                        ng-class="{'error': messageForm.name.$invalid && messageForm.$submitted}"
                        placeholder="Ім’я" required>
               </div>
+
               <div class="form-group">
                 <input type="email" name="email" ng-model="vm.formData.email" class="form-control"
                        ng-class="{'error': messageForm.email.$invalid && messageForm.$submitted}"
                        placeholder="Поштова скринька" required>
               </div>
+
               <div class="form-group">
                       <textarea cols="30" name="message" rows="10" ng-model="vm.formData.message" class="form-control"
                                 ng-class="{'error': messageForm.message.$invalid && messageForm.$submitted}"
                                 placeholder="Повідомлення" required></textarea>
               </div>
+
               <button type="submit" class="btn btn-primary btn-lg">Відправити</button>
+
             </form>
-
-
           </div>
           <div class="col-md-6 col-sm-4 contact-details scrollpoint sp-effect2">
             <div class="media">
@@ -59,6 +61,7 @@
                 <h4 class="media-heading">м. Львів вул. Щирецька, 36</h4>
               </div>
             </div>
+
             <div class="media">
               <a class="pull-left" href="mailto:lvivfitnessweekend@gmail.com">
                 <i class="fa fa-envelope fa-2x"></i>
@@ -69,6 +72,7 @@
                 </h4>
               </div>
             </div>
+
             <div class="media">
               <a class="pull-left"  href="tel:+380686558791">
                 <i class="fa fa-phone fa-2x"></i>
@@ -77,6 +81,7 @@
                 <h4 class="media-heading"><a href="tel:+380686558791"> +38 (068) 655 87 91</a></h4>
               </div>
             </div>
+
             <div class="media">
               <a class="pull-left" href="#">
                 <img src="../../../assets/images/contacts/christina.png" alt="Христина Равриш">
