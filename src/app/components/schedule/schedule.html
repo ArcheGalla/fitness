@@ -13,7 +13,7 @@
     </div>
   </div>
 
-  <div class="schedule-table" ng-show="schedule.SCHEDULES.ONE === schedule.currertSchedule">
+  <div class="schedule-table" ng-if="schedule.SCHEDULES.ONE === schedule.currertSchedule">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 scene" ng-repeat="scene in dayone">
@@ -21,14 +21,14 @@
           <div class="schedule-row" ng-repeat="item in scene.lectures">
             <span class="time">{{ ::item.time }}</span>
             <span class="class">{{ ::item.instructor }}</span>
-            <span class="people text-right">{{ ::item.name }}</span>
+            <span class="people text-right"><span ng-repeat="name in item.name">{{ ::name}} <br></span></span>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="schedule-table" ng-show="schedule.SCHEDULES.TWO === schedule.currertSchedule">
+  <div class="schedule-table" ng-if="schedule.SCHEDULES.TWO === schedule.currertSchedule">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 scene" ng-repeat="scene in daytwo">
@@ -36,7 +36,7 @@
           <div class="schedule-row" ng-repeat="item in scene.lectures">
             <span class="time">{{ ::item.time }}</span>
             <span class="class">{{ ::item.instructor }}</span>
-            <span class="people text-right">{{ ::item.name }}</span>
+            <span class="people text-right"><span ng-repeat="name in item.name">{{ ::name }} <br></span></span>
           </div>
         </div>
       </div>

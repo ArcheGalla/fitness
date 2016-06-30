@@ -4,47 +4,47 @@
     "lectures": [
       {
         "time": "9:00-9:50",
-        "name": "Ania Horoibowska",
+        "name": ["Ania Horoibowska"],
         "instructor": "Step Definition"
       },
       {
         "time": "10:00-10:50",
-        "name": "Сергій Пляшечка",
+        "name": ["Сергій Пляшечка"],
         "instructor": "Yoga 23"
       },
       {
         "time": "11:00-11:50",
-        "name": "Alessandro Muo",
+        "name": ["Alessandro Muo"],
         "instructor": "FUNCTIONAL STEP"
       },
       {
         "time": "12:00-12:50",
-        "name": "Марія Скорченко",
+        "name": ["Марія Скорченко"],
         "instructor": "TWERK"
       },
       {
         "time": "13:00-13:50",
-        "name": "Alessandro Muo",
+        "name": ["Alessandro Muo"],
         "instructor": "BODY IN ACTION"
       },
       {
         "time": "14:00-14:50",
-        "name": "Alessandro Oliveri",
+        "name": ["Alessandro Oliveri"],
         "instructor": "FUSION"
       },
       {
         "time": "15:00-15:50",
-        "name": "Олексій Торохтій",
+        "name": ["Олексій Торохтій"],
         "instructor": "Важка атлетика"
       },
       {
         "time": "16:00-16:50",
-        "name": "Steffen Conrad",
+        "name": ["Steffen Conrad"],
         "instructor": "FACTS all in one"
       },
       {
         "time": "17:00-17:50",
-        "name": "Oксана Мошеску",
+        "name": ["Oксана Мошеску"],
         "instructor": "Kangoo Jumps"
       }
     ]
@@ -54,47 +54,47 @@
     "lectures": [
       {
         "time": "9:00-9:50",
-        "name": "Маргарита Солодовнікова",
+        "name": ["Маргарита Солодовнікова"],
         "instructor": "DanceHall"
       },
       {
         "time": "10.00-10.50",
-        "name": "Катерина Смірнова",
+        "name": ["Катерина Смірнова"],
         "instructor": "Пiлатес. Дихання – це не правило, а інструмент"
       },
       {
         "time": "11:00-11:50",
-        "name": "Matilde Demarchi",
+        "name": ["Matilde Demarchi"],
         "instructor": "Коса Матильди"
       },
       {
         "time": "12:00-12:50",
-        "name": "Virgilius Zelvys, Ольга Смєлкова",
+        "name": ["Virgilius Zelvys", "Ольга Смєлкова"],
         "instructor": "Dance together"
       },
       {
         "time": "13:00-13:50",
-        "name": "Майк Полукаров",
+        "name": ["Майк Полукаров"],
         "instructor": "Jazz Body Stream"
       },
       {
         "time": "14:00-14:50",
-        "name": "Сергій Пуцов, Олександр Довгич, Роман Грицина",
+        "name": ["Сергій Пуцов", "Олександр Довгич", "Роман Грицина"],
         "instructor": "TotalGymElevate"
       },
       {
         "time": "15:00-15:50",
-        "name": "Євгенія Щигрова",
+        "name": ["Євгенія Щигрова"],
         "instructor": "Power stretch"
       },
       {
         "time": "16:00-16:50",
-        "name": "Яна Чеханова",
+        "name": ["Яна Чеханова"],
         "instructor": "House"
       },
       {
         "time": "17:00-17:50",
-        "name": "Сергій Фальштинський",
+        "name": ["Сергій Фальштинський"],
         "instructor": "Functional agility"
       }
     ]
@@ -104,47 +104,47 @@
     "lectures": [
       {
         "time": "9:00-9:50",
-        "name": "Валерій Кисіль",
+        "name": ["Валерій Кисіль"],
         "instructor": "Cross Fit"
       },
       {
         "time": "10.00-10.50",
-        "name": "Ярослав Сойніков",
+        "name": ["Ярослав Сойніков"],
         "instructor": "TRX Yoga Inspired"
       },
       {
         "time": "11:00-11:50",
-        "name": "Андрій Нєстєров, Катерина Пуцова",
+        "name": ["Андрій Нєстєров", "Катерина Пуцова"],
         "instructor": "CRUSH MUSCLE"
       },
       {
         "time": "12:00-12:50",
-        "name": "Світлана Лучкіна",
+        "name": ["Світлана Лучкіна"],
         "instructor": "TRX POWER"
       },
       {
         "time": "13:00-13:50",
-        "name": "Олександр Кравченко",
+        "name": ["Олександр Кравченко"],
         "instructor": "Cross Fit"
       },
       {
         "time": "14:00-14:50",
-        "name": "Ярослав Сойніков",
+        "name": ["Ярослав Сойніков"],
         "instructor": "TRX GOPE & CORE"
       },
       {
         "time": "15:00-15:50",
-        "name": "Василь Вірастюк, Сергій Конюшок",
+        "name": ["Василь Вірастюк", "Сергій Конюшок"],
         "instructor": "Strong Fit"
       },
       {
         "time": "16:00-16:50",
-        "name": "Світлана Лучкіна",
+        "name": ["Світлана Лучкіна"],
         "instructor": "TRX POWER"
       },
       {
         "time": "17:00-17:50",
-        "name": "Олеся Губеня",
+        "name": ["Олеся Губеня"],
         "instructor": "CrossFit"
       }
     ]
