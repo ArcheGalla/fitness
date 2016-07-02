@@ -1,27 +1,25 @@
 <section id="workshops">
   <div class="container-fluid">
     <div class="section-heading scrollpoint sp-effect3">
-      <h1>PreForum
-      </h1>
+      <h1>PreForum</h1>
       <div class="divider"></div>
-      <!--<p>Розклад семінарів уточнюється</p>-->
-      <!--<p>Після проходження семінару всім учасникам видається сертифікат LVIV FITNESS WEEKEND</p>-->
     </div>
 
     <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12  col-xs-12 scrollpoint sp-effect5 workshop" ng-repeat="workshop in workshops">
+      <div class="col-lg-8 col-md-8 col-sm-12  col-xs-12 scrollpoint sp-effect5 workshop col-lg-push-2 col-md-push-2"
+           ng-repeat="workshop in workshops">
         <h3 class="workshop-name">{{ workshop.name }}</h3>
         <div class="row">
           <div class="col-md-4">
             <div class="row">
               <div class="col-lg-12 col-md-12 lecture"
                    ng-class="{
-                                      'col-xs-12': workshop.lecturers.length === 1,
-                                      'col-xs-6': workshop.lecturers.length === 2,
-                                      'col-xs-4': workshop.lecturers.length === 3
-                                      }" ng-repeat="lecture in workshop.lecturers">
+                              'col-xs-12': workshop.lecturers.length === 1,
+                              'col-xs-6': workshop.lecturers.length === 2,
+                              'col-xs-4': workshop.lecturers.length === 3
+                              }" ng-repeat="lecture in workshop.lecturers">
                 <img ng-if="lecture.avatar" ng-src="{{lecture.avatar}}" alt="{{lecture.firstName + ' ' + lecture.lastName}}">
-                <h3 class="lecture-name">{{lecture.firstName }} <br ng-if="lecture.two">  {{ lecture.lastName}}</h3>
+                <h3 class="lecture-name">{{ lecture.firstName }} <br ng-if="lecture.two">  {{ lecture.lastName}}</h3>
               </div>
             </div>
           </div>
@@ -40,7 +38,6 @@
                ng-tt-chars-threshold="999999"
                ng-tt-more-label=""
                ng-tt-less-label=""></p>
-
           </div>
         </div>
         <div class="pull-right">
