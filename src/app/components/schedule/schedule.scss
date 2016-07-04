@@ -51,6 +51,7 @@
       .people {
         flex-basis: 50%;
         .one {
+          display: inline-block;
           white-space: nowrap;
           word-break: keep-all;
         }
