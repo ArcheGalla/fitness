@@ -34,13 +34,13 @@
       },
       {
         "time": "15:00-15:50",
-        "name": ["Олексій Торохтій"],
-        "instructor": "Важка атлетика"
+        "name": ["Steffen Conrad"],
+        "instructor": "FACTS all in one"
       },
       {
         "time": "16:00-16:50",
-        "name": ["Steffen Conrad"],
-        "instructor": "FACTS all in one"
+        "name": ["Олексій Торохтій"],
+        "instructor": "Важка атлетика"
       },
       {
         "time": "17:00-17:50",
@@ -84,13 +84,13 @@
       },
       {
         "time": "15:00-15:50",
-        "name": ["Євгенія Щигрова"],
-        "instructor": "Power stretch"
+        "name": ["Яна Чеханова"],
+        "instructor": "House"
       },
       {
         "time": "16:00-16:50",
-        "name": ["Яна Чеханова"],
-        "instructor": "House"
+        "name": ["Євгенія Щигрова"],
+        "instructor": "Power stretch"
       },
       {
         "time": "17:00-17:50",
