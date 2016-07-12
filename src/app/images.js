@@ -79,8 +79,7 @@ import '!!file-loader?name=[name].[ext]!../assets/images/workshops-lectures/side
 //---------------------------------------------DOWNLOADS----------------------------------------------------
 
 import '!!file-loader?name=[name].[ext]!../assets/downloads/Offer_LFWЕКСПО.pdf';
-import '!!file-loader?name=[name].[ext]!../assets/downloads/day_one.pdf';
-import '!!file-loader?name=[name].[ext]!../assets/downloads/day_two.pdf';
+import '!!file-loader?name=[name].[ext]!../assets/downloads/schedule.pdf';
 
 
 
