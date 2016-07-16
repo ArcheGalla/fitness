@@ -96,3 +96,4 @@ import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/svetla
 import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/vadym_gumenuk.jpg';
 import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/dmitry_lukyanov.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/vladislav_todyeryshko.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/oksana_vashchuk.jpg';
