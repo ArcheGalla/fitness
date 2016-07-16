@@ -94,3 +94,5 @@ import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/volodi
 import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/oleksandr_kravchenko.jpg';
 import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/svetlana_byruchynska.jpg';
 import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/vadym_gumenuk.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/dmitry_lukyanov.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/vladislav_todyeryshko.png';
