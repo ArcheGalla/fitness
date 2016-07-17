@@ -9,7 +9,7 @@
   <div class="schedule-table">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 scene" ng-repeat="scene in daytwo">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 scene" ng-repeat="scene in forumschedule">
           <h4 class="text-center fitness-font-xl">{{ ::scene.title }}</h4>
           <div class="schedule-row" ng-repeat="item in scene.lectures">
             <span class="time">{{ ::item.time }}</span>

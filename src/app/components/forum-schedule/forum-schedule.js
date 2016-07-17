@@ -6,7 +6,7 @@ export default function (module) {
       templateUrl: require('./forum-schedule.html'),
       scope: true,
       controller: function ($scope) {
-        $scope.dayone = require('./forum-schedule-day-one.json');
+        $scope.forumschedule = require('./forum-schedule.json');
       }
     });
   });
