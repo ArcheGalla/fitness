@@ -4,10 +4,12 @@ export default function (module) {
   module.directive('forumSchedule', function () {
     return ({
       templateUrl: require('./forum-schedule.html'),
+      scope: true,
       controller: function ($scope) {
 
-        //$scope.dayone = require('./day_one.json');
-        //$scope.daytwo = require('./day_two.json');
+        //$scope.dayone = require('./forum-schedule-day-one.json');
+        $scope.daytwo = require('./forum-schedule-day-two.json');
+
         //
         //const vm = this;
         //
@@ -34,8 +36,8 @@ export default function (module) {
         //  }
         //};
 
-      },
-      controllerAs: 'foremSchedule'
+      }
+      //controllerAs: 'forumSchedule'
     });
   });
 }

@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Сцена 1",
+    "lectures": [
+      {
+        "time": "",
+        "name": [
+          "",
+          ""
+        ],
+        "instructor": ""
+      }
+    ]
+  },
+  {
+    "title": "Сцена 2",
+    "lectures": [
+      {
+        "time": "09:00-09:50",
+        "name": [
+          ""
+        ],
+        "instructor": ""
+      }
+    ]
+  }
+]
