@@ -54,11 +54,11 @@
         text-transform: uppercase;
         text-align: left;
         padding-left: 10px;
-        //flex-basis: 60%;
+        flex-basis: 60%;
       }
 
       .people {
-        //flex-basis: 50%;
+        flex-basis: 20%;
         .one {
           display: inline-block;
           white-space: nowrap;
