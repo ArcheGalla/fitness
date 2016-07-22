@@ -11,6 +11,9 @@
       <a href="javascript:void(0)" ng-click="schedule.setSchedule(schedule.SCHEDULES.TWO)" class="button"
          ng-class="{ 'active' : schedule.SCHEDULES.TWO === schedule.currertSchedule }">Другий день 2.10.2106</a>
     </div>
+    <div class="section-heading">
+      <p> Реєстрація 1.10.16 з 7:00 та 2.10.16 з 8:00</p>
+    </div>
   </div>
 
   <div class="schedule-table" ng-if="schedule.SCHEDULES.ONE === schedule.currertSchedule">
@@ -36,7 +39,8 @@
           <div class="schedule-row" ng-repeat="item in scene.lectures">
             <span class="time">{{ ::item.time }}</span>
             <span class="class">{{ ::item.instructor }}</span>
-            <span class="people text-right"><span class="one" ng-repeat="name in item.name">{{ ::name }} <br></span></span>
+            <span class="people text-right"><span class="one"
+                                                  ng-repeat="name in item.name">{{ ::name }} <br></span></span>
           </div>
         </div>
       </div>
