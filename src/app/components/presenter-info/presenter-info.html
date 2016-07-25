@@ -6,7 +6,7 @@
     <h4 class="modal-title">{{ vm.info.firstName + ' ' + vm.info.lastName }}</h4>
   </div>
 
-  <div class="modal-body">
+  <div class="modal-body" ng-swipe-left="vm.close()" ng-swipe-right="vm.close()">
     <img class="avatar" ng-src="{{ vm.info.avatar }}" alt="{{ vm.info.firstName + ' ' + vm.info.lastName }}">
     <h6 class="employment">{{ vm.info.employment }}</h6>
     <div class="social-links">

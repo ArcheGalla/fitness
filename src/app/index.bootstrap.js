@@ -1,12 +1,13 @@
-import '../assets/js/ui-bootstrap/ui-bootstrap-custom-0.13.4';
-import '../assets/js/ui-bootstrap/ui-bootstrap-custom-tpls-0.13.4';
-import './images';
-import '../assets/js/ng-text-truncate';
-import '../assets/styles/sass/index.scss';
-import 'jquery-waypoints/waypoints.min';
+import "angular-touch";
+import "../assets/js/ui-bootstrap/ui-bootstrap-custom-0.13.4";
+import "../assets/js/ui-bootstrap/ui-bootstrap-custom-tpls-0.13.4";
+import "./images";
+import "../assets/js/ng-text-truncate";
+import "../assets/styles/sass/index.scss";
+import "jquery-waypoints/waypoints.min";
 
 const queryModule = require('../assets/js/scripts');
-const app = angular.module('fitness', ['ui.bootstrap','ngTextTruncate']);
+const app = angular.module('fitness', ['ui.bootstrap', 'ngTextTruncate', 'ngTouch']);
 
 require('./components/presenter-info/presenter-info')(app);
 require('./components/mainCtrl')(app);
