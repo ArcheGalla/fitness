@@ -18,6 +18,7 @@ require('./components/forum-presenters/forum-presenters')(app);
 require('./components/forum-schedule/forum-schedule')(app);
 require('./components/forum-tickets/forum-tickets')(app);
 require('./components/forum-workshop/forum-workshop')(app);
+require('./components/coaches-certification/coaches-certification')(app);
 
 require('./components/nav-menu/nav-menu')(app);
 require('./components/main-section/main-section')(app);

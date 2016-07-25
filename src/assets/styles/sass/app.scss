@@ -35,12 +35,6 @@
   }
 }
 
-//section {
-//  position: relative;
-//  //padding-bottom: 90px;
-//  padding-bottom: 10px;
-//}
-
 /* Common style for pseudo-elements */
 section::before,
 section::after {
@@ -400,40 +394,7 @@ section#screens .filter a.active {
   border-color: #66cc99;
 }
 
-/*!* Get app Section *!
-section#getApp {
-  //background: url("../img/freeze/bk-freeze-ga.jpg");
-}
 
-section#getApp header {
-  color: #ffffff;
-}
-
-section#getApp header h1:after {
-  background: #ffffff;
-}
-
-section#getApp .platforms .media {
-  border: 2px solid #ffffff;
-  color: #ffffff;
-}
-
-section#getApp .platforms .media a i {
-  color: #ffffff;
-}
-
-section#getApp .platforms .media a div.media-body {
-  color: #ffffff;
-}
-
-section#getApp .platforms .media:hover {
-  background: #ffffff;
-}
-
-section#getApp .platforms .media:hover a i,
-section#getApp .platforms .media:hover a div.media-body {
-  color: #66cc99;
-}*/
 
 .navbar-toggle {
   background-color: #CCC;
