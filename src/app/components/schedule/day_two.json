@@ -54,8 +54,8 @@
     "lectures": [
       {
         "time": "9:00-9:50",
-        "name": ["Маргарита Солодовнікова"],
-        "instructor": "DanceHall"
+        "name": ["Сергій Фальштинський"],
+        "instructor": "Functional agility"
       },
       {
         "time": "10.00-10.50",
@@ -94,8 +94,8 @@
       },
       {
         "time": "17:00-17:50",
-        "name": ["Сергій Фальштинський"],
-        "instructor": "Functional agility"
+        "name": ["Людмила Романів","Кристина Сенчишин","Ніна Білаш"],
+        "instructor": "SKY Jumping"
       }
     ]
   },

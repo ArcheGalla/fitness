@@ -39,8 +39,7 @@
           <div class="schedule-row" ng-repeat="item in scene.lectures">
             <span class="time">{{ ::item.time }}</span>
             <span class="class">{{ ::item.instructor }}</span>
-            <span class="people text-right"><span class="one"
-                                                  ng-repeat="name in item.name">{{ ::name }} <br></span></span>
+            <span class="people text-right"><span ng-repeat="name in item.name">{{ ::name}} <br></span></span>
           </div>
         </div>
       </div>
