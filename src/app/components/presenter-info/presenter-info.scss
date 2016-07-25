@@ -8,12 +8,20 @@
     font-size: 20px;
   }
   .description {
+
     &::first-letter {
       padding-left: 20px;
     }
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
   }
+
+  @media (max-width: 480px) {
+    .description {
+      font-size: 14px;
+    }
+  }
+
   .modal-header {
     .close {
       margin-top: 7px;
@@ -23,7 +31,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    .fa{
+    .fa {
       font-size: 24px;
     }
   }
