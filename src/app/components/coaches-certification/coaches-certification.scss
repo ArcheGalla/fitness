@@ -10,13 +10,19 @@
     color: #3D4351;
   }
 
+  .height-light {
+    color: #66cc99 !important;
+    font-weight: 600;
+  }
+
   .price {
     font-size: 18px;
     font-weight: 700;
-    color: #66cc99;
+  }
+  .no-list-style{
+    list-style: none;
   }
   .coach-list {
-    list-style: none;
     padding-left: 15%;
     padding-right: 15%;
 
