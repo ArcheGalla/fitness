@@ -69,6 +69,7 @@ import '!!file-loader?name=[name].[ext]!../assets/images/presenters/sergey_konyu
 
 
 
+import '!!file-loader?name=[name].[ext]!../assets/images/workshops-lectures/denis_safonov.jpg';
 import '!!file-loader?name=[name].[ext]!../assets/images/workshops-lectures/nataliy_zyshko.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/workshops-lectures/anastasia_bogdanova.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/workshops-lectures/siderska_workshop.png';

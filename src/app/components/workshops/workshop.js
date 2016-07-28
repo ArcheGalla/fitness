@@ -39,7 +39,7 @@ export default function (module) {
                       <p class="inline" ng-show="workshop.people">Кількість учасників обмежена: ({{ workshop.people }} чоловік)</p>
                     </div>
                     <p>Зал: {{ workshop.location }}</p>
-                    <p class="workshop-price">Вартість: {{ workshop.price }} грн</p>
+                    <p class="workshop-price">Вартість: {{ workshop.price }} <span ng-show="!workshop.price.length">грн</span></p>
                     <p class="description" ng-text-truncate="workshop.description"
                        ng-tt-chars-threshold="160"
                        ng-tt-more-label="Читати повністю"
@@ -47,7 +47,7 @@ export default function (module) {
 
                   </div>
                 </div>
-                <div class="pull-right"><button type="button"  class="btn btn-primary btn-lg"  ng-click="openWidget(workshop.ticket_id,CONVENTION_EVENT_ID)">Квиток</button></div>
+                <div class="pull-right"><button ng-show="!workshop.price.length" type="button"  class="btn btn-primary btn-lg"  ng-click="openWidget(workshop.ticket_id,CONVENTION_EVENT_ID)">Квиток</button></div>
               </div>
             </div>
           </div>
