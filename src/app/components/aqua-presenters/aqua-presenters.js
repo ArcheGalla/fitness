@@ -1,3 +1,5 @@
+import "./aqua-presenters.scss";
+
 export default function (module) {
   module.directive('aquaPresenters', function () {
     return ({
