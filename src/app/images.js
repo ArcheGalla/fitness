@@ -98,3 +98,18 @@ import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/vadym_
 import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/dmitry_lukyanov.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/vladislav_todyeryshko.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/forum-presenters/oksana_vashchuk.jpg';
+
+
+
+/*------------------------------------ aqua presenter ---------------------------------------------------*/
+
+import '!!file-loader?name=[name].[ext]!../assets/images/aqua-presenters/viktoria_tesly.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/aqua-presenters/oksana_mukoseeva.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/aqua-presenters/maksiy_koshel.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/aqua-presenters/yara_kudrashko.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/aqua-presenters/valentina_kvita.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/aqua-presenters/anna_fedkiv.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/aqua-presenters/anonim.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/aqua-presenters/oleksandr_inja.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/aqua-presenters/polina_bonahova.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/aqua-presenters/vitaliy_lisenko.jpg';
