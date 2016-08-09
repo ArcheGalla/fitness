@@ -21,7 +21,7 @@ require('./components/forum-workshop/forum-workshop')(app);
 require('./components/coaches-certification/coaches-certification')(app);
 
 
-require('./components/aqua-presenters/aqua-presenters')(app);
+// require('./components/aqua-presenters/aqua-presenters')(app);
 
 require('./components/nav-menu/nav-menu')(app);
 require('./components/main-section/main-section')(app);

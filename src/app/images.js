@@ -2,16 +2,11 @@
 
 //favicon
 import '!!file-loader?name=[name].[ext]!../favicon.ico';
-
 import '!!file-loader?name=[name].[ext]!../assets/js/rs-plugin/assets/large_left.png';
 import '!!file-loader?name=[name].[ext]!../assets/js/rs-plugin/assets/large_right.png';
-
-
 import '!!file-loader?name=[name].[ext]!../assets/images/logos/logo_with_title.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/logos/logo_original.png';
-
 import '!!file-loader?name=[name].[ext]!../assets/images/logos/open_graph_logo.png';
-
 
 /*------------------------------------ presenter ---------------------------------------------------*/
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/cyoh_ekaterina.png';
@@ -74,6 +69,8 @@ import '!!file-loader?name=[name].[ext]!../assets/images/workshops-lectures/nata
 import '!!file-loader?name=[name].[ext]!../assets/images/workshops-lectures/anastasia_bogdanova.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/workshops-lectures/siderska_workshop.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/workshops-lectures/siderska_matrosov.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/workshops-lectures/szibik_irina.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/workshops-lectures/kravchuk_andriy.jpg';
 
 
 
