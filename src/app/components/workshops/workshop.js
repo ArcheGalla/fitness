@@ -47,7 +47,7 @@ export default function (module) {
 
                   </div>
                 </div>
-                <div class="pull-right" ng-hide="$index === 15">
+                <div class="pull-right">
                    <button ng-show="!workshop.price.length" type="button"  class="btn btn-primary btn-lg"  ng-click="openWidget(workshop.ticket_id,CONVENTION_EVENT_ID)">Квиток</button>
                 </div>
               </div>
