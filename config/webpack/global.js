@@ -1,8 +1,6 @@
-'use strict';
-
 var path = require('path');
 var os = require('os');
-var ifaces = os.networkInterfaces();
+// var ifaces = os.networkInterfaces();
 
 var webpack = require('webpack');
 var prefix = require('autoprefixer');
@@ -16,15 +14,6 @@ var DEVELOPMENT = NODE_ENV !== "production";
 var stylesLoader = 'css-loader?sourceMap!postcss-loader!sass-loader?outputStyle=expanded&sourceMap=true&sourceMapContents=true';
 
 var publicPath = 'http://0.0.0.0:8080/';
-
-// try {
-  // publicPath = `http://${ifaces.eth0[0].address}:8080/`;
-  // publicPath = 'http://0.0.0.0:8080/';
-// } catch (e) {
-//   console.log('e', e);
-//   publicPath = 'http://0.0.0.0:8080/'
-// }
-// console.log('publicPath',publicPath);
 
 module.exports = function (_path) {
   var rootAssetPath = _path + 'src';
@@ -166,7 +155,7 @@ module.exports = function (_path) {
       new webpack.optimize.UglifyJsPlugin({
         minimize: true,
         warnings: true,
-        sourceMap: true
+        sourceMap: false
       })
     ]);
   }

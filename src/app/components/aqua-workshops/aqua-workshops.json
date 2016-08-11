@@ -54,131 +54,55 @@
     "description": ""
   },
   {
-    "name": "",
+    "name": "Кинезиотейпирование в педиатрии",
     "lecturers": [
       {
-        "firstName": "",
-        "lastName": "",
-        "avatar": "",
+        "firstName": "Александр",
+        "lastName": "Инжа",
+        "avatar": "oleksandr_inja.jpg",
         "fb": ""
       }
     ],
-    "people": "",
-    "duration": "*** години",
+    "people": "необмежена",
+    "duration": "1,5 години",
     "date_info": {
-      "date": "30.09.16",
-      "day": "п'ятниця",
+      "date": "02.10.2016",
+      "day": "неділя",
       "time": {
-        "start": "",
-        "end": ""
+        "start": "14:00",
+        "end": "15:30"
       }
     },
     "ticket_id": null,
     "location": "",
+    "price": "400 грн. до 24.09.2016 після 600 грн.",
     "price_before": null,
     "price_after": null,
-    "description": ""
+    "description": "Кінезіологічне тайпування у реабілітації дітей"
   },
   {
-    "name": "",
+    "name": "Плавання. Універсальна методика навчання.",
     "lecturers": [
       {
-        "firstName": "",
-        "lastName": "",
-        "avatar": "",
+        "firstName": "Максим",
+        "lastName": "Кошель",
+        "avatar": "maksiy_koshel.jpg",
         "fb": ""
       }
     ],
-    "people": "",
-    "duration": "*** години",
+    "people": "необмежена",
+    "duration": "2 дня (5 години)",
     "date_info": {
-      "date": "30.09.16",
-      "day": "п'ятниця",
+      "date": "01.10.2016 - 02.10.2016",
+      "day": "субота - неділя",
       "time": {
-        "start": "",
-        "end": ""
+        "start": "(15:30 -18:00)",
+        "end": "(15:30 -18:00)"
       }
     },
     "ticket_id": null,
-    "location": "",
-    "price_before": null,
-    "price_after": null,
-    "description": ""
-  },
-  {
-    "name": "",
-    "lecturers": [
-      {
-        "firstName": "",
-        "lastName": "",
-        "avatar": "",
-        "fb": ""
-      }
-    ],
-    "people": "",
-    "duration": "*** години",
-    "date_info": {
-      "date": "30.09.16",
-      "day": "п'ятниця",
-      "time": {
-        "start": "",
-        "end": ""
-      }
-    },
-    "ticket_id": null,
-    "location": "",
-    "price_before": null,
-    "price_after": null,
-    "description": ""
-  },
-  {
-    "name": "",
-    "lecturers": [
-      {
-        "firstName": "",
-        "lastName": "",
-        "avatar": "",
-        "fb": ""
-      }
-    ],
-    "people": "",
-    "duration": "*** години",
-    "date_info": {
-      "date": "30.09.16",
-      "day": "п'ятниця",
-      "time": {
-        "start": "",
-        "end": ""
-      }
-    },
-    "ticket_id": null,
-    "location": "",
-    "price_before": null,
-    "price_after": null,
-    "description": ""
-  },
-  {
-    "name": "",
-    "lecturers": [
-      {
-        "firstName": "",
-        "lastName": "",
-        "avatar": "",
-        "fb": ""
-      }
-    ],
-    "people": "",
-    "duration": "*** години",
-    "date_info": {
-      "date": "30.09.16",
-      "day": "п'ятниця",
-      "time": {
-        "start": "",
-        "end": ""
-      }
-    },
-    "ticket_id": null,
-    "location": "",
+    "location": "аудиторія басейн",
+    "price": "2000 грн. до 24.09.2016 після 2400 грн.",
     "price_before": null,
     "price_after": null,
     "description": ""
