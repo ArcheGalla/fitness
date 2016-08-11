@@ -1,0 +1,186 @@
+[
+  {
+    "name": "Грудничковое плавание и работа с особенными детьми",
+    "lecturers": [
+      {
+        "firstName": "Виктория",
+        "lastName": "Тесля",
+        "avatar": "viktoria_tesly.jpg",
+        "fb": ""
+      }
+    ],
+    "people": "необмежена",
+    "duration": "2 дні (8 години)",
+    "date_info": {
+      "date": "01.10.2016 - 02.10.2016",
+      "day": "субота - неділя",
+      "time": {
+        "start": "9:00",
+        "end": "13:00"
+      }
+    },
+    "ticket_id": null,
+    "location": "аудиторія дитячий басейн",
+    "price": "2800 грн. ( до 24.09.2016 ) після 3200 грн.",
+    "price_before": 2800,
+    "price_after": 3200,
+    "description": ""
+  },
+  {
+    "name": "Аквааэробика. Базовый курс. Международный стандарт",
+    "lecturers": [
+      {
+        "firstName": "Оксана",
+        "lastName": "Мукосеева",
+        "avatar": "oksana_mukoseeva.jpg",
+        "fb": ""
+      }
+    ],
+    "people": "необмежена",
+    "duration": "5 годин",
+    "date_info": {
+      "date": "01.10.2016",
+      "day": "п'ятниця",
+      "time": {
+        "start": "(9:00 - 13:00) - обід ",
+        "end": "(14:00 - 15:00)"
+      }
+    },
+    "ticket_id": null,
+    "location": "аудиторія басейн",
+    "price": "2000 грн.(до 24.09.2016) 3000 грн. після",
+    "price_before": null,
+    "price_after": null,
+    "description": ""
+  },
+  {
+    "name": "",
+    "lecturers": [
+      {
+        "firstName": "",
+        "lastName": "",
+        "avatar": "",
+        "fb": ""
+      }
+    ],
+    "people": "",
+    "duration": "*** години",
+    "date_info": {
+      "date": "30.09.16",
+      "day": "п'ятниця",
+      "time": {
+        "start": "",
+        "end": ""
+      }
+    },
+    "ticket_id": null,
+    "location": "",
+    "price_before": null,
+    "price_after": null,
+    "description": ""
+  },
+  {
+    "name": "",
+    "lecturers": [
+      {
+        "firstName": "",
+        "lastName": "",
+        "avatar": "",
+        "fb": ""
+      }
+    ],
+    "people": "",
+    "duration": "*** години",
+    "date_info": {
+      "date": "30.09.16",
+      "day": "п'ятниця",
+      "time": {
+        "start": "",
+        "end": ""
+      }
+    },
+    "ticket_id": null,
+    "location": "",
+    "price_before": null,
+    "price_after": null,
+    "description": ""
+  },
+  {
+    "name": "",
+    "lecturers": [
+      {
+        "firstName": "",
+        "lastName": "",
+        "avatar": "",
+        "fb": ""
+      }
+    ],
+    "people": "",
+    "duration": "*** години",
+    "date_info": {
+      "date": "30.09.16",
+      "day": "п'ятниця",
+      "time": {
+        "start": "",
+        "end": ""
+      }
+    },
+    "ticket_id": null,
+    "location": "",
+    "price_before": null,
+    "price_after": null,
+    "description": ""
+  },
+  {
+    "name": "",
+    "lecturers": [
+      {
+        "firstName": "",
+        "lastName": "",
+        "avatar": "",
+        "fb": ""
+      }
+    ],
+    "people": "",
+    "duration": "*** години",
+    "date_info": {
+      "date": "30.09.16",
+      "day": "п'ятниця",
+      "time": {
+        "start": "",
+        "end": ""
+      }
+    },
+    "ticket_id": null,
+    "location": "",
+    "price_before": null,
+    "price_after": null,
+    "description": ""
+  },
+  {
+    "name": "",
+    "lecturers": [
+      {
+        "firstName": "",
+        "lastName": "",
+        "avatar": "",
+        "fb": ""
+      }
+    ],
+    "people": "",
+    "duration": "*** години",
+    "date_info": {
+      "date": "30.09.16",
+      "day": "п'ятниця",
+      "time": {
+        "start": "",
+        "end": ""
+      }
+    },
+    "ticket_id": null,
+    "location": "",
+    "price_before": null,
+    "price_after": null,
+    "description": ""
+  }
+]
