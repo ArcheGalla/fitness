@@ -3,6 +3,7 @@ import "./workshop.scss";
 export default function (module) {
   module.directive('fitnessWorkshops', function () {
     return ({
+      scope: true,
       template: `
         <section id="workshops">
           <div class="container-fluid">
@@ -55,7 +56,7 @@ export default function (module) {
           </div>
         </section>
       `,
-      controller: function ($scope, FitnessTicket,CONVENTION_EVENT_ID) {
+      controller: function ($scope, FitnessTicket, CONVENTION_EVENT_ID) {
         $scope.workshops = require('./workshops.json');
         $scope.openWidget = FitnessTicket.open;
         $scope.CONVENTION_EVENT_ID = CONVENTION_EVENT_ID;
