@@ -155,7 +155,7 @@ module.exports = function (_path) {
       new webpack.optimize.UglifyJsPlugin({
         minimize: true,
         warnings: true,
-        sourceMap: false
+        sourceMap: true
       })
     ]);
   }
