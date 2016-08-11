@@ -6,8 +6,8 @@ export default function (module) {
       restrict: 'E',
       templateUrl: require('./aqua-schedule.html'),
       controller: function ($scope) {
-        $scope.dayone = require('./first_day.json');
-        $scope.daytwo = require('./second_day.json');
+        $scope.dayone = require('./workshops.json');
+        $scope.daytwo = require('./master-class.json');
 
         $scope.SCHEDULES = {
           ONE: 'one',
