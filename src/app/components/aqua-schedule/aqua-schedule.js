@@ -6,7 +6,30 @@ export default function (module) {
       restrict: 'E',
       templateUrl: require('./aqua-schedule.html'),
       controller: function ($scope) {
-        $scope.test = 'test';
+        $scope.dayone = require('./first_day.json');
+        $scope.daytwo = require('./second_day.json');
+
+        $scope.SCHEDULES = {
+          ONE: 'one',
+          TWO: 'two'
+        };
+
+        $scope.currertSchedule = $scope.SCHEDULES.ONE;
+
+        $scope.setSchedule = (day)=> {
+          switch (day) {
+            case $scope.SCHEDULES.ONE:
+            {
+              $scope.currertSchedule = $scope.SCHEDULES.ONE;
+              break;
+            }
+            case $scope.SCHEDULES.TWO:
+            {
+              $scope.currertSchedule = $scope.SCHEDULES.TWO;
+              break;
+            }
+          }
+        };
       }
     });
   });
