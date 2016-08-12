@@ -1,9 +1,9 @@
 [
   {
-    "name": "Грудничковое плавание и работа с особенными детьми",
+    "name": "Грудничкове плавання і работа із особливими дітьми",
     "lecturers": [
       {
-        "firstName": "Виктория",
+        "firstName": "Вікторія",
         "lastName": "Тесля",
         "avatar": "viktoria_tesly.jpg",
         "fb": ""
@@ -54,11 +54,11 @@
     "description": ""
   },
   {
-    "name": "Кинезиотейпирование в педиатрии",
+    "name": "Кінезіотейпування в педіатрії",
     "lecturers": [
       {
-        "firstName": "Александр",
-        "lastName": "Инжа",
+        "firstName": "Олександр",
+        "lastName": "Інжа",
         "avatar": "oleksandr_inja.jpg",
         "fb": ""
       }
