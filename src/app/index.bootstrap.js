@@ -25,6 +25,7 @@ require('./components/aqua-presenters/aqua-presenters')(app);
 require('./components/aqua-schedule/aqua-schedule')(app);
 require('./components/aqua-workshops/aqua-workshops')(app);
 require('./components/aqua-masters/aqua-masters')(app);
+require('./components/expo-map/expo-map')(app);
 
 require('./components/nav-menu/nav-menu')(app);
 require('./components/main-section/main-section')(app);
@@ -43,8 +44,8 @@ require('./components/footer/footer')(app);
 
 angular.element(document).ready(function () {
   angular
-    .bootstrap(document, ['fitness'], {
-      strictDi: true
-    });
+      .bootstrap(document, ['fitness'], {
+        strictDi: true
+      });
   queryModule();
 });
