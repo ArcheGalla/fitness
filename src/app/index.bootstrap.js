@@ -5,6 +5,7 @@ import "./images";
 import "../assets/js/ng-text-truncate";
 import "../assets/styles/sass/index.scss";
 import "jquery-waypoints/waypoints.min";
+// import "../assets/js/angular-rwdImageMaps.min";
 
 const queryModule = require('../assets/js/scripts');
 const app = angular.module('fitness', ['ui.bootstrap', 'ngTextTruncate', 'ngTouch']);
