@@ -2,16 +2,16 @@ export default function (module) {
   module
     .factory('TICKETS_ID', function () {
       return ({
-        FITNESS_WEEKEND_FIRST: 13538,
-        FITNESS_WEEKEND_SECOND: 13539,
-        FITNESS_WEEKEND_TWO_DAYS: 13541
+        FITNESS_WEEKEND_FIRST: 17455,
+        FITNESS_WEEKEND_SECOND: 17456,
+        FITNESS_WEEKEND_TWO_DAYS: 17457
       });
     })
     .factory('FORUM_MANAGERS_TICKET_IDS', function () {
       return ({
-        MANAGERS_EVENT_FIRST: 15128,
-        MANAGERS_EVENT_SECOND: 15130,
-        MANAGERS_EVENT_TWO_DAYS: 15129
+        MANAGERS_EVENT_FIRST: 17463,
+        MANAGERS_EVENT_SECOND: 17464,
+        MANAGERS_EVENT_TWO_DAYS: 17465
       });
     })
     .factory('FORUM_EVENT_ID', function () {
