@@ -57,7 +57,8 @@ import '!!file-loader?name=[name].[ext]!../assets/images/presenters/catherine_pu
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/andrew_nestyerov.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/sergey_matrosov.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/tatiana_sade.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/presenters/maria_skorchenko.png';
+// import '!!file-loader?name=[name].[ext]!../assets/images/presenters/maria_skorchenko.png';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/diana_dolgova.jpg';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/sergey_konyushok.png'
 /*------------------------------------ presenter ---------------------------------------------------*/
 
