@@ -39,7 +39,8 @@ import '!!file-loader?name=[name].[ext]!../assets/images/presenters/nina_bilash.
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/alexey_torokhtiy.jpg';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/moshescu_oxana.png';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/roman_hrysyna.png';
-import '!!file-loader?name=[name].[ext]!../assets/images/presenters/sergey_plyshechca.jpg';
+// import '!!file-loader?name=[name].[ext]!../assets/images/presenters/sergey_plyshechca.jpg';
+import '!!file-loader?name=[name].[ext]!../assets/images/presenters/sergey_plyshechko.jpg';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/solodovnikova_marina.jpg';
 import '!!file-loader?name=[name].[ext]!../assets/images/presenters/yana_chehanova.jpg';
 
