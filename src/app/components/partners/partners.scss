@@ -1,8 +1,9 @@
 /*-----------------------------------------------------  partners -------------------------------------------------*/
-#partners {
-  background-size: cover;
-  background-image: url("../../../assets/images/bk-eco.jpg");
-
+.partners {
+  &.partners-bg-img {
+    background-size: cover;
+    background-image: url("../../../assets/images/bk-eco.jpg");
+  }
   .section-heading {
     margin: 25px auto;
   }
@@ -21,7 +22,7 @@
       }
     }
 
-    .logo-long{
+    .logo-long {
       margin: 10px;
       width: 250px;
       height: auto;
