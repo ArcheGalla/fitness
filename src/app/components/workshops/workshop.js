@@ -9,6 +9,9 @@ export default function (module) {
           <div class="container-fluid">
             <div class="section-heading scrollpoint sp-effect3">
               <h1>Семінари</h1>
+              <div class="section-heading">
+                <p> Реєстрація 30.09 з 13:00, 1.10.16 з 7:00 та 2.10.16 з 8:00. Виставковий центр "Південний EXPO" </p>
+              </div>
               <div class="divider"></div>
               <!--<p>Розклад семінарів уточнюється</p>-->
               <p>Після проходження семінару всім учасникам видається сертифікат LVIV FITNESS WEEKEND</p>
